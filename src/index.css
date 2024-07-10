@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  line-height: 1.5;
+  color-scheme: light dark;
+  text-rendering: optimizeLegibility;
+  --primary-color: #0017EB ;
+  --secondary-color: #ffffff;
+  --primary-text-color: #070707;
+  --secondary-text-color:#445164;
+  --secondary-color-darker:#0218e0;
+  --neutral-color:#D4D4D4;
+  --primary-color-neutral:#FAFAFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Outfit', sans-serif !important;
+  scroll-behavior: smooth;
+
+}
+
+
+.button-primary {
+  color: black;
+background-color:white;
+padding: 0.5rem 1rem;
+/* border-radius: 2rem; */
+}
+
+
+.button-secondary {
+  /* Secondary Button */
+  color: white;
+  border: 1px solid white;
+padding: 0.5rem 1rem;
+
+  background-color: transparent;
+}
+
+button.secondary:hover {
+  background-color: #221fb7; 
+  border: none; 
+}
+
+::-webkit-scrollbar {
+  display: none;
+  }
+  
+.before-component::before{
+  content: '';
+  position: sticky;
+ margin-top: 90px !important;
+}
+
+.before-component {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 24px;
+  z-index: 10; /* Ensure it appears above the image */
+  color: white;
+}
+
+
+.before-component::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the transparency */
+  z-index: -1; /* Ensure the background is behind the text */
+}
+
+
+.image-section {
+  position: relative;
+}
+
+.image-section>.navDiv{
+  width: 100%;
+  height: auto;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.fade-in-visible {
+  opacity: 1;
+}
+
+
+
+.scroll-div-container{
+  scroll-snap-type: y mandatory !important;
+  overflow-y: scroll !important;
+  height: 100%;
+  width: 100%;
+
+}
+
+.college-logo-div{
+  border:1px solid var(--neutral-color);
+  padding: 0.75rem 1.5rem;
+}
+
+section{
+  scroll-snap-align: start !important;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.slide {
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 7px #666;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-hidden {
+  display: none;
+}
+
+.arrow {
+  position: absolute;
+  filter: drop-shadow(0px 0px 5px #555);
+  width: 2rem;
+  height: 2rem;
+  color: white;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: 1rem;
+}
+
+.arrow-right {
+  right: 1rem;
+}
+
+.indicators {
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.indicator {
+  background-color: white;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px #555;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.indicator-inactive {
+  background-color: grey;
+}
+
+.drawer{
+  position: absolute;
+  z-index: 3000;
+  top: 0;
+}
