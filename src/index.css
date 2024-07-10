@@ -13,7 +13,7 @@
   --primary-text-color: #070707;
   --secondary-text-color:#445164;
   --secondary-color-darker:#0218e0;
-  --neutral-color:#D4D4D4;
+  --neutral-color:#ededed;
   --primary-color-neutral:#FAFAFF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -117,6 +117,7 @@ button.secondary:hover {
 .college-logo-div{
   border:1px solid var(--neutral-color);
   padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
 }
 
 section{

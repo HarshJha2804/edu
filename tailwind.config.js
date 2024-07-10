@@ -6,14 +6,32 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
-        primary:'#0019FF !important',
-        secondary:'#2C224C',
-        primaryNeutal:'#FAFAFF',
-        textColorHeading:'#303A45', 
-        textColor:'#445164',
-      }
-    },  
+      colors: {
+        primary: '#0019FF !important',
+        secondary: '#2C224C',
+        primaryNeutal: '#FAFAFF',
+        textColorHeading: '#303A45',
+        textColor: '#445164',
+      },
+
+      animation: {
+        "loop-scroll-left": 'loop-scroll-left 50s linear infinite',
+        "loop-scroll-right": 'loop-scroll-right 50s linear infinite',
+      },
+      keyframes: {
+        "loop-scroll-left": {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-200%)' },
+        },
+        "loop-scroll-right": {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(200%)' },
+        },
+      },
+
+    },
+
+
     // button: {
     //   primary: {
     //     backgroundColor: 'var(--color-primary)', // Use custom CSS variable or directly specify color

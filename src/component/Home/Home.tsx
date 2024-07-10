@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Herosection from "./Herosection"
 import Missionstatement from "./Missionstatement"
 import Scrollanimation from "../Scrollanimation/Scrollanimation";
+import Universitysection from "./Universitylogos";
 
 
 const Home = () => {
@@ -34,6 +35,9 @@ const Home = () => {
 <Missionstatement/>
 </Scrollanimation>
 
+<Scrollanimation>
+<Universitysection/>
+</Scrollanimation>
 </div>
 </>
   )
