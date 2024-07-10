@@ -13,8 +13,8 @@ const Missionstatement = () => {
                         </p>
                     </div >
 
-                    <div className="bg-black">
-                        <img src={founderImg} alt="a confident founder" className='object-cover w-[524px] h-[584px]' />
+                    <div className="bg-black rounded-2xl">
+                        <img src={founderImg} alt="a confident founder" className='object-cover w-[584px] h-[584px] rounded-2xl' />
                     </div>
                 </div>
             </div>
