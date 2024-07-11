@@ -84,7 +84,7 @@ export function Carousel() {
                             alt={data.alt}
                             aria-hidden={imageIndex !== index}
                             className="img-slider-img"
-                            style={{ objectFit: 'cover', height: '100vh', width: '100%' }}
+                            style={{ objectFit: 'cover', height: '100vh', width: '100%',  filter: 'brightness(70%)' }}
                         />
                         <div
                         className="absolute left-[2rem] md:left-[4rem] bottom-[10%] w-[56%]"

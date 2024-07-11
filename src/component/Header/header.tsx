@@ -21,7 +21,7 @@ const Header = () => {
                 <nav className='flex justify-between px-8 py-4 items-center'>
                     <div >
                         <Link to='/' >
-                            <p className='text-white'>Empower Edu</p>
+                            <p className='text-white text-[18px]'>Empower Edu</p>
                         </Link>
                     </div>
 
@@ -86,28 +86,28 @@ const Header = () => {
                     <ul className={`hidden md:flex flex-row gap-[1rem] items-center`} >
                         <li>
                             <NavLink to='/' className={({ isActive }: { isActive: any }) =>
-                                ` ${isActive ? "font-normal" : ""} hover:text-opacity-70 text-white p-2`
+                                ` ${isActive ? "font-normal" : ""} hover:text-opacity-70 text-white p-2 text-[18px]`
                             }>
                                 Home
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to='/about' className={({ isActive }: { isActive: any }) =>
-                                ` ${isActive ? "font-normal" : ""} text-white hover:text-opacity-70 p-2`
+                                ` ${isActive ? "font-normal" : ""} text-white hover:text-opacity-70 p-2 text-[18px]`
                             }>
                                 About
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to='/services' className={({ isActive }: { isActive: any }) =>
-                                ` ${isActive ? "font-normal" : ""} text-white hover:text-opacity-70 p-2`
+                                ` ${isActive ? "font-normal" : ""} text-white hover:text-opacity-70 p-2 text-[18px]`
                             }>
                                 Services
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to='/login' className={({ isActive }: { isActive: any }) =>
-                                ` ${isActive ? "font-normal" : ""} text-white hover:text-opacity-70`
+                                ` ${isActive ? "font-normal" : ""} text-white hover:text-opacity-70 text-[18px]`
                             }>
                                 <button aria-label="Login">
                                     Login
@@ -116,7 +116,7 @@ const Header = () => {
                         </li>
                         <li>
                             <NavLink to='/signup' className={({ isActive }: { isActive: any }) =>
-                                ` ${isActive ? "font-normal" : ""}  text-white`
+                                ` ${isActive ? "font-normal" : ""}  text-white text-[18px]`
                             }>
                                 <Link to='/signup' >
                                     <button className='button-secondary hover:bg-white hover:text-black hover:ease-in-out ' aria-label="Sign up">

@@ -3,6 +3,7 @@ import Herosection from "./Herosection"
 import Missionstatement from "./Missionstatement"
 import Scrollanimation from "../Scrollanimation/Scrollanimation";
 import Universitysection from "./Universitylogos";
+import Service from "./Service";
 
 
 const Home = () => {
@@ -38,6 +39,7 @@ const Home = () => {
 <Scrollanimation>
 <Universitysection/>
 </Scrollanimation>
+<Service/>
 </div>
 </>
   )
