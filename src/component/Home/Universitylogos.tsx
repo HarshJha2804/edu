@@ -28,8 +28,8 @@ import clglogo27 from '../../assets/Homepage/Collegesection/clg-logo27.png'
 import clglogo28 from '../../assets/Homepage/Collegesection/clg-logo28.png'
 import clglogo29 from '../../assets/Homepage/Collegesection/clg-logo29.png'
 import clglogo30 from '../../assets/Homepage/Collegesection/clg-logo30.png'
-import clglogo31 from '../../assets/Homepage/Collegesection/clg-logo31.png'
-import clglogo32 from '../../assets/Homepage/Collegesection/clg-logo32.png'
+// import clglogo31 from '../../assets/Homepage/Collegesection/clg-logo31.png'
+// import clglogo32 from '../../assets/Homepage/Collegesection/clg-logo32.png'
 
 
 const ClgLogoOne = [
@@ -73,15 +73,15 @@ const ClgLogoThree = [
     { image: clglogo28 },
     { image: clglogo29 },
     { image: clglogo30 },
-    { image: clglogo31 },
-    { image: clglogo32 },
+    // { image: clglogo31 },
+    // { image: clglogo32 },
 ]
 
 
 const Universitysection = () => {
     return (
         <>
-            <div className='grid grid-rows-3 gap-[2rem] whitespace-nowrap overflow-hidden'>
+            <div className='grid grid-rows-3 gap-[2rem] whitespace-nowrap overflow-hidden w-[100vw]'>
                 <div className='maxWidth-[80vh] overflow-hidden mask'>
                     <div className='flex flex-row shrink-0 justify-start gap-[1.75rem] animate-loop-scroll-right flex-nowrap overflow-clip'>
                         {ClgLogoOne.map((data) => (
@@ -101,7 +101,7 @@ const Universitysection = () => {
                 <div className='flex flex-row shrink-0 justify-start gap-[1.75rem] animate-loop-scroll-right overflow-hidden'>
                     {ClgLogoThree.map((data) => (
                         <div className="left college-logo-div">
-                            <img src={data.image} alt="College Logo" />
+                            <img src={data.image} alt="College Logo" className='h-[38.02px]'/>
                         </div>
                     ))}
                 </div>

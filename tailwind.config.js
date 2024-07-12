@@ -8,10 +8,12 @@ export default {
     extend: {
       colors: {
         primary: '#0019FF !important',
+        iconColor:'#5667FF',
         secondary: '#2C224C',
         primaryNeutal: '#FAFAFF',
         textColorHeading: '#303A45',
         textColor: '#445164',
+        borderColor:'#e0e0e0',
       },
 
       animation: {
@@ -21,12 +23,15 @@ export default {
       keyframes: {
         "loop-scroll-left": {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-100%)' },
+          '60%': { transform: 'translateX(-60%)' },
+          '100%': { transform: 'translateX(0%)' },
       
         },
         "loop-scroll-right": {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(100%)' },
+          '60%': { transform: 'translateX(60%)' },
+          '100%': { transform: 'translateX(0%)' },
+
         },
       },
 

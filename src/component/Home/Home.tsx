@@ -3,7 +3,7 @@ import Herosection from "./Herosection"
 import Missionstatement from "./Missionstatement"
 import Scrollanimation from "../Scrollanimation/Scrollanimation";
 import Universitysection from "./Universitylogos";
-import Service from "./Service";
+import Services from "./Services";
 
 
 const Home = () => {
@@ -26,22 +26,25 @@ const Home = () => {
 
 
   return (
-<>
-<div className="flex flex-col gap-40">
+    <>
+      <div className="flex flex-col gap-60">
 
 
-<Herosection/>
+        <Herosection />
 
-<Scrollanimation>
-<Missionstatement/>
-</Scrollanimation>
+        <Scrollanimation>
+          <Missionstatement />
+        </Scrollanimation>
 
-<Scrollanimation>
-<Universitysection/>
-</Scrollanimation>
-<Service/>
-</div>
-</>
+        <Scrollanimation>
+          <Universitysection />
+        </Scrollanimation>
+
+        <Scrollanimation>
+          <Services />
+        </Scrollanimation>
+      </div>
+    </>
   )
 }
 
