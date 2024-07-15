@@ -81,7 +81,8 @@ const ClgLogoThree = [
 const Universitysection = () => {
     return (
         <>
-            <div className='grid grid-rows-3 gap-[2rem] whitespace-nowrap overflow-hidden w-[100vw]'>
+            <div className='grid grid-rows-3 gap-[2rem] whitespace-nowrap overflow-hidden w-[100vw] '>
+                <h4 className='text-[1.75rem] md:text-[3rem] text-center font-medium md:mb-2'>Our University Partner</h4>
                 <div className='maxWidth-[80vh] overflow-hidden mask'>
                     <div className='flex flex-row shrink-0 justify-start gap-[1.75rem] animate-loop-scroll-right flex-nowrap overflow-clip'>
                         {ClgLogoOne.map((data) => (

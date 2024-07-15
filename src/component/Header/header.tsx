@@ -26,10 +26,9 @@ const Header = () => {
   return (
     <>
       <header
-        className={`z-[200000] w-[100%] ${scrolled ? "bg-white shadow-sm" : "bg-transparent"
-          }`}
+      className={`z-[200000] fixed  w-[100%] ${scrolled? 'bg-white shadow-sm':'bg-transparent'}`}
       >
-        <nav className="flex justify-between px-8 py-4 items-center">
+        <nav className="flex justify-between px-8 py-4 items-center ">
           <div>
             <Link to="/">
               <svg height='2rem' viewBox="0 0 869 271" fill="none" xmlns="http://www.w3.org/2000/svg">

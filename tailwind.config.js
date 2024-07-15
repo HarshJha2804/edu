@@ -14,6 +14,9 @@ export default {
         textColorHeading: '#303A45',
         textColor: '#445164',
         borderColor:'#e0e0e0',
+        secondaryColor:'#B40041',
+        secondaryColorSecond:"#00791B",
+        secondaryColorThird:"#1A2041",
       },
 
       animation: {

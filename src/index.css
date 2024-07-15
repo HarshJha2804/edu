@@ -13,7 +13,9 @@
   --secondary-color: #ffffff;
   --primary-text-color: #070707;
   --secondary-text-color:#445164;
+  --seconday-color:#B40041;
   --secondary-color-darker:#0218e0;
+  --secondary-color-second:#1A2041;
   --neutral-color:#ededed;
   --primary-color-neutral:#FAFAFF;
   -webkit-font-smoothing: antialiased;
@@ -214,7 +216,7 @@ section{
 
 .custom-hover-effect:hover {
   transform: translateY(10px); /* Adjust as needed */
-  background-color: var(--icon-color);
+  background-color: var(--primary-color);
   
 
 }
@@ -245,3 +247,9 @@ section{
   transition: 0.3s ease;
 } */
 
+.primary-button{
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+}

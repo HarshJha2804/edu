@@ -5,6 +5,7 @@ import Scrollanimation from "../Scrollanimation/Scrollanimation";
 import Universitysection from "./Universitylogos";
 import Services from "./Services";
 import ServiceSector from "./ServiceSector";
+import Numbers from "./Numbers";
 
 
 const Home = () => {
@@ -38,16 +39,22 @@ const Home = () => {
         </Scrollanimation>
 
         <Scrollanimation>
-          <Universitysection />
-        </Scrollanimation>
-
-        <Scrollanimation>
           <Services />
         </Scrollanimation>
 
         <Scrollanimation>
           <ServiceSector />
         </Scrollanimation>
+{/* 
+        <Scrollanimation>
+          <Universitysection />
+        </Scrollanimation>
+
+        <Scrollanimation>
+          <Numbers />
+        </Scrollanimation> */}
+    
+       
       </div>
     </>
   )
