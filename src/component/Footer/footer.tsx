@@ -13,8 +13,8 @@ const Footer = () => {
 
   return (
     <>
-      <div className="flex flex-col justify-between items-center px-[10rem] bg-[#F8F8F8] md:mt-[8rem] pb-2 md:pb-8">
-        <div className="flex w-[100%] py-[8rem]">
+      <div className="flex flex-col  justify-between items-center px-[4rem] md:px-[8rem] lg:px-[10rem] bg-footerColor md:mt-[8rem] pb-2 md:pb-8">
+        <div className="flex flex-col gap-10 md:flex-row w-[100%] py-[8rem]">
           <div className=" w-[100%]">
             <div className="flex flex-col gap-6">
               <Link to="/">
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
 
 
-          <div className="flex flex-row gap-10 justify-center align-end">
+          <div className="flex flex-col md:flex-row gap-10 justify-start align-end">
             <div className="flex flex-col">
 
               <p className="font-semibold">Company</p>
