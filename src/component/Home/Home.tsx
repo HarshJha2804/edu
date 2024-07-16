@@ -6,6 +6,8 @@ import Universitysection from "./Universitylogos";
 import Services from "./Services";
 import ServiceSector from "./ServiceSector";
 import Numbers from "./Numbers";
+import Youtubeevideo from "./Youtubeevideo";
+import Blog from "./Blog";
 
 
 const Home = () => {
@@ -45,6 +47,15 @@ const Home = () => {
         <Scrollanimation>
           <ServiceSector />
         </Scrollanimation>
+        
+        <Scrollanimation>
+          <Youtubeevideo />
+        </Scrollanimation>
+
+        <Scrollanimation>
+          <Blog />
+        </Scrollanimation>
+   
 {/* 
         <Scrollanimation>
           <Universitysection />

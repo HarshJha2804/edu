@@ -4,8 +4,8 @@ const Missionstatement = () => {
     return (
         <>
             <div className="flex justify-center items-center mx-8 lg:mx-48">
-                <div className=" grid grid-cols-1 md:grid-cols-[1fr_1.3fr] gap-4 md:gap-10 bg-[#1A2041] p-8 md:p-20  ">
-                    <div className="bg-[#1A2041] flex flex-col gap-2 md:gap-4 ">
+                <div className=" grid grid-cols-1 md:grid-cols-[1fr_1.3fr] gap-4 md:gap-10 bg-primary p-8 md:p-20  ">
+                    <div className=" flex flex-col gap-2 md:gap-4 ">
                         <p className="md:tracking-[0.25rem] tracking-[0.1rem] font-medium text-white text-[0.75rem] md:text-[1rem]">OUR MISSION</p>
                         <h2 className="text-[1.75rem] md:text-[3rem] font-normal text-white leading-[1.6rem] md:leading-[3rem]">Expansion to your extending business</h2>
                      
