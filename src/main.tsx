@@ -12,7 +12,7 @@ import Blog from './component/Home/Blog'
 import Event from './component/Event/Event'
 import Gallery from './component/Gallery/Gallery'
 import Contact from './component/Contact/Contact'
-import Login from './component/Login/login'
+import Login from "./component/Login/Login"
 
 const router = createBrowserRouter([
   {
