@@ -46,7 +46,7 @@ const Header = () => {
             <Icon
               icon="tabler:menu-2"
               className={`${scrolled ? "text-[#1C2354]" : "text-[#ffffff]"}`}
-            fontSize={20}
+              fontSize={20}
             />
           </button>
 
@@ -154,7 +154,7 @@ const Header = () => {
 
           {/* website header */}
 
-          <ul className={`hidden md:flex flex-row gap-[1rem] items-center`}>
+          <ul className={`hidden md:flex flex-row gap-[1.5rem] items-center`}>
             <li>
               <NavLink
                 to="/"
@@ -189,6 +189,30 @@ const Header = () => {
                 Services
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/blog"
+                className={({ isActive }: { isActive: any }) =>
+                  ` ${isActive ? "font-normal" : ""}   ${scrolled ? "text-black" : "text-white"
+                  } hover:text-opacity-70 p-2 text-[18px]`
+                }
+              >
+                Blog
+              </NavLink>
+            </li>
+
+            <li>
+              <NavLink
+                to="/event"
+                className={({ isActive }: { isActive: any }) =>
+                  ` ${isActive ? "font-normal" : ""}   ${scrolled ? "text-black" : "text-white"
+                  } hover:text-opacity-70 p-2 text-[18px]`
+                }
+              >
+                Event
+              </NavLink>
+            </li>
+
             <li>
               <NavLink
                 to="/login"
