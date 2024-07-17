@@ -58,23 +58,22 @@ const Services = () => {
         <img src={serviceHeroImg} alt="" className="object-cover brightness-[50%] h-[100vh] w-[100%]" />
         <h1 className="absolute top-[46%] left-[46%] text-[1.75rem] text-white md:text-[2rem] lg:text-[4rem]">Services</h1>
       </div>
-      <div className="w-[100vw] h-[120vh] overflow-auto">
+
+
+      <div className="mt-16 md:mt-[]">
         {serviceData.map((data) => (
-          <div className={`scroll-div-container overflow-y-scroll h-[120vh] px-[24rem] py-[8rem] sticky top-0`} style={{ backgroundColor: data.bgcolor }}>
+          <div className={`sticky top-0 h-[120vh] px-[24rem] py-[8rem]`} style={{ backgroundColor: data.bgcolor }}>
             {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
             <div className="flex flex-col gap-8">
               <p className="text-[1.75rem] md:text-[2rem] text-white">{data.title}</p>
               <img src={data.img} alt={data.alt} className=" w-[100%]" />
-              <p className="text-white text-[1rem] md:text-[1.25rem]">{data.description}</p>
-
+              <p className="text-white text-[1rem] md:text-[1.25rem] font-light">{data.description}</p>
 
             </div>
-
-
-
           </div>
         ))}
       </div>
+
 
 
 
