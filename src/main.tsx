@@ -8,11 +8,11 @@ import Layout from './Layout'
 import About from './component/About/about'
 import Services from './component/Services/services'
 import Signup from './component/Signup/Signup'
-import Blog from './component/Home/Blog'
 import Event from './component/Event/Event'
 import Gallery from './component/Gallery/Gallery'
 import Contact from './component/Contact/Contact'
 import Login from "./component/Login/Login"
+import Blog from './component/Blog/Blog'
 
 const router = createBrowserRouter([
   {
