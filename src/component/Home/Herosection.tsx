@@ -92,7 +92,7 @@ const Herosection = () => {
 
             {/* </div>
          </div> */}
-         <Carousel/>
+            <Carousel />
         </>
     );
 };
