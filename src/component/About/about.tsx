@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <Scrollanimation>
-          <div className="bg-primary mx-16 md:mx-16 lg:mx-48 xl:mx-64 p-8 md:px-16 md:py-8 grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-4 md:gap-10">
+          <div className="bg-primary mx-16 md:mx-16 lg:mx-48 xl:mx-48 p-8 md:px-16 md:py-8 grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-4 md:gap-10">
             <p className="flex md:hidden text-[2rem] md:text-[3rem] xl:text-[5rem] text-white leading-[1.5rem] md:leading-[2rem] lg:leading-[4rem]">Who we are?</p>
             <p className="hidden md:flex text-[2rem] md:text-[3rem] lg:text-[4rem] xl:text-[5rem] text-white leading-[1.5rem] md:leading-[1.75rem] lg:leading-[2.75rem] xl:leading-[4rem]">Who <br /> we are?</p>
             <p className="text-white">
@@ -36,7 +36,7 @@ const About = () => {
         </Scrollanimation>
 
         <Scrollanimation>
-          <div className="grid grid-cols-1 items-center lg:grid-cols-[1fr_1fr] gap-0 lg:gap-24 mx-8 md:mx-16 lg:mx-16 xl:mx-64 ">
+          <div className="grid grid-cols-1 items-center lg:grid-cols-[1fr_1fr] gap-0 lg:gap-24 mx-8 md:mx-16 lg:mx-16 xl:mx-40 ">
             <div className="shrink-0 p-16">
               <img src={founderImg} alt="" className="object-cover overflow-hidden rounded-xl max-h-[80%]" />
             </div>
@@ -56,7 +56,7 @@ const About = () => {
               <div className="flex flex-col justify-start items-start gap-2 pt-16 md:pt-24">
                 <p className="text-[0.8rem] md:text-[1.2rem] font-medium lg:leading-[1.75rem] tracking-[0.3rem] text-white">OUR VISION</p>
                 <p className=" text-[1.5rem] md:text-[2.5rem] lg:text-[2.75rem] leading-[1.5rem] md:leading-[2.75rem] font-normal flex flex-2 text-white">
-                  EmpowerEdu enables you to <br /> envision possibilities beyond <br /> your current perspective
+                  EmpowerEdu enables you to envision possibilities beyond your current perspective
                 </p>
               </div>
               <img src={Vision} alt="" className="h-[100%] w-[auto] shrink-0" />
@@ -64,7 +64,7 @@ const About = () => {
           </Scrollanimation>
 
           <Scrollanimation>
-            <div className="px-8 md:px-16 lg:px-24 xl:px-40 flex flex-col-reverse gap-2 lg:grid lg:grid-cols-[2fr_1fr] grid-row-2 items-start bg-[#011627] h-[100%] lg:h-[68vh] overflow-hidden">
+            <div className="px-8 md:px-16 lg:px-24 xl:px-32 flex flex-col-reverse gap-2 lg:grid lg:grid-cols-[2fr_1fr] grid-row-2 items-start bg-[#011627] h-[100%] lg:h-[68vh] overflow-hidden">
               <img src={Mission} alt="" className="h-[100%] w-[auto] shrink-0" />
               <div className="flex flex-col justify-start items-start gap-2 pt-16 md:pt-24">
                 <p className="text-[0.8rem] md:text-[1.2rem] font-medium leading-[1.75rem] tracking-[0.3rem] text-white">OUR VISION</p>
