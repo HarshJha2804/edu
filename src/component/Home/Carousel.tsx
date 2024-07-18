@@ -15,21 +15,23 @@ import { Icon } from '@iconify-icon/react';
 interface SliderData {
     image: string;
     text: string;
-    alt:string
+    alt: string
 }
 
 export function Carousel() {
     const SliderData: SliderData[] = [
-        { image: slider1, text: 'We empower you to look beyond the present moment and envision greater possibilities', alt:'Three children looking at their dreams over screen' },
-        { image: slider2, text: 'Streamline the enrollment process and enhance student placement opportunities', alt:'Three students are happy on getting degree '},
-        { image: slider3, text: 'Establish an international University office at your campus effortlessly', alt:'Mentor guiding the students about studying in foreign' },
-        { image: slider4, text: 'Connect your students with over 300 prestigious university partners worldwide', alt:'four students walking in the university' },
-        { image: slider5, text: 'Amplify your institutions presence on the global stage', alt:'a mentor showing how our institution can get global presence' },
-        { image: slider6, text: 'Strategic marketing support tailored to boost visibility and attract diverse student demographics', alt:'Team brainstorming on how your institution can grow' },
-        { image: slider7, text: 'Access industry-leading insights to stay ahead in the competitive education sector', alt:"a girl looking happy and having books on hands" },
-        { image: slider8, text: 'Customized educational strategies aligned with your institution’s goals and vision', alt:'Team brainstorming over ideas how our institution can achieve goal' },
-        { image: slider9, text: 'Administrative and operational support to optimize efficiency and effectiveness', alt:'Administration helping student and guiding them on carier' },
-        { image: slider10, text: 'Support and training for faculty and staff as per the market requirements', alt:"Administration guiding faculty in seminar" }
+        { image: slider1, text: 'Establish a seamless international office on your campus', alt: "" },
+        { image: slider2, text: 'Enables you to engage with a network of esteemed university partners', alt: 'Three students are happy on getting degree ' },
+        { image: slider3, text: 'Optimize the enrollment process to improve admission prospects', alt: 'Mentor guiding the students about studying in foreign' },
+        { image: slider4, text: 'Personalised cloud Based Platform', alt: 'four students walking in the university' },
+        { image: slider5, text: 'Amplify your institutions presence on the global stage', alt: 'a mentor showing how our institution can get global presence' },
+        { image: slider6, text: 'Access industry-leading insights to stay ahead in the competitive education sector', alt: 'Team brainstorming on how your institution can grow' },
+        { image: slider7, text: 'Customized educational strategies aligned with your institution’s goals and vision', alt: "a girl looking happy and having books on hands" },
+        { image: slider8, text: 'Administrative and operational support to optimize efficiency and effectiveness', alt: 'Team brainstorming over ideas how our institution can achieve goal' },
+        {
+            image: slider9, text: 'Professional development and training for faculty and staff aligned with market demands', alt: 'Administration helping student and guiding them on carier'
+        },
+        { image: slider10, text: 'Ensure data privacy integrity', alt: "Administration guiding faculty in seminar" }
     ];
     const [imageIndex, setImageIndex] = useState(0)
     useEffect(() => {
@@ -84,11 +86,11 @@ export function Carousel() {
                             alt={data.alt}
                             aria-hidden={imageIndex !== index}
                             className="img-slider-img"
-                            style={{ objectFit: 'cover', height: '100vh', width: '100%',  filter: 'brightness(70%)' }}
+                            style={{ objectFit: 'cover', height: '100vh', width: '100%', filter: 'brightness(70%)' }}
                         />
                         <div
-                        className="absolute left-[2rem] md:left-[4rem] bottom-[10%] w-[56%]"
-                           
+                            className="absolute left-[2rem] md:left-[4rem] bottom-[10%] w-[56%]"
+
                         >
                             <h1
                                 aria-hidden={imageIndex !== index}
@@ -101,7 +103,7 @@ export function Carousel() {
 
                 ))}
             </div>
-         
+
             <div
                 style={{
                     position: "absolute",
@@ -125,7 +127,7 @@ export function Carousel() {
                             <Icon icon="mdi:circle" className="text-white text-[0.75rem] md:text-[1rem]" style={{ color: 'white', }} />
                         ) : (
 
-                            <Icon icon="ic:twotone-circle" className="text-white text-[0.75rem] md:text-[1rem]" style={{transition: "transform 0.6s ease-in-out"}} />
+                            <Icon icon="ic:twotone-circle" className="text-white text-[0.75rem] md:text-[1rem]" style={{ transition: "transform 0.6s ease-in-out" }} />
 
 
 

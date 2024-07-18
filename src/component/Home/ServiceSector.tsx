@@ -82,7 +82,7 @@ const ServiceSector = () => {
                             <div className='absolute px-2 bottom-2 sm:px-4 sm:bottom-4 '>
                                 <p className='xs:text-[1rem] sm:text-[1.5rem] md:text-[2.5rem] text-white'>Schools</p>
                                 <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '>Schools are instrumental in shaping students' futures through foundational education and holistic development. Our services elevate educational offerings by enabling students to explore global education opportunities. Partnering with us empowers schools to broaden their horizon across borders, opening doors to esteemed universities worldwide.
-                                    {/* This partnership enhances the educational journey, equipping students with skills for an interconnected world and setting them on a successful path in their education and career pursuits */}
+                                    This partnership enhances the educational journey, equipping students with skills for an interconnected world and setting them on a successful path in their education and career pursuits
                                 </p>
                             </div>
                         </div>
@@ -115,9 +115,9 @@ const ServiceSector = () => {
                             <div className='absolute px-2 bottom-2 sm:px-8 sm:bottom-4 lg:bottom-8 '>
                                 <p className='xs:text-[1rem] sm:text-[1.5rem] md:text-[3rem] text-white'>Colleges</p>
                                 <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '>Higher education institutions are crucial in fostering specialized knowledge and preparing students for professional careers. Global expansion opens doors to diverse cultural experiences, innovative teaching methodologies, and cutting-edge research collaborations. Partnering with us allows colleges to attract a diverse pool of international students
-                                    {/* , enriching campus life and creating a vibrant academic community. */}
-                                     {/* Our services facilitate seamless integration into global education networks, enhancing the institution's reputation and global influence. */}
-                                     </p>
+                                    , enriching campus life and creating a vibrant academic community.
+                                    Our services facilitate seamless integration into global education networks, enhancing the institution's reputation and global influence.
+                                </p>
                             </div>
                         </div>
                         <div className='md:flex hidden flex-1'>

@@ -15,44 +15,50 @@ const About = () => {
 
         <Scrollanimation>
           <div className="container mx-auto px-8 md:px-16 ">
-          <div className="bg-primary p-8 md:px-16 md:py-8 grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-4 md:gap-10">
-            <p className="flex md:hidden text-[2rem] md:text-[3rem] xl:text-[5rem] text-white leading-[1.5rem] md:leading-[2rem] lg:leading-[4rem]">Who we are?</p>
-            <p className="hidden md:flex text-[2rem] md:text-[3rem] lg:text-[4rem] xl:text-[5rem] text-white leading-[1.5rem] md:leading-[1.75rem] lg:leading-[2.75rem] xl:leading-[4rem]">Who <br /> we are?</p>
-            <p className="text-white">
-              Welcome to EmpowerEdu, where empowerment converges with educational
-              expansion. We aim to revolutionize the educational landscape by providing
-              strategic support and innovative solutions that foster growth and excellence.We
-              empower educational institutions to envision new frontiers and capitalize on
-              opportunities for advancement beyond traditional norms.
+            <div className="bg-primary p-8 md:p-20 grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-4 md:gap-10">
+              <p className="flex md:hidden text-[2rem] md:text-[3rem] xl:text-[5rem] text-white leading-[1.5rem] md:leading-[2rem] lg:leading-[4rem]">Who we are?</p>
+              <p className="hidden md:flex text-[2rem] md:text-[3rem] lg:text-[4rem] xl:text-[5rem] text-white leading-[1.5rem] md:leading-[1.75rem] lg:leading-[2.75rem] xl:leading-[4rem]">Who <br /> we are?</p>
+              <p className="text-white text-[1rem] md:text-[1.25rem] font-light tracking-[0.05px] leading-[1.2rem] md:leading-[1.5rem]">
+                Welcome to EmpowerEdu, where empowerment converges with educational
+                expansion. We aim to revolutionize the educational landscape by providing
+                strategic support and innovative solutions that foster growth and excellence.We
+                empower educational institutions to envision new frontiers and capitalize on
+                opportunities for advancement beyond traditional norms.
 
-              Through strategic partnerships with over prestigious universities worldwide,
-              including in the UK, USA, Australia, Canada, and New Zealand, we create
-              pathways to excellence and career readiness. Our commitment lies in
-              empowering schools, learning centres, and colleges to discover new avenues
-              and enhance global educational offerings. At EmpowerEdu, our goal is to
-              innovate education by fostering international connections and equipping our
-              partners for success in an increasingly interconnected global environment
-            </p>
+                Through strategic partnerships with over prestigious universities worldwide,
+                including in the UK, USA, Australia, Canada, and New Zealand, we create
+                pathways to excellence and career readiness. Our commitment lies in
+                empowering schools, learning centres, and colleges to discover new avenues
+                and enhance global educational offerings. At EmpowerEdu, our goal is to
+                innovate education by fostering international connections and equipping our
+                partners for success in an increasingly interconnected global environment.
+                ● Message from Founder
+                ● Vision and Mission
+                Our Services:
+                Establish a Global Presence:
+                We establish a seamless international  office on your campus, dedicated to promoting global
+                engagement. This office serves as a central hub for coordinating various international services
+              </p>
+            </div>
           </div>
-          </div>
-         
+
         </Scrollanimation>
 
         <Scrollanimation>
           <div className="container mx-auto px-8 md:px-16 ">
-          <div className="grid grid-cols-1 items-center lg:grid-cols-[1fr_1fr] gap-0 lg:gap-24  ">
-            <div className="shrink-0 p-16">
-              <img src={founderImg} alt="" className="object-cover overflow-hidden rounded-xl max-h-[80%]" />
-            </div>
+            <div className="grid grid-cols-1 items-center lg:grid-cols-[1fr_1fr] gap-0 lg:gap-24  ">
+              <div className="shrink-0 p-16">
+                <img src={founderImg} alt="" className="object-cover overflow-hidden rounded-xl max-h-[80%]" />
+              </div>
 
-            <div className="flex flex-col justify-center gap-4">
-              <p className="font-semibold text-[1.75rem] md:text-[2rem] lg:text-[3rem]">Founder’s Message</p>
-              <p className="text-textColor md:text-[1.5rem] md:leading-7 font-light">EmpowerEdu is a part of Infinite Group, established in 2007 with a vision to become the most trusted brand for study abroad solutions, has swiftly emerged as the fastest-growing entity in the international education market. At EmpowerEdu, we empathize with the challenges faced by education providers in supporting students’ aspirations of studying abroad. Our gradual expansion across the globe underscores our commitment to delivering tangible results and empowering education partners to take control of their development</p>
+              <div className="flex flex-col justify-center gap-4">
+                <p className="font-semibold text-[1.75rem] md:text-[2rem] lg:text-[3rem]">Founder’s Message</p>
+                <p className="text-textColor md:text-[1.5rem] md:leading-7 font-light">EmpowerEdu is a part of Infinite Group, established in 2007 with a vision to become the most trusted brand for study abroad solutions, has swiftly emerged as the fastest-growing entity in the international education market. At EmpowerEdu, we empathize with the challenges faced by education providers in supporting students’ aspirations of studying abroad. Our gradual expansion across the globe underscores our commitment to delivering tangible results and empowering education partners to take control of their development</p>
 
+              </div>
             </div>
           </div>
-          </div>
-          
+
         </Scrollanimation>
 
 
@@ -73,7 +79,7 @@ const About = () => {
             <div className="px-8 md:px-16 lg:px-24 xl:px-32 flex flex-col-reverse gap-2 lg:grid lg:grid-cols-[2fr_1fr] grid-row-2 items-start bg-[#011627] h-[100%] lg:h-[68vh] overflow-hidden">
               <img src={Mission} alt="" className="h-[100%] w-[auto] shrink-0" />
               <div className="flex flex-col justify-start items-start gap-2 pt-16 md:pt-24">
-                <p className="text-[0.8rem] md:text-[1.2rem] font-medium leading-[1.75rem] tracking-[0.3rem] text-white">OUR VISION</p>
+                <p className="text-[0.8rem] md:text-[1.2rem] font-medium leading-[1.75rem] tracking-[0.3rem] text-white">OUR MISION</p>
                 <p className=" text-[1.5rem] md:text-[2.5rem] lg:text-[2.75rem] leading-[1.5rem] md:leading-[2.75rem] font-normal flex flex-2 text-white">
                   Building community and fostering growth
                 </p>

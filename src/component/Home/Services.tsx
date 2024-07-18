@@ -4,33 +4,33 @@ const Servicedata = [
     {
         icon: <Icon icon="streamline:global-learning" fontSize={48} className="text-primary" />,
         title: "Establish a Global Presence",
-        description: "Effortlessly establish an international university office on your campus, enhancing global partnerships and educational opportunities."
+        description: "Effortlessly establish an international office on your campus, enhancing global partnerships and educational opportunities"
     },
     {
         icon: <Icon icon="nimbus:university" fontSize={48} className="text-primary" />,
-        title: "Connectivity to Prestigious Universities",
-        description: "Connect your students with over 300 prestigious university partners worldwide, opening doors to diverse academic pathways and international networks."
+        title: "Collaboration with Esteemed Universities",
+        description: "Enabling schools, colleges, and learning centres to establish direct relationships with esteemed education providers worldwide,promoting global collaboration to enhance academic endeavours"
     },
     {
         icon: <Icon icon="ri:article-line" fontSize={48} className="text-primary" />,
-        title: "Streamlined Enrollment and Placement",
-        description: "Streamline the enrollment process and optimize student placement opportunities, ensuring a seamless transition into higher education."
+        title: "Streamlined Enrollment and Career prospects",
+        description: "We streamline enrollment procedures and maximise career prospects, ensuring a smooth transition into higher education"
     },
     {
         icon: <Icon icon="streamline:graph-arrow-increase" fontSize={48} className="text-primary" />,
         title: "Industry-Leading Insights and Strategies",
-        description: "Access industry-leading insights and develop customized educational strategies aligned with your institution’s vision, ensuring competitiveness in the education sector."
+        description: "We provide access to industry-leading insights and develop customized educational strategies aligned with your institution’s vision, ensuring competitiveness in the education sector."
     },
 
     {
         icon: <Icon icon="ri:shake-hands-line" fontSize={48} className="text-primary" />,
         title: "Comprehensive Support and Training",
-        description: "Provide administrative and operational support to optimize efficiency, along with tailored training for faculty and staff to meet market demands and enhance educational delivery."
+        description: "We provide administrative and operational support to optimize efficiency, along with customised training for team members to meet market demands and enhance educational delivery."
     },
     {
         icon: <Icon icon="iconoir:privacy-policy" fontSize={48} className="text-primary" />,
         title: "Ensure data privacy integrity",
-        description: "We uphold confidentiality through robust encryption and adherence to strict protocols, fostering a secure environment for stakeholders to confidently engage with our services."
+        description: "We uphold confidentiality through robust encryption and adherence to strict protocols, fostering a secure environment for stakeholders to confidently engage with our services"
     },
 ]
 
