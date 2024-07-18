@@ -18,6 +18,39 @@ const ServiceSector = () => {
     const [scale, setScale] = useState(1);
     const [opacityScroll, setOpacityScroll] = useState(false);
 
+    const industryService = [
+        {
+            bgimg: school,
+            title: "Schools",
+            description: 'Schools are instrumental in shaping students futures through foundational education and holistic development. Our services elevateeducational offerings by enabling students to explore global educationopportunities. Partnering with us empowers schools to broaden their horizonacross borders, opening doors to esteemed universities worldwide. Thispartnership enhances the educational journey, equipping students with skills foran interconnected world and setting them on a successful path in their educationand career pursuits',
+            imgFirst: schoolfirst,
+            imgSecond: schoolSecond,
+            imgThird: schoolThird,
+            imgFourth: schoolFourth,
+
+        },
+        {
+            bgimg: college,
+            title: "Schools",
+            description: 'Higher education institutions play a crucial role in cultivating specialized knowledge and preparing students for professional careers. Global expansion opens doors to diverse cultural experiences, innovative teaching methodologies, and collaborations in cutting-edge research. Partnering with us enables colleges to attract a diverse international student body, enriching campus life and fostering a dynamic academic community. Our services support seamless integration into global education networks, enhancing the institution reputation and global impact',
+            imgFirst: collegeFirst,
+            imgSecond: collegeSecond,
+            imgThird: collegeThird,
+            imgFourth: collegeFourth,
+
+        },
+        {
+            bgimg: college,
+            title: "Schools",
+            description: 'Higher education institutions play a crucial role in cultivating specialized knowledge and preparing students for professional careers. Global expansion opens doors to diverse cultural experiences, innovative teaching methodologies, and collaborations in cutting-edge research. Partnering with us enables colleges to attract a diverse international student body, enriching campus life and fostering a dynamic academic community. Our services support seamless integration into global education networks, enhancing the institution reputation and global impact',
+            imgFirst: collegeFirst,
+            imgSecond: collegeSecond,
+            imgThird: collegeThird,
+            imgFourth: collegeFourth,
+
+        }
+    ]
+
     useEffect(() => {
         const handleScroll = () => {
             const scrollPosition = window.scrollY;
@@ -81,14 +114,7 @@ const ServiceSector = () => {
                             <img src={school} alt="" className='object-cover w-[100%] brightness-[40%]' />
                             <div className='absolute px-2 bottom-2 sm:px-4 sm:bottom-4 '>
                                 <p className='xs:text-[1rem] sm:text-[1.5rem] md:text-[2.5rem] text-white'>Schools</p>
-                                <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '>Schools are instrumental in shaping students' futures through
-                                    foundational education and holistic development. Our services elevate
-                                    educational offerings by enabling students to explore global education
-                                    opportunities. Partnering with us empowers schools to broaden their horizon
-                                    across borders, opening doors to esteemed universities worldwide. This
-                                    partnership enhances the educational journey, equipping students with skills for
-                                    an interconnected world and setting them on a successful path in their education
-                                    and career pursuits
+                                <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '>
                                 </p>
                             </div>
                         </div>
@@ -120,14 +146,7 @@ const ServiceSector = () => {
                             <img src={college} alt="" className='object-cover w-[100%] brightness-[60%]' />
                             <div className='absolute px-2 bottom-2 sm:px-8 sm:bottom-4 lg:bottom-8 '>
                                 <p className='xs:text-[1rem] sm:text-[1.5rem] md:text-[3rem] text-white'>Colleges</p>
-                                <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '>Higher education institutions play a crucial role in cultivating
-                                    specialized knowledge and preparing students for professional careers. Global
-                                    expansion opens doors to diverse cultural experiences, innovative teaching
-                                    methodologies, and collaborations in cutting-edge research. Partnering with us
-                                    enables colleges to attract a diverse international student body, enriching
-                                    campus life and fostering a dynamic academic community. Our services support
-                                    seamless integration into global education networks, enhancing the institution's
-                                    reputation and global impact
+                                <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '>
                                 </p>
                             </div>
                         </div>
