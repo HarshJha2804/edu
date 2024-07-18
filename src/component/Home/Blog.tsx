@@ -25,7 +25,7 @@ const Blog = () => {
         <>
            <div className="flex flex-col justify-center items-center gap-8 font-medium">
            <h5 className="text-[1.75rem] md:text-[3rem]">Blog</h5>
-            <div className="grid grid-cols-3 mx-8 md:mx-[8rem] lg:mx-[16rem] md:gap-8 justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 container mx-auto px-16 gap-8 justify-center">
                 {Blogdata.map((data) => (
                     <div className="border-[1px] border-borderColor rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm">
                         <img src={data.img} alt="" className="w-[100%] rounded-xl" />

@@ -258,7 +258,7 @@ section{
   position: relative;
   width: 100%;
   height: auto;
-  max-width: 1400px; /* Increase max width */
+  max-width: 1160px; /* Increase max width */
   margin: auto; /* Center the container */
   /* padding-bottom: 34%; */
   height: 0;

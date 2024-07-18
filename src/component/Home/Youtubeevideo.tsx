@@ -4,8 +4,8 @@
 const Youtubeevideo = () => {
   return (
    <>
- 
-  <div className="video-container pb-[64%] md:pb-[34%]">
+ <div className="container mx-auto mx-16">
+ <div className=" video-container pb-[64%] md:pb-[34%]">
   <iframe 
     src="https://www.youtube.com/embed/MuEl9ZrwbOY?si=o4Hri1iVC4-aX931"
     title="YouTube video player"
@@ -13,6 +13,8 @@ const Youtubeevideo = () => {
     allowFullScreen>
   </iframe>
   </div>
+ </div>
+  
    
    </>
   )

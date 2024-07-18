@@ -6,7 +6,7 @@ import Mission from "../../assets/About/mission.png"
 const About = () => {
   return (
     <>
-      <div className="flex flex-col gap-8 md:gap-32">
+      <div className=" flex flex-col gap-8 md:gap-32">
 
         <div className="relative w-[100%] h-[100%]">
           <img src={AboutHerosection} alt="" className="object-cover brightness-[50%] h-[100vh] w-[100%]" />
@@ -14,7 +14,8 @@ const About = () => {
         </div>
 
         <Scrollanimation>
-          <div className="bg-primary mx-16 md:mx-16 lg:mx-48 xl:mx-48 p-8 md:px-16 md:py-8 grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-4 md:gap-10">
+          <div className="container mx-auto px-16 ">
+          <div className="bg-primary p-8 md:px-16 md:py-8 grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-4 md:gap-10">
             <p className="flex md:hidden text-[2rem] md:text-[3rem] xl:text-[5rem] text-white leading-[1.5rem] md:leading-[2rem] lg:leading-[4rem]">Who we are?</p>
             <p className="hidden md:flex text-[2rem] md:text-[3rem] lg:text-[4rem] xl:text-[5rem] text-white leading-[1.5rem] md:leading-[1.75rem] lg:leading-[2.75rem] xl:leading-[4rem]">Who <br /> we are?</p>
             <p className="text-white">
@@ -33,10 +34,13 @@ const About = () => {
               partners for success in an increasingly interconnected global environment
             </p>
           </div>
+          </div>
+         
         </Scrollanimation>
 
         <Scrollanimation>
-          <div className="grid grid-cols-1 items-center lg:grid-cols-[1fr_1fr] gap-0 lg:gap-24 mx-8 md:mx-16 lg:mx-16 xl:mx-40 ">
+          <div className="container mx-auto px-16 ">
+          <div className="grid grid-cols-1 items-center lg:grid-cols-[1fr_1fr] gap-0 lg:gap-24  ">
             <div className="shrink-0 p-16">
               <img src={founderImg} alt="" className="object-cover overflow-hidden rounded-xl max-h-[80%]" />
             </div>
@@ -47,6 +51,8 @@ const About = () => {
 
             </div>
           </div>
+          </div>
+          
         </Scrollanimation>
 
 

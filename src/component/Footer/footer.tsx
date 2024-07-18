@@ -23,7 +23,7 @@ const Footer = () => {
                 </svg>
 
               </Link>
-              <p>L-102, Lajpat Nagar-2 <br />
+              <p>I-59/60, Lajpat Nagar-1 <br />
                 New Delhi</p>
 
               <div className="flex flex-row gap-2">

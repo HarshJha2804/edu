@@ -2,7 +2,7 @@
 
 
 import { useEffect, useState } from "react";
-import slider1 from '../../assets/Homepage/Herosection/slider1.webp';
+import slider1 from '../../assets/Homepage/Herosection/envision1.jpg';
 import slider2 from '../../assets/Homepage/Herosection/slider2.webp';
 import slider3 from '../../assets/Homepage/Herosection/slider3.webp';
 import slider4 from '../../assets/Homepage/Herosection/slider4.webp';

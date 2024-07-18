@@ -37,10 +37,10 @@ const Servicedata = [
 const Services = () => {
     return (
         <>
-            <div className="flex flex-col justify-center items-center gap-[2rem]">
-                <h4 className="text-[1.75rem] md:text-[3rem] lg:text-[4rem] font-medium">Our Services</h4>
+            <div className="container mx-auto px-16 flex flex-col justify-center items-center gap-[2rem]">
+                <h3 className="text-[1.75rem] md:text-[3rem] lg:text-[3.5rem] font-medium">Our Services</h3>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-4 lg:gap-8 mx-8 md:mx-16 lg:mx-32 xl:mx-56 ">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-4 lg:gap-8 xl:mr-auto xl:ml-auto ">
                     {/* <div className="bg-white hover:shadow-md border-[1px] border-borderColor rounded-2xl px-8 py-16 flex flex-col gap-4">
                         <Icon icon="streamline:global-learning" />
                         <p className="text-[2rem] font-medium leading-[2rem] ">Establish a Global Presence</p>
