@@ -60,24 +60,52 @@ const Services = () => {
       </div>
 
 
-      <div className="mt-16 ">
-        {serviceData.map((data) => (
-          <div className={`sticky top-0 h-[120vh] py-[8rem]`} style={{ backgroundColor: data.bgcolor }}>
-            {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
-            <div className="container px-16 mx-auto flex flex-col gap-8">
-              <p className="text-[1.75rem] md:text-[2rem] text-white">{data.title}</p>
-              <div className="grid grid-cols-2 gap-[3rem]">
-                <div>
-                  <img src={data.img} alt={data.alt} className=" w-[100%] flex flex-1 object-cover" />
+      {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
+      <div className="mt-16 w-[100vw] h-[100vh] overflow-auto body ">
+        <div className="scroll-div-container overflow-y-scroll">
+          {serviceData.map((data) => (
+            <section>
+              <div className={`sticky top-0 h-[120vh] py-[8rem]`} style={{ backgroundColor: data.bgcolor }}>
+                <div className="container px-16 mx-auto flex flex-col gap-8">
+                  <p className="text-[1.75rem] md:text-[2rem] text-white">{data.title}</p>
+                  <div className="grid grid-cols-2 gap-[3rem]">
+                    <div>
+                      <img src={data.img} alt={data.alt} className=" w-[100%] flex flex-1 object-cover" />
+                    </div>
+                    <p className="text-white text-[1rem] md:text-[1.25rem] font-light flex flex-1">{data.description}</p>
+
+                  </div>
+
                 </div>
-                <p className="text-white text-[1rem] md:text-[1.25rem] font-light flex flex-1">{data.description}</p>
-
               </div>
-
-            </div>
-          </div>
-        ))}
+            </section>
+          ))}
+        </div>
       </div>
+
+      <div className="w-[100vw] h-[100vh] overflow-auto body">
+        <div className="scroll-div-container overflow-y-scroll">
+          {serviceData.map((data, index) => (
+            <section key={index} style={{ objectFit: 'cover', height: '100%' }}>
+              <img
+                className="w-[100%] h-[100vh] object-cover sticky image"
+                src={data.img}
+                alt="Three children looking at their dreams over screen"
+              />
+              <div
+                style={{ position: 'relative', left: '60px', bottom: '16rem' }}
+              >
+                <h1 className="text-white text-[48px] w-[50%] leading-[3.25rem]">
+                  {data.description}
+                </h1>
+              </div>
+            </section>
+          ))}
+        </div>
+      </div>
+
+
+
 
 
 

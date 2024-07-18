@@ -19,7 +19,7 @@ const About = () => {
             <div className="bg-primary p-8 md:p-20 grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-4 md:gap-10">
               <p className="flex md:hidden text-[2rem] md:text-[3rem] xl:text-[5rem] text-white leading-[1.5rem] md:leading-[2rem] lg:leading-[4rem]">Who we are?</p>
               <p className="hidden md:flex text-[2rem] md:text-[3rem] lg:text-[4rem] xl:text-[5rem] text-white leading-[1.5rem] md:leading-[1.75rem] lg:leading-[2.75rem] xl:leading-[4rem]">Who <br /> we are?</p>
-              <p className="text-white text-[1rem] md:text-[1.25rem] font-light tracking-[0.05px] leading-[1.2rem] md:leading-[1.5rem]">
+              <p className="text-white text-[1rem] md:text-[1.25rem] font-light tracking-[0.05px] leading-[1.2rem] md:leading-[1.5rem] pl-8">
                 Welcome to EmpowerEdu, where empowerment converges with educational
                 expansion. We aim to revolutionize the educational landscape by providing
                 strategic support and innovative solutions that foster growth and excellence.We
@@ -48,7 +48,7 @@ const About = () => {
 
               <div className="flex flex-col justify-center gap-4">
                 <p className="font-semibold text-[1.75rem] md:text-[2rem] lg:text-[3rem]">Founder’s Message</p>
-                <p className="text-textColor md:text-[1.5rem] md:leading-7 font-light">EmpowerEdu is a part of Infinite Group, established in 2007 with a vision to become the most trusted brand for study abroad solutions, has swiftly emerged as the fastest-growing entity in the international education market. At EmpowerEdu, we empathize with the challenges faced by education providers in supporting students’ aspirations of studying abroad. Our gradual expansion across the globe underscores our commitment to delivering tangible results and empowering education partners to take control of their development</p>
+                <p className="text-textColor text-[1rem] md:text-[1.25rem] font-light tracking-[0.05px] leading-[1.2rem] md:leading-[1.5rem]">EmpowerEdu is a part of Infinite Group, established in 2007 with a vision to become the most trusted brand for study abroad solutions, has swiftly emerged as the fastest-growing entity in the international education market. At EmpowerEdu, we empathize with the challenges faced by education providers in supporting students’ aspirations of studying abroad. Our gradual expansion across the globe underscores our commitment to delivering tangible results and empowering education partners to take control of their development</p>
 
               </div>
             </div>
