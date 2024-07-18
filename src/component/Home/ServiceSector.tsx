@@ -81,8 +81,14 @@ const ServiceSector = () => {
                             <img src={school} alt="" className='object-cover w-[100%] brightness-[40%]' />
                             <div className='absolute px-2 bottom-2 sm:px-4 sm:bottom-4 '>
                                 <p className='xs:text-[1rem] sm:text-[1.5rem] md:text-[2.5rem] text-white'>Schools</p>
-                                <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '>Schools are instrumental in shaping students' futures through foundational education and holistic development. Our services elevate educational offerings by enabling students to explore global education opportunities. Partnering with us empowers schools to broaden their horizon across borders, opening doors to esteemed universities worldwide.
-                                    This partnership enhances the educational journey, equipping students with skills for an interconnected world and setting them on a successful path in their education and career pursuits
+                                <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '>Schools are instrumental in shaping students' futures through
+                                    foundational education and holistic development. Our services elevate
+                                    educational offerings by enabling students to explore global education
+                                    opportunities. Partnering with us empowers schools to broaden their horizon
+                                    across borders, opening doors to esteemed universities worldwide. This
+                                    partnership enhances the educational journey, equipping students with skills for
+                                    an interconnected world and setting them on a successful path in their education
+                                    and career pursuits
                                 </p>
                             </div>
                         </div>
@@ -114,9 +120,14 @@ const ServiceSector = () => {
                             <img src={college} alt="" className='object-cover w-[100%] brightness-[60%]' />
                             <div className='absolute px-2 bottom-2 sm:px-8 sm:bottom-4 lg:bottom-8 '>
                                 <p className='xs:text-[1rem] sm:text-[1.5rem] md:text-[3rem] text-white'>Colleges</p>
-                                <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '>Higher education institutions are crucial in fostering specialized knowledge and preparing students for professional careers. Global expansion opens doors to diverse cultural experiences, innovative teaching methodologies, and cutting-edge research collaborations. Partnering with us allows colleges to attract a diverse pool of international students
-                                    , enriching campus life and creating a vibrant academic community.
-                                    Our services facilitate seamless integration into global education networks, enhancing the institution's reputation and global influence.
+                                <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '>Higher education institutions play a crucial role in cultivating
+                                    specialized knowledge and preparing students for professional careers. Global
+                                    expansion opens doors to diverse cultural experiences, innovative teaching
+                                    methodologies, and collaborations in cutting-edge research. Partnering with us
+                                    enables colleges to attract a diverse international student body, enriching
+                                    campus life and fostering a dynamic academic community. Our services support
+                                    seamless integration into global education networks, enhancing the institution's
+                                    reputation and global impact
                                 </p>
                             </div>
                         </div>
@@ -148,7 +159,7 @@ const ServiceSector = () => {
                             <img src={learningCenter} alt="" className='object-cover w-[100%] brightness-[60%]' />
                             <div className='absolute px-2 bottom-2 sm:px-8 sm:bottom-4 lg:bottom-8 '>
                                 <p className='xs:text-[1rem] sm:text-[1.5rem] md:text-[3rem] text-white'>Learning Centers</p>
-                                <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '>Learning centers are vital contributors that can greatly benefit from partnering with us. By referring students to study abroad programs, learning centers can diversify their services and attract a wider clientele interested in international educational opportunities. Moreover, we offer comprehensive support, including the establishment of international offices</p>
+                                <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '> Learning centres are vital contributors that can greatly benefit from partnering with us. By referring students to study abroad programs, learning centres can diversify their services and attract a wider clientele interested in  international educational opportunities. Moreover, we offer comprehensive  support, including the establishment of international offices</p>
                             </div>
                         </div>
                         <div className='md:flex hidden flex-1'>
