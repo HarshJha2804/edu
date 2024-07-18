@@ -33,12 +33,6 @@ const About = () => {
                 and enhance global educational offerings. At EmpowerEdu, our goal is to
                 innovate education by fostering international connections and equipping our
                 partners for success in an increasingly interconnected global environment.
-                ● Message from Founder
-                ● Vision and Mission
-                Our Services:
-                Establish a Global Presence:
-                We establish a seamless international  office on your campus, dedicated to promoting global
-                engagement. This office serves as a central hub for coordinating various international services
               </p>
             </div>
           </div>
