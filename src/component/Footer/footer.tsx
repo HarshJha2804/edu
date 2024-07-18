@@ -38,15 +38,24 @@ const Footer = () => {
           </div>
 
 
-          <div className="flex flex-col md:flex-row gap-10 justify-start align-end">
+          <div className="flex flex-col md:flex-row gap-16 justify-start align-end">
             <div className="flex flex-col">
 
               <p className="font-semibold">Company</p>
               <Link to="/about">
                 <p className="font-normal text-textColor">About</p>
               </Link>
-              <Link to="/about">
-                <p className="font-normal text-textColor">Careers</p>
+              <Link to="/services">
+                <p className="font-normal text-textColor">Services</p>
+              </Link>
+              <Link to="/blog">
+                <p className="font-normal text-textColor">Blog</p>
+              </Link>
+              <Link to="/event">
+                <p className="font-normal text-textColor">Event</p>
+              </Link>
+              <Link to="/event">
+                <p className="font-normal text-textColor">Gallery</p>
               </Link>
             </div>
 
@@ -65,12 +74,12 @@ const Footer = () => {
               <Link to="#">
                 <p className="font-normal text-textColor">Licenses</p>
               </Link>
-              <Link to="#">
+              {/* <Link to="#">
                 <p className="font-normal text-textColor">Settings</p>
               </Link>
               <Link to="#">
                 <p className="font-normal text-textColor">Contact</p>
-              </Link>
+              </Link> */}
             </div>
 
 

@@ -91,7 +91,21 @@ const About = () => {
 
 
 
+        <div className=" mx-16 md:mx-16 lg:mx-48 xl:mx-72 p-8 md:px-24 md:py-16 flex flex-col gap-4 items-start border-[1px] bg-secondaryColor rounded-md">
+          <p className="text-[1.2rem] leading-[1.5rem] font-light text-white flex flex-1 tracking-[0.3rem]">OUR VISSION</p>
+          <p className=" text-[1.75rem] md:text-[3rem] font-normal leading-[3.25rem] text-white flex flex-2">
+            EmpowerEdu enables you to envision possibilities beyond your current perspective
+          </p>
+        </div>
 
+
+
+        <div className="mx-16 md:mx-16 lg:mx-48 xl:mx-64 p-8 md:px-12 md:py-8 flex flex-row gap-4 md:gap-32 items-start border-[1px] border-borderColor rounded-md">
+          <p className="text-[1.75rem] text-primary leading-[1.5rem] font-medium">Our Vission</p>
+          <p className=" text-[1.75rem] md:text-[3rem] font-medium leading-[2.9rem]">
+            EmpowerEdu enables you to envision possibilities beyond your current perspective
+          </p>
+        </div>
 
 
 
