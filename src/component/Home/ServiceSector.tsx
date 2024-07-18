@@ -18,7 +18,7 @@ const ServiceSector = () => {
     const [scale, setScale] = useState(1);
     const [opacityScroll, setOpacityScroll] = useState(false);
 
-    const industryService = [
+    const IndustryService = [
         {
             bgimg: school,
             title: "Schools",
@@ -40,13 +40,13 @@ const ServiceSector = () => {
 
         },
         {
-            bgimg: college,
+            bgimg: learningCenter,
             title: "Schools",
-            description: 'Higher education institutions play a crucial role in cultivating specialized knowledge and preparing students for professional careers. Global expansion opens doors to diverse cultural experiences, innovative teaching methodologies, and collaborations in cutting-edge research. Partnering with us enables colleges to attract a diverse international student body, enriching campus life and fostering a dynamic academic community. Our services support seamless integration into global education networks, enhancing the institution reputation and global impact',
-            imgFirst: collegeFirst,
-            imgSecond: collegeSecond,
-            imgThird: collegeThird,
-            imgFourth: collegeFourth,
+            description: 'Learning centres are vital contributors that can greatly benefit from partnering with us. By referring students to study abroad programs, learning centres can diversify their services and attract a wider clientele interested in  international educational opportunities. Moreover, we offer comprehensive  support, including the establishment of international offices',
+            imgFirst: learningFirst,
+            imgSecond: learningSecond,
+            imgThird: learningThird,
+            imgFourth: learningFourth,
 
         }
     ]
@@ -105,41 +105,116 @@ const ServiceSector = () => {
                 </div>
 
 
+                {/* <div className="mt-16 w-[100vw] h-[100vh] overflow-auto body ">
+                    <div className="scroll-div-container overflow-y-scroll">
+                        {serviceData.map((data) => (
+                            <section>
+                                <div className={`sticky top-0 h-[120vh] py-[8rem]`} style={{ backgroundColor: data.bgcolor }}>
+                                    <div className="container px-16 mx-auto flex flex-col gap-8">
+                                        <p className="text-[1.75rem] md:text-[2rem] text-white">{data.title}</p>
+                                        <div className="grid grid-cols-2 gap-[3rem]">
+                                            <div>
+                                                <img src={data.img} alt={data.alt} className=" w-[100%] flex flex-1 object-cover" />
+                                            </div>
+                                            <p className="text-white text-[1rem] md:text-[1.25rem] font-light flex flex-1">{data.description}</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </section>
+                        ))}
+                    </div>
+                </div> */}
+
                 {/* Schools */}
 
-                <div className='flex flex-col px-6 py-6 md:px-10 md:py-10 w-[100%] h-[100%] md:w-[100vw] md:h-[100vh] gap-4 bg-black'>
-                    <div className='flex flex-col md:flex-row md:h-[55vh] justify-between gap-4'>
-                        <div className='relative flex flex-1 md:flex-[1.5] shrink-0'>
 
-                            <img src={school} alt="" className='object-cover w-[100%] brightness-[40%]' />
-                            <div className='absolute px-2 bottom-2 sm:px-4 sm:bottom-4 '>
-                                <p className='xs:text-[1rem] sm:text-[1.5rem] md:text-[2.5rem] text-white'>Schools</p>
-                                <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '>
-                                </p>
+                <div className="mt-8 ">
+
+                    {IndustryService.map((data) => (
+
+                        <div className={`sticky top-0 h-[100vh]`}>
+                            <div className='flex flex-col px-6 py-6 md:px-10 md:py-10 w-[100%] h-[100%] md:w-[100vw] md:h-[100vh] gap-4 bg-black'>
+                                <div className='flex flex-col md:flex-row md:h-[55vh] justify-between gap-4'>
+                                    <div className='relative flex flex-1 md:flex-[1.5] shrink-0'>
+
+                                        <img src={data.bgimg} alt="" className='object-cover w-[100%] brightness-[40%]' />
+                                        <div className='absolute px-2 bottom-2 sm:px-4 sm:bottom-4 '>
+                                            <p className='xs:text-[1rem] sm:text-[1.5rem] md:text-[2.5rem] text-white'>{data.title}</p>
+                                            <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '>{data.description}
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className='md:flex hidden flex-1'>
+                                        <img src={data.imgFirst} alt="" className='object-cover w-[100%]' />
+                                    </div>
+                                </div>
+                                <div className='md:flex hidden flex-col md:flex-row md:h-[35vh] justify-between gap-4'>
+                                    <div className='flex md:flex-1 '>
+                                        <img src={data.imgSecond} alt="" className='object-cover w-[100%]' />
+                                    </div>
+                                    <div className='md:flex hidden md:flex-1'>
+                                        <img src={data.imgSecond} alt="" className='object-cover w-[100%]' />
+                                    </div>
+                                    <div className='md:flex hidden md:flex-0.5'>
+                                        <img src={data.imgThird} alt="" className='object-cover w-[100%]' />
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                        <div className='md:flex hidden flex-1'>
-                            <img src={schoolfirst} alt="" className='object-cover w-[100%]' />
-                        </div>
-                    </div>
-                    <div className='md:flex hidden flex-col md:flex-row md:h-[35vh] justify-between gap-4'>
-                        <div className='flex md:flex-1 '>
-                            <img src={schoolSecond} alt="" className='object-cover w-[100%]' />
-                        </div>
-                        <div className='md:flex hidden md:flex-1'>
-                            <img src={schoolThird} alt="" className='object-cover w-[100%]' />
-                        </div>
-                        <div className='md:flex hidden md:flex-0.5'>
-                            <img src={schoolFourth} alt="" className='object-cover w-[100%]' />
-                        </div>
-                    </div>
+
+                    ))}
 
                 </div>
 
 
+                {/* <div className="mt-16 w-[100vw] h-[120vh] overflow-auto body ">
+                    <div className="scroll-div-container overflow-y-scroll">
+                        {IndustryService.map((data) => (
+                            <section>
+                                <div className={`sticky top-0 h-[120vh] py-[8rem]`}>
+                                    <div className='flex flex-col px-6 py-6 md:px-10 md:py-10 w-[100%] h-[100%] md:w-[100vw] md:h-[100vh] gap-4 bg-black'>
+                                        <div className='flex flex-col md:flex-row md:h-[55vh] justify-between gap-4'>
+                                            <div className='relative flex flex-1 md:flex-[1.5] shrink-0'>
+
+                                                <img src={data.bgimg} alt="" className='object-cover w-[100%] brightness-[40%]' />
+                                                <div className='absolute px-2 bottom-2 sm:px-4 sm:bottom-4 '>
+                                                    <p className='xs:text-[1rem] sm:text-[1.5rem] md:text-[2.5rem] text-white'>{data.title}</p>
+                                                    <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '>{data.description}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className='md:flex hidden flex-1'>
+                                                <img src={data.imgFirst} alt="" className='object-cover w-[100%]' />
+                                            </div>
+                                        </div>
+                                        <div className='md:flex hidden flex-col md:flex-row md:h-[35vh] justify-between gap-4'>
+                                            <div className='flex md:flex-1 '>
+                                                <img src={data.imgSecond} alt="" className='object-cover w-[100%]' />
+                                            </div>
+                                            <div className='md:flex hidden md:flex-1'>
+                                                <img src={data.imgSecond} alt="" className='object-cover w-[100%]' />
+                                            </div>
+                                            <div className='md:flex hidden md:flex-0.5'>
+                                                <img src={data.imgThird} alt="" className='object-cover w-[100%]' />
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </section>
+                        ))}
+                    </div>
+                </div> */}
+
+
+
+
                 {/* college  */}
 
-                <div className='flex flex-col px-6 py-6 md:px-10 md:py-10 gap-4 bg-black w-[100%] h-[100%] md:w-[100vw] md:h-[100vh]'>
+                {/* <div className='flex flex-col px-6 py-6 md:px-10 md:py-10 gap-4 bg-black w-[100%] h-[100%] md:w-[100vw] md:h-[100vh]'>
                     <div className='flex flex-col md:flex-row md:h-[55vh] justify-between gap-4'>
                         <div className='relative flex flex-1 md:flex-[1.5] shrink-0'>
 
@@ -166,19 +241,19 @@ const ServiceSector = () => {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
 
 
                 {/* Learning Centers */}
 
-                <div className='flex flex-col px-6 py-6 md:px-10 md:py-10 w-[100%] h-[100%] md:w-[100vw] md:h-[105vh] gap-4 bg-black'>
+                {/* <div className='flex flex-col px-6 py-6 md:px-10 md:py-10 w-[100%] h-[100%] md:w-[100vw] md:h-[105vh] gap-4 bg-black'>
                     <div className='flex flex-col md:flex-row md:h-[55vh] justify-between gap-4'>
                         <div className='relative flex flex-1 md:flex-[1.5] shrink-0'>
 
                             <img src={learningCenter} alt="" className='object-cover w-[100%] brightness-[60%]' />
                             <div className='absolute px-2 bottom-2 sm:px-8 sm:bottom-4 lg:bottom-8 '>
                                 <p className='xs:text-[1rem] sm:text-[1.5rem] md:text-[3rem] text-white'>Learning Centers</p>
-                                <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '> Learning centres are vital contributors that can greatly benefit from partnering with us. By referring students to study abroad programs, learning centres can diversify their services and attract a wider clientele interested in  international educational opportunities. Moreover, we offer comprehensive  support, including the establishment of international offices</p>
+                                <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '> </p>
                             </div>
                         </div>
                         <div className='md:flex hidden flex-1'>
@@ -197,7 +272,7 @@ const ServiceSector = () => {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
 
 
             </div>
