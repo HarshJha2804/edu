@@ -1,5 +1,5 @@
 import serviceHeroImg from "../../assets/Services/service-hero-img.png"
-import serviceFirst from "../../assets/Services/service-first.webp"
+import serviceFirst from "../../assets/Services/service-one.png"
 import serviceSecond from "../../assets/Services/service-second.webp"
 import serviceThird from "../../assets/Services/service-third.webp"
 import serviceFourth from "../../assets/Services/service-fourth.webp"
@@ -60,14 +60,19 @@ const Services = () => {
       </div>
 
 
-      <div className="mt-16 md:mt-[]">
+      <div className="mt-16 ">
         {serviceData.map((data) => (
-          <div className={`sticky top-0 h-[120vh] px-[24rem] py-[8rem]`} style={{ backgroundColor: data.bgcolor }}>
+          <div className={`sticky top-0 h-[120vh] py-[8rem]`} style={{ backgroundColor: data.bgcolor }}>
             {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
-            <div className="flex flex-col gap-8">
+            <div className="container px-16 mx-auto flex flex-col gap-8">
               <p className="text-[1.75rem] md:text-[2rem] text-white">{data.title}</p>
-              <img src={data.img} alt={data.alt} className=" w-[100%]" />
-              <p className="text-white text-[1rem] md:text-[1.25rem] font-light">{data.description}</p>
+              <div className="grid grid-cols-2 gap-[3rem]">
+                <div>
+                  <img src={data.img} alt={data.alt} className=" w-[100%] flex flex-1 object-cover" />
+                </div>
+                <p className="text-white text-[1rem] md:text-[1.25rem] font-light flex flex-1">{data.description}</p>
+
+              </div>
 
             </div>
           </div>
