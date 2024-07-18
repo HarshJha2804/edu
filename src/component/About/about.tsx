@@ -10,11 +10,11 @@ const About = () => {
 
         <div className="relative w-[100%] h-[100%]">
           <img src={AboutHerosection} alt="" className="object-cover brightness-[50%] h-[100vh] w-[100%]" />
-          <h1 className="absolute top-[46%] left-[46%] text-[1.75rem] text-white md:text-[2rem] lg:text-[4rem]">About Us</h1>
+          <h1 className="absolute top-[46%] left-[42%] right-[50%]text-[1.75rem] text-white md:text-[2rem] lg:text-[4rem]">About Us</h1>
         </div>
 
         <Scrollanimation>
-          <div className="container mx-auto px-16 ">
+          <div className="container mx-auto px-8 md:px-16 ">
           <div className="bg-primary p-8 md:px-16 md:py-8 grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-4 md:gap-10">
             <p className="flex md:hidden text-[2rem] md:text-[3rem] xl:text-[5rem] text-white leading-[1.5rem] md:leading-[2rem] lg:leading-[4rem]">Who we are?</p>
             <p className="hidden md:flex text-[2rem] md:text-[3rem] lg:text-[4rem] xl:text-[5rem] text-white leading-[1.5rem] md:leading-[1.75rem] lg:leading-[2.75rem] xl:leading-[4rem]">Who <br /> we are?</p>
@@ -39,7 +39,7 @@ const About = () => {
         </Scrollanimation>
 
         <Scrollanimation>
-          <div className="container mx-auto px-16 ">
+          <div className="container mx-auto px-8 md:px-16 ">
           <div className="grid grid-cols-1 items-center lg:grid-cols-[1fr_1fr] gap-0 lg:gap-24  ">
             <div className="shrink-0 p-16">
               <img src={founderImg} alt="" className="object-cover overflow-hidden rounded-xl max-h-[80%]" />

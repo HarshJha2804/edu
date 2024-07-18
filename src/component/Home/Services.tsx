@@ -37,7 +37,7 @@ const Servicedata = [
 const Services = () => {
     return (
         <>
-            <div className="container mx-auto px-16 flex flex-col justify-center items-center gap-[2rem]">
+            <div className="container mx-auto px-8 md:px-16 flex flex-col justify-center items-center gap-[2rem]">
                 <h3 className="text-[1.75rem] md:text-[3rem] lg:text-[3.5rem] font-medium">Our Services</h3>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-4 lg:gap-8 xl:mr-auto xl:ml-auto ">
