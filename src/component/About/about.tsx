@@ -3,6 +3,7 @@ import founderImg from "../../assets/About/founder-img.png"
 import Scrollanimation from "../Scrollanimation/Scrollanimation"
 import Vision from "../../assets/About/vision.png"
 import Mission from "../../assets/About/mission.png"
+import visionBg from "../../assets/About/vision-bakground.webp"
 const About = () => {
   return (
     <>
@@ -61,10 +62,9 @@ const About = () => {
 
         </Scrollanimation>
 
-
-        <div>
-          <Scrollanimation>
-            <div className="px-8 md:px-16 lg:px-48 xl:px-40 flex-col gap-2 lg:grid lg:grid-cols-[1fr_1fr] grid-row-2 items-start bg-[#FC6B28] h-[100%] lg:h-[68vh] overflow-hidden">
+        <Scrollanimation>
+          <div className="container mx-auto px-8 md:px-16">
+            <div className=" flex-col gap-2 lg:grid lg:grid-cols-[1fr_1fr] px-8 md:px-16 py-8 grid-row-2 items-start bg-[#171f4e] overflow-hidden">
               <div className="flex flex-col justify-start items-start gap-2 pt-16 md:pt-24">
                 <p className="text-[0.8rem] md:text-[1.2rem] font-medium lg:leading-[1.75rem] tracking-[0.3rem] text-white">OUR VISION</p>
                 <p className=" text-[1.5rem] md:text-[2.5rem] lg:text-[2.75rem] leading-[1.5rem] md:leading-[2.75rem] font-normal flex flex-2 text-white">
@@ -73,9 +73,55 @@ const About = () => {
               </div>
               <img src={Vision} alt="" className="h-[100%] w-[auto] shrink-0" />
             </div>
-          </Scrollanimation>
+          </div>
 
-          <Scrollanimation>
+        </Scrollanimation>
+
+
+        {/* <Scrollanimation>
+          <div className="container mx-auto px-8 md:px-16">
+            <div className=" flex flex-col px-8 md:px-16 py-8 grid-row-2 gap-4 items-center justify-center overflow-hidden p-8 border-[2px]">
+
+              <p className="text-[0.8rem] md:text-[1.2rem] font-medium lg:leading-[1.75rem] tracking-[0.3rem] text-black">OUR MISSION</p>
+              <p className=" text-[1.5rem] md:text-[2.5rem] lg:text-[2.75rem] leading-[1.5rem] md:leading-[2.75rem] font-normal flex flex-2 text-textColor">
+                Building community and fostering growth
+              </p>
+
+            </div>
+          </div>
+
+        </Scrollanimation>
+
+        <Scrollanimation>
+          <div className="container mx-auto px-8 md:px-16">
+            <div className=" flex-col gap-2 lg:grid lg:grid-cols-[1fr_1fr] px-8 md:px-16 py-8 grid-row-2 items-start bg-[#12ab04] overflow-hidden">
+              <img src={Vision} alt="" className="h-[100%] w-[auto] shrink-0" />
+              <div className="flex flex-col justify-start items-start gap-2 pt-16 md:pt-24">
+                <p className="text-[0.8rem] md:text-[1.2rem] font-medium lg:leading-[1.75rem] tracking-[0.3rem] text-white">OUR MISSION</p>
+                <p className=" text-[1.5rem] md:text-[2.5rem] lg:text-[2.75rem] leading-[1.5rem] md:leading-[2.75rem] font-normal flex flex-2 text-white">
+                  Building community and fostering growth
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </Scrollanimation> */}
+
+        {/* <Scrollanimation>
+          <div className="relative px-8 md:px-16 lg:px-48 xl:px-40  overflow-hidden" style={{ backgroundImage: `url${visionBg}` }}>
+            <div className="absolute top-5 left-72 flex flex-col gap-2.5 pt-16 md:pt-24 w-[40vw]">
+              <p className="text-[0.8rem] md:text-[1.2rem] font-medium lg:leading-[1.75rem] tracking-[0.3rem] text-black">OUR VISION</p>
+              <p className=" text-[1.5rem] md:text-[2.5rem] lg:text-[2.75rem] leading-[1.5rem] md:leading-[2.75rem] font-normal flex flex-2 text-black ">
+                EmpowerEdu enables you to envision possibilities beyond your current perspective
+              </p>
+            </div>
+            <img src={visionBg} alt="" className="h-[100%] w-[auto] shrink-0" />
+          </div>
+        </Scrollanimation> */}
+        <div>
+
+
+          {/* <Scrollanimation>
             <div className="px-8 md:px-16 lg:px-24 xl:px-32 flex flex-col-reverse gap-2 lg:grid lg:grid-cols-[2fr_1fr] grid-row-2 items-start bg-[#011627] h-[100%] lg:h-[68vh] overflow-hidden">
               <img src={Mission} alt="" className="h-[100%] w-[auto] shrink-0" />
               <div className="flex flex-col justify-start items-start gap-2 pt-16 md:pt-24">
@@ -85,12 +131,12 @@ const About = () => {
                 </p>
               </div>
             </div>
-          </Scrollanimation>
+          </Scrollanimation> */}
         </div>
 
 
 
-
+        {/* 
         <div className=" mx-16 md:mx-16 lg:mx-48 xl:mx-72 p-8 md:px-24 md:py-16 flex flex-col gap-4 items-start border-[1px] bg-secondaryColor rounded-md">
           <p className="text-[1.2rem] leading-[1.5rem] font-light text-white flex flex-1 tracking-[0.3rem]">OUR VISSION</p>
           <p className=" text-[1.75rem] md:text-[3rem] font-normal leading-[3.25rem] text-white flex flex-2">
@@ -105,7 +151,7 @@ const About = () => {
           <p className=" text-[1.75rem] md:text-[3rem] font-medium leading-[2.9rem]">
             EmpowerEdu enables you to envision possibilities beyond your current perspective
           </p>
-        </div>
+        </div> */}
 
 
 
