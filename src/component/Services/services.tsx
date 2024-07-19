@@ -289,7 +289,7 @@ const Services = () => {
 
 
 
-      <div className="mt-40">
+      <div className="">
         {serviceData.map((data) => (
 
           <div className={`sticky top-0 h-[100vh] justify-center items-center flex`} style={{ backgroundColor: data.bgcolor, backgroundImage: `url(${data.bgimg})`, backgroundPosition: "center", backgroundSize: "contain", backgroundRepeat: 'no-repeat' }} >
