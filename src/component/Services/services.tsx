@@ -5,13 +5,14 @@ import serviceThird from "../../assets/Services/service-third.webp"
 import serviceFourth from "../../assets/Services/service-fourth.webp"
 import serviceFifth from "../../assets/Services/service-fifth.webp"
 import serviceSixth from "../../assets/Services/service-sixth.webp"
-import serviceBg from "../../assets/Services/service-bg.png"
+import serviceBg from "../../assets/Services/servicebg-first.png"
 import Scrollanimation from "../Scrollanimation/Scrollanimation"
 const Services = () => {
   const serviceData = [
     {
+      bgimg: serviceBg,
       number: "1",
-      bgPastelColor: "#f5efff",
+      bgPastelColor: "#0E265A",
       bgcolor: '#012a4a',
       img: serviceFirst,
       alt: "a woman explaining the how the yours school can be expand globally",
@@ -30,7 +31,7 @@ const Services = () => {
     {
       number: "3",
       bgPastelColor: "#f8edeb",
-      bgcolor: '#F19900',
+      bgcolor: '#EBAF26',
       img: serviceThird,
       alt: "Student happy to see the enrollment process is easy",
       title: "Streamlined Enrollment and Career prospects",
@@ -39,7 +40,7 @@ const Services = () => {
     {
       number: "4",
       bgPastelColor: "#f4f4d5",
-      bgcolor: '#AACC00',
+      bgcolor: '#0E1C36',
       img: serviceFourth,
       alt: "a group of people are seeing the insight in desktop",
       title: "Industry-Leading Insights and Strategies",
@@ -47,8 +48,8 @@ const Services = () => {
     },
     {
       number: "5",
-      bgPastelColor: '#fadde1',
-      bgcolor: '#346F6A',
+      bgPastelColor: '#F18805',
+      bgcolor: '#F18805',
       img: serviceFifth,
       alt: "Trainer explaining the process to crowd",
       title: "Comprehensive Support and Training",
@@ -57,7 +58,7 @@ const Services = () => {
     {
       number: "6",
       bgPastelColor: '#ebf4f5',
-      bgcolor: '#FF595E',
+      bgcolor: '#0D1F22',
       img: serviceSixth,
       alt: "a image showing data privacy",
       title: "Ensure data privacy integrity",
@@ -104,7 +105,7 @@ const Services = () => {
         ))}
       </div> */}
 
-      <div className="mt-40">
+      {/* <div className="mt-40">
         <div className="flex justify-center items-center">
           <p className=" text-[1.75rem] text-black md:text-[2rem] lg:text-[3rem] ">Our Services</p>
         </div>
@@ -136,9 +137,9 @@ const Services = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
 
-      <div className="mt-40 w-[100vw] h-[90vh] overflow-auto body ">
+      {/* <div className="mt-40 w-[100vw] h-[90vh] overflow-auto body ">
         <div className="flex justify-center items-center">
           <p className=" text-[1.75rem] text-black md:text-[2rem] lg:text-[3rem] ">Our Services</p>
         </div>
@@ -170,10 +171,10 @@ const Services = () => {
             </section>
           ))}
         </div>
-      </div >
+      </div > */}
 
       {/* pastel bg color */}
-      <div className="mt-40 w-[100vw] h-[100vh] overflow-auto body ">
+      {/* <div className="mt-40 w-[100vw] h-[100vh] overflow-auto body ">
         <div className="flex justify-center items-center">
           <p className=" text-[1.75rem] text-black md:text-[2rem] lg:text-[3rem] ">Our Services</p>
         </div>
@@ -208,12 +209,12 @@ const Services = () => {
             </section>
           ))}
         </div>
-      </div >
+      </div > */}
 
 
       {/* pastel color */}
 
-      <div className="mt-40 w-[100vw] h-[100vh] overflow-auto body ">
+      {/* <div className="mt-40 w-[100vw] h-[100vh] overflow-auto body ">
         <div className="flex justify-center items-center">
           <p className=" text-[1.75rem] text-black md:text-[2rem] lg:text-[3rem] ">Our Services</p>
         </div>
@@ -248,16 +249,17 @@ const Services = () => {
             </section>
           ))}
         </div>
-      </div >
+      </div > */}
 
 
 
-      <div className="mt-40">
+      {/* <div className="mt-40">
         {serviceData.map((data) => (
 
-          <div className={`sticky top-0 h-[120vh] py-[8rem]`} style={{ backgroundColor: data.bgcolor }} >
-            <div className="container mx-auto p-8 md:p-16  bg-white border-[1px] border-borderColor rounded-2xl">
-              {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
+          <div className={`sticky top-0 h-[100vh] justify-center items-center flex`} style={{ backgroundColor: data.bgcolor }} >
+            <div className="container mx-auto m-16 p-8 md:p-16 bg-white border-[1px] border-borderColor rounded-[2rem] ">
+          
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-24  ">
                 <div className="relative overflow-hidden zoom-image-container rounded-3xl">
                   <Scrollanimation>
@@ -265,7 +267,9 @@ const Services = () => {
                   </Scrollanimation>
                 </div>
                 <div className="flex flex-col justify-end gap-16">
-                  <p className="text-[1.75rem] md:text-[5rem] text-black leading-[2.4rem]">Services</p>
+                  <Scrollanimation>
+                    <p className="text-[1.75rem] md:text-[5rem] text-black leading-[2.4rem]">{data.number}</p>
+                  </Scrollanimation>
                   <div className="flex flex-col gap-2">
                     <Scrollanimation>
                       <p className="text-[1.75rem] md:text-[2rem] text-black">{data.title}</p>
@@ -276,13 +280,53 @@ const Services = () => {
                   </div>
                 </div>
               </div>
+
+            </div>
+          </div>
+        ))}
+      </div> */}
+
+
+
+
+      <div className="mt-40">
+        {serviceData.map((data) => (
+
+          <div className={`sticky top-0 h-[100vh] justify-center items-center flex`} style={{ backgroundColor: data.bgcolor, backgroundImage: `url(${data.bgimg})`, backgroundPosition: "center", backgroundSize: "contain", backgroundRepeat: 'no-repeat' }} >
+            <div className="container mx-auto m-16 p-8 md:p-16 ">
+              {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-24  ">
+                <div className="relative overflow-hidden zoom-image-container rounded-3xl">
+                  {/* <Scrollanimation> */}
+                  {/* <img src={data.img} alt={data.alt} className="h-[60vh] object-cover zoom-image" /> */}
+                  {/* </Scrollanimation> */}
+                </div>
+                <div className="flex flex-col justify-end gap-16">
+                  {/* <Scrollanimation> */}
+                  {/* <p className="text-[1.75rem] md:text-[5rem] text-white leading-[2.4rem]">{data.number}</p> */}
+                  {/* </Scrollanimation> */}
+                  <div className="flex flex-col gap-2">
+                    <Scrollanimation>
+                      <p className="text-[1.75rem] md:text-[2rem] text-white">{data.title}</p>
+                    </Scrollanimation>
+                    <Scrollanimation>
+                      <p className="text-white text-[1rem] md:text-[1.25rem] font-extralight flex flex-1">{data.description}</p>
+                    </Scrollanimation>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         ))}
       </div>
 
 
-      <div className="mt-40 w-[100vw] h-[90vh] overflow-auto body ">
+
+
+
+      {/* <div className="mt-40 w-[100vw] h-[90vh] overflow-auto body ">
         <div className="scroll-div-container overflow-y-scroll">
           {serviceData.map((data) => (
             <section>
@@ -311,7 +355,7 @@ const Services = () => {
             </section>
           ))}
         </div>
-      </div >
+      </div > */}
 
 
 
