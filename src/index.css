@@ -291,7 +291,7 @@ transform: scale(1.05);
 }
 
 .box-hover-effect:hover {
-  transform: translateY(10px); /* Adjust as needed */
+  transform: translateY(4px); /* Adjust as needed */
 }
 
 .social-media-icon-box:hover{
@@ -304,3 +304,21 @@ transform: scale(1.05);
   color: white;
  }
  
+ .zoom-image-container {
+  position: relative;
+}
+
+.zoom-image{
+  transition: transform 0.4s ease-in-out; 
+}
+
+.zoom-image-container:hover .zoom-image {
+  transition: transform 0.4s ease-in-out; 
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.image-bg:hover{
+  transition: transform 0.4s ease-in-out; 
+  transform: scale(1.1);
+}

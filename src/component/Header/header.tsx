@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { Icon } from "@iconify/react";
 // import empowerLight from "../../assets/empower-light.png"
 // import { useNavigate } from 'react-router-dom';
 // const navigate = useNavigate();
 const Header = () => {
   const [isOpen, setIsopen] = useState(false);
+  const location = useLocation();
+  const isServicePath = location.pathname.includes('/services')
   const handlenav = () => {
     setIsopen(true);
   };
@@ -26,7 +28,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`z-[200000] fixed  w-[100%] ${scrolled ? 'bg-white shadow-sm' : 'bg-transparent'}`}
+        className={`z-[200000] ${isServicePath ? 'absolute' : 'fixed'} w-[100%] ${scrolled ? 'bg-white shadow-sm' : 'bg-transparent'}`}
       >
         <nav className="flex justify-between px-8 py-4 items-center ">
           <div>
