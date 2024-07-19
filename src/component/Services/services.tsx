@@ -10,6 +10,7 @@ import Scrollanimation from "../Scrollanimation/Scrollanimation"
 const Services = () => {
   const serviceData = [
     {
+      number: "1",
       bgPastelColor: "#f5efff",
       bgcolor: '#012a4a',
       img: serviceFirst,
@@ -18,6 +19,7 @@ const Services = () => {
       description: "We establish a seamless international  office on your campus, dedicated to promoting global engagement.This office serves as a central hub for coordinating various international services and academic collaborations with institutions worldwide.It facilitates the efficient management of study abroad programs, enhances cross- cultural communication, and integrates global perspectives into campus and educational initiatives.",
     },
     {
+      number: "2",
       bgPastelColor: "#edf2fb",
       bgcolor: '#690500',
       img: serviceSecond,
@@ -26,6 +28,7 @@ const Services = () => {
       description: "We empower institutions to explore a multitude of academic and cultural opportunities through our global network. This facilitates exchange programs, international study opportunities, and enriches the educational experience. Engaging with such a diverse community of institutions allows our partners to broaden academic horizons, gain valuable international perspectives, and develop essential skills for success in today's interconnected world",
     },
     {
+      number: "3",
       bgPastelColor: "#f8edeb",
       bgcolor: '#F19900',
       img: serviceThird,
@@ -34,6 +37,7 @@ const Services = () => {
       description: "We strive to enhance placement/admission prospects by refining procedures from application to admission.We streamline processes and leverage technology to reduce administrative  complexities and ensure efficiency for institutions.We manage all applications through the digital partner dashboard, as well as their communications, in one spot. Our goal is to provide clear  guidance and robust support, empowering our partners to navigate requirements effectively and secure placements that align with their academic and career aspirations",
     },
     {
+      number: "4",
       bgPastelColor: "#f4f4d5",
       bgcolor: '#AACC00',
       img: serviceFourth,
@@ -42,6 +46,7 @@ const Services = () => {
       description: "Our team of experts combines deep industry knowledge with cutting-edge research methodologies to provide tailored solutions that meet the unique challenges of today's competitive landscape. We empower institutions to capitalize on emerging trends, anticipate market shifts, and seize growth opportunities. By leveraging our strategic guidance and forward-thinking approach, education providers can achieve sustainable growth and maintain a leadership position in their domain.",
     },
     {
+      number: "5",
       bgPastelColor: '#fadde1',
       bgcolor: '#346F6A',
       img: serviceFifth,
@@ -50,6 +55,7 @@ const Services = () => {
       description: "Comprehensive support and training encompass a robust framework designed to empower institutions with the skills, knowledge, and resources they need to succeed. Our approach includes personalized guidance, hands-on training sessions, and access to a diverse range of educational materials. We prioritize continuous learning and development, ensuring that our clients are equipped to navigate challenges, optimize processes, and achieve their goals effectively. With tailored support and ongoing training initiatives, we aim to foster a culture of growth, innovation, and excellence within every facet of our engagement.",
     },
     {
+      number: "6",
       bgPastelColor: '#ebf4f5',
       bgcolor: '#FF595E',
       img: serviceSixth,
@@ -69,35 +75,44 @@ const Services = () => {
       </div>
 
 
-      <div className="mt-40 ">
+      {/* <div className="mt-40 ">
         {serviceData.map((data) => (
 
           <div className={`sticky top-0 h-[120vh] py-[8rem]`} style={{ backgroundColor: data.bgcolor }}>
             <div className="container mx-auto p-8 md:p-16">
-              {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
+           
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-24">
                 <div className="relative overflow-hidden zoom-image-container rounded-3xl">
                   <img src={data.img} alt={data.alt} className="h-[60vh] object-cover zoom-image" />
                 </div>
                 <div className="flex flex-col justify-end gap-16">
-                  <p className="text-[1.75rem] md:text-[5rem] text-white leading-[2.4rem]">Services</p>
+                  <Scrollanimation>
+                    <p className="text-[1.75rem] md:text-[6rem] text-black leading-[2.4rem]">{data.number}</p>
+                  </Scrollanimation>
                   <div className="flex flex-col gap-2">
-                    <p className="text-[1.75rem] md:text-[2rem] text-white">{data.title}</p>
-                    <p className="text-white text-[1rem] md:text-[1.25rem] font-extralight flex flex-1">{data.description}</p>
+                    <Scrollanimation>
+                      <p className="text-[1.75rem] md:text-[2rem] text-white">{data.title}</p>
+                    </Scrollanimation>
+                    <Scrollanimation>
+                      <p className="text-white text-[1rem] md:text-[1.25rem] font-extralight flex flex-1">{data.description}</p>
+                    </Scrollanimation>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
 
       <div className="mt-40">
+        <div className="flex justify-center items-center">
+          <p className=" text-[1.75rem] text-black md:text-[2rem] lg:text-[3rem] ">Our Services</p>
+        </div>
+
         {serviceData.map((data) => (
 
-          <div className={`sticky top-0 h-[120vh] py-[8rem]`} >
-            <div className="container mx-auto p-8 md:p-16  bg-white border-[1px] border-borderColor rounded-2xl">
-              {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
+          <div className={`sticky top-0 h-[100vh] py-[8rem]`} >
+            <div className="container mx-auto p-8 md:p-16  bg-white border-[1px] border-borderColor rounded-[5rem]">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-24  ">
                 <div className="relative overflow-hidden zoom-image-container rounded-3xl">
                   <Scrollanimation>
@@ -105,13 +120,15 @@ const Services = () => {
                   </Scrollanimation>
                 </div>
                 <div className="flex flex-col justify-end gap-16">
-                  <p className="text-[1.75rem] md:text-[5rem] text-black leading-[2.4rem]">Services</p>
-                  <div className="flex flex-col gap-2">
+                  <Scrollanimation>
+                    <p className="text-[1.75rem] md:text-[6rem] text-[#a8a8a8] leading-[2.4rem] ct">{data.number}</p>
+                  </Scrollanimation>
+                  <div className="flex flex-col gap-4">
                     <Scrollanimation>
-                      <p className="text-[1.75rem] md:text-[2rem] text-black">{data.title}</p>
+                      <p className="text-[1.75rem] md:text-[2rem] leading-[2rem] text-black">{data.title}</p>
                     </Scrollanimation>
                     <Scrollanimation>
-                      <p className="text-black text-[1rem] md:text-[1.25rem] font-extralight flex flex-1">{data.description}</p>
+                      <p className="text-black text-[1rem] lg:text-[1.25rem] leading-[1.5rem] font-extralight flex flex-1">{data.description}</p>
                     </Scrollanimation>
                   </div>
                 </div>
@@ -122,11 +139,14 @@ const Services = () => {
       </div>
 
       <div className="mt-40 w-[100vw] h-[90vh] overflow-auto body ">
+        <div className="flex justify-center items-center">
+          <p className=" text-[1.75rem] text-black md:text-[2rem] lg:text-[3rem] ">Our Services</p>
+        </div>
         <div className="scroll-div-container overflow-y-scroll">
           {serviceData.map((data) => (
             <section>
               <div className={`sticky top-0 h-[100vh] py-[8rem] `} >
-                <div className="container p-16 mx-auto flex flex-col gap-8  bg-white border-[1px] border-borderColor rounded-2xl" >
+                <div className="container p-16 mx-auto flex flex-col gap-8  bg-white border-[1px] border-borderColor rounded-[4rem]" >
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-24  ">
                     <div className="relative overflow-hidden zoom-image-container rounded-3xl">
                       <Scrollanimation>
@@ -134,7 +154,7 @@ const Services = () => {
                       </Scrollanimation>
                     </div>
                     <div className="flex flex-col justify-end gap-16">
-                      <p className="text-[1.75rem] md:text-[5rem] text-black leading-[2.4rem]">Services</p>
+                      <p className="text-[1.75rem] md:text-[6rem] text-black leading-[2.4rem]">{data.number}</p>
                       <div className="flex flex-col gap-2">
                         <Scrollanimation>
                           <p className="text-[1.75rem] md:text-[2rem] text-black">{data.title}</p>
@@ -154,6 +174,9 @@ const Services = () => {
 
       {/* pastel bg color */}
       <div className="mt-40 w-[100vw] h-[100vh] overflow-auto body ">
+        <div className="flex justify-center items-center">
+          <p className=" text-[1.75rem] text-black md:text-[2rem] lg:text-[3rem] ">Our Services</p>
+        </div>
         <div className="scroll-div-container overflow-y-scroll">
           {serviceData.map((data) => (
             <section>
@@ -167,7 +190,9 @@ const Services = () => {
                       </Scrollanimation>
                     </div>
                     <div className="flex flex-col justify-end gap-16">
-                      <p className="text-[1.75rem] md:text-[5rem] text-black leading-[2.4rem]">Services</p>
+                      <Scrollanimation>
+                        <p className="text-[1.75rem] md:text-[6rem] text-black leading-[2.4rem]">{data.number}</p>
+                      </Scrollanimation>
                       <div className="flex flex-col gap-2">
                         <Scrollanimation>
                           <p className="text-[1.75rem] md:text-[2rem] text-black">{data.title}</p>
@@ -189,6 +214,9 @@ const Services = () => {
       {/* pastel color */}
 
       <div className="mt-40 w-[100vw] h-[100vh] overflow-auto body ">
+        <div className="flex justify-center items-center">
+          <p className=" text-[1.75rem] text-black md:text-[2rem] lg:text-[3rem] ">Our Services</p>
+        </div>
         <div className="scroll-div-container overflow-y-scroll">
           {serviceData.map((data) => (
             <section>
@@ -201,8 +229,10 @@ const Services = () => {
                         <img src={data.img} alt={data.alt} className="h-[60vh] object-cover zoom-image" />
                       </Scrollanimation>
                     </div>
-                    <div className="flex flex-col justify-end gap-16">
-                      <p className="text-[1.75rem] md:text-[5rem] text-black leading-[2.4rem]">Services</p>
+                    <div className="flex flex-col justify-end gap-8">
+                      <Scrollanimation>
+                        <p className="text-[1.75rem] md:text-[6rem] text-black leading-[2.4rem]">{data.number}</p>
+                      </Scrollanimation>
                       <div className="flex flex-col gap-2">
                         <Scrollanimation>
                           <p className="text-[1.75rem] md:text-[2rem] text-black">{data.title}</p>
@@ -219,6 +249,8 @@ const Services = () => {
           ))}
         </div>
       </div >
+
+
 
       <div className="mt-40">
         {serviceData.map((data) => (
