@@ -32,7 +32,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="flex flex-col gap-8 md:gap-40">
+      <div className="flex flex-col gap-8 md:gap-40 bg-white">
 
 
         <Herosection />

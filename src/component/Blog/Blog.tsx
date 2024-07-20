@@ -24,7 +24,7 @@ const Blog = () => {
     ]
     return (
         <>
-            <div className="relative w-[100%] h-[100%]">
+            <div className="relative w-[100%] h-[100%] ">
                 <img src={BlogHeroImg} alt="" className="object-cover brightness-[40%] h-[100vh] w-[100%] hover:" />
                 <h1 className="absolute top-[46%] left-[49%] text-[1.75rem] text-white md:text-[2rem] lg:text-[4rem]">Blog</h1>
             </div>
@@ -33,12 +33,12 @@ const Blog = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-8 justify-center">
                     {Blogdata.map((data) => (
-                        <div className="border-[1px] border-borderColor rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm ">
+                        <div className="border-[1px] border-borderColor rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm bg-white">
                             <div className="zoom-image-container overflow-hidden rounded-xl ">
                                 <img src={data.img} alt="" className="w-[100%] object-cover zoom-image" />
                             </div>
-                            <div className="py-4 flex flex-col gap-2 items-start">
-                                <p className="text-[1.5rem] leading-[1.6rem] font-medium text-textColor">{data.title}</p>
+                            <div className="py-4 flex flex-col gap-1 items-start">
+                                <p className="text-[1.25rem] leading-[1.25rem] md:text-[1.5rem] md:leading-[1.6rem] font-medium text-textColor">{data.title}</p>
                                 <p className="text-textColor font-normal overflow-hidden whitespace-nowrap text-ellipsis w-[90%]">{data.description}</p>
                                 <Link to="/post">
                                     <button className="flex flex-row gap-0.5 items-center justify-end primary-button-second p-0 "> Read More

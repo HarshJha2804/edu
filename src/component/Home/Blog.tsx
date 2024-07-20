@@ -5,6 +5,11 @@ import blogThird from "../../assets/Homepage/Blogs/blog-third.png"
 import BlogPage from "./BlogPage"
 import { Link } from "react-router-dom"
 
+interface Blogdata {
+    img: string,
+    title: string,
+    description: string
+}
 const Blog = () => {
     const Blogdata = [
         {
@@ -29,7 +34,7 @@ const Blog = () => {
                 <h5 className="text-[1.75rem] md:text-[3rem]">Blog</h5>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 container mx-auto px-8 gap-8 justify-center">
                     {Blogdata.map((data) => (
-                        <div className="border-[1px] border-borderColor rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm" >
+                        <div className="border-[1px] border-borderColor rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm bg-white" >
                             <img src={data.img} alt="" className="w-[100%] rounded-xl" />
                             <div className="py-4 flex flex-col gap-2 items-start">
                                 <p className="text-[1.5rem] leading-[1.6rem] font-medium text-textColor">{data.title}</p>
