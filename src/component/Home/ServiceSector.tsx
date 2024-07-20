@@ -1,19 +1,19 @@
 import { useEffect, useState } from 'react';
 import school from "../../assets/Homepage/Services/school.webp";
-import schoolfirst from "../../assets/Homepage/service-sector/school-first.webp"
-import schoolSecond from "../../assets/Homepage/service-sector/school-second.webp"
-import schoolThird from "../../assets/Homepage/service-sector/school-third.webp"
-import schoolFourth from "../../assets/Homepage/service-sector/school-fourth.webp"
+import schoolfirst from "../../assets/Homepage/service-sector/school-first.png"
+// import schoolSecond from "../../assets/Homepage/service-sector/school-second.webp"
+// import schoolThird from "../../assets/Homepage/service-sector/school-third.webp"
+// import schoolFourth from "../../assets/Homepage/service-sector/school-fourth.webp"
 import college from "../../assets/Homepage/service-sector/college.webp"
-import collegeFirst from "../../assets/Homepage/service-sector/college-first.webp"
-import collegeSecond from "../../assets/Homepage/service-sector/college-second.webp"
-import collegeThird from "../../assets/Homepage/service-sector/college-third.webp"
-import collegeFourth from "../../assets/Homepage/service-sector/college-fourth.webp"
+import collegeFirst from "../../assets/Homepage/service-sector/collegefirst.jpg"
+// import collegeSecond from "../../assets/Homepage/service-sector/college-second.webp"
+// import collegeThird from "../../assets/Homepage/service-sector/college-third.webp"
+// import collegeFourth from "../../assets/Homepage/service-sector/college-fourth.webp"
 import learningCenter from "../../assets/Homepage/service-sector/learningCenter.png"
-import learningFirst from "../../assets/Homepage/service-sector/learning-first.webp"
-import learningSecond from "../../assets/Homepage/service-sector/learning-second.webp"
-import learningThird from "../../assets/Homepage/service-sector/learning-third.webp"
-import learningFourth from "../../assets/Homepage/service-sector/learning-fourth.webp"
+import learningFirst from "../../assets/Homepage/service-sector/learningcentre-first.jpg"
+// import learningSecond from "../../assets/Homepage/service-sector/learning-second.webp"
+// import learningThird from "../../assets/Homepage/service-sector/learning-third.webp"
+// import learningFourth from "../../assets/Homepage/service-sector/learning-fourth.webp"
 const ServiceSector = () => {
     const [scale, setScale] = useState(1);
     const [opacityScroll, setOpacityScroll] = useState(false);
@@ -22,31 +22,31 @@ const ServiceSector = () => {
         {
             bgimg: school,
             title: "Schools",
-            description: 'Schools are instrumental in shaping students futures through foundational education and holistic development. Our services elevateeducational offerings by enabling students to explore global educationopportunities. Partnering with us empowers schools to broaden their horizonacross borders, opening doors to esteemed universities worldwide. Thispartnership enhances the educational journey, equipping students with skills foran interconnected world and setting them on a successful path in their educationand career pursuits',
+            description: "Schools are instrumental in shaping students' futures through foundational education and holistic development. Our services elevate educational offerings by enabling students to explore global education opportunities. Partnering with us empowers schools to broaden their horizon across borders, opening doors to esteemed universities worldwide. This partnership enhances the educational journey, equipping students with skills for an interconnected world and setting them on a successful path in their education and career pursuits",
             imgFirst: schoolfirst,
-            imgSecond: schoolSecond,
-            imgThird: schoolThird,
-            imgFourth: schoolFourth,
+            // imgSecond: schoolSecond,
+            // imgThird: schoolThird,
+            // imgFourth: schoolFourth,
 
         },
         {
             bgimg: college,
-            title: "Schools",
-            description: 'Higher education institutions play a crucial role in cultivating specialized knowledge and preparing students for professional careers. Global expansion opens doors to diverse cultural experiences, innovative teaching methodologies, and collaborations in cutting-edge research. Partnering with us enables colleges to attract a diverse international student body, enriching campus life and fostering a dynamic academic community. Our services support seamless integration into global education networks, enhancing the institution reputation and global impact',
+            title: "Colleges",
+            description: "Higher education institutions play a crucial role in cultivating specialized knowledge and preparing students for professional careers. Global expansion opens doors to diverse cultural experiences, innovative teaching methodologies, and collaborations in cutting-edge research. Partnering with us enables colleges to attract a diverse international student body, enriching campus life and fostering a dynamic academic community. Our services support seamless integration into global education networks, enhancing the institution's reputation and global impact",
             imgFirst: collegeFirst,
-            imgSecond: collegeSecond,
-            imgThird: collegeThird,
-            imgFourth: collegeFourth,
+            // imgSecond: collegeSecond,
+            // imgThird: collegeThird,
+            // imgFourth: collegeFourth,
 
         },
         {
             bgimg: learningCenter,
-            title: "Schools",
-            description: 'Learning centres are vital contributors that can greatly benefit from partnering with us. By referring students to study abroad programs, learning centres can diversify their services and attract a wider clientele interested in  international educational opportunities. Moreover, we offer comprehensive  support, including the establishment of international offices',
+            title: "Learning Center",
+            description: 'Learning centres are vital contributors that can greatly benefitfrom partnering with us. By referring students to study abroad programs, learning centres can diversify their services and attract a wider clientele interested in international educational opportunities. Moreover, we offer comprehensive support, including the establishment of international offices.',
             imgFirst: learningFirst,
-            imgSecond: learningSecond,
-            imgThird: learningThird,
-            imgFourth: learningFourth,
+            // imgSecond: learningSecond,
+            // imgThird: learningThird,
+            // imgFourth: learningFourth,
 
         }
     ]
@@ -97,11 +97,11 @@ const ServiceSector = () => {
                 </div>
 
             </div> */}
-            <div className=''>
+            <div className='flex flex-col gap-4 md:gap-[1.5rem]'>
 
-                <div className="flex flex-col gap-[0.2rem] content justify-center items-center mb-8">
-                    <h4 className="text-[1.75rem] md:text-[3rem] lg:text-[3.5rem] font-medium leading-tight">Industries Served</h4>
-                    <p className={`text-[black] text-[0.5rem] md:text-[1.5rem] font-light leading-tight} ${opacityScroll ? 'opacity-0' : 'opacity-100'}`}> Innovating Education for a Global Future</p>
+                <div className="flex flex-col content justify-center items-center ">
+                    <h4 className="text-[1.75rem] md:text-[3rem] lg:text-[3.5rem] font-medium leading-[3rem]">Industries Served</h4>
+                    <p className={`text-[black] text-[1rem] md:text-[1.5rem] font-light leading-tight} ${opacityScroll ? 'opacity-0' : 'opacity-100'}`}> Innovating Education for a Global Future</p>
                 </div>
 
 
@@ -130,27 +130,27 @@ const ServiceSector = () => {
                 {/* Schools */}
 
 
-                <div className="mt-8 ">
+                <div className="">
 
                     {IndustryService.map((data) => (
 
-                        <div className={`sticky top-0 h-[100vh]`}>
-                            <div className='flex flex-col px-6 py-6 md:px-10 md:py-10 w-[100%] h-[100%] md:w-[100vw] md:h-[100vh] gap-4 bg-black'>
-                                <div className='flex flex-col md:flex-row md:h-[55vh] justify-between gap-4'>
-                                    <div className='relative flex flex-1 md:flex-[1.5] shrink-0'>
+                        <div className={`sticky top-0 h-[60vh] md:h-[100vh]`}>
+                            <div className='flex flex-col px-6 py-6 md:px-10 md:py-10 w-[100%] h-[60vh] md:w-[100vw] md:h-[100vh] gap-4 bg-black'>
+                                <div className='flex flex-col md:flex-row justify-between gap-4 h-[100%]'>
+                                    <div className='relative flex flex-1 md:flex-[1.5] shrink-0 rounded-[1rem]'>
 
-                                        <img src={data.bgimg} alt="" className='object-cover w-[100%] brightness-[40%]' />
-                                        <div className='absolute px-2 bottom-2 sm:px-4 sm:bottom-4 '>
-                                            <p className='xs:text-[1rem] sm:text-[1.5rem] md:text-[2.5rem] text-white'>{data.title}</p>
-                                            <p className='text-[0.5rem] md:leading-[1.35rem] font-light sm:text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-white '>{data.description}
+                                        <img src={data.bgimg} alt="" className='object-cover w-[100%] brightness-[40%] rounded-[1rem]' />
+                                        <div className='absolute px-4 top-8 md:top-10 md:px-10 flex flex-col gap-2 md:gap-4'>
+                                            <p className='text-[1.75rem] md:text-[2.5rem] text-white'>{data.title}</p>
+                                            <p className='text-[1rem] leading-[1.25rem] md:leading-[1.75rem] font-extralight sm:text-[0.9rem] md:text-[1.5rem] text-white'>{data.description}
                                             </p>
                                         </div>
                                     </div>
                                     <div className='md:flex hidden flex-1'>
-                                        <img src={data.imgFirst} alt="" className='object-cover w-[100%]' />
+                                        <img src={data.imgFirst} alt="" className='object-cover rounded-[1rem] w-[100%]' />
                                     </div>
                                 </div>
-                                <div className='md:flex hidden flex-col md:flex-row md:h-[35vh] justify-between gap-4'>
+                                {/* <div className='md:flex hidden flex-col md:flex-row md:h-[35vh] justify-between gap-4'>
                                     <div className='flex md:flex-1 '>
                                         <img src={data.imgSecond} alt="" className='object-cover w-[100%]' />
                                     </div>
@@ -160,7 +160,7 @@ const ServiceSector = () => {
                                     <div className='md:flex hidden md:flex-0.5'>
                                         <img src={data.imgThird} alt="" className='object-cover w-[100%]' />
                                     </div>
-                                </div>
+                                </div> */}
 
                             </div>
                         </div>

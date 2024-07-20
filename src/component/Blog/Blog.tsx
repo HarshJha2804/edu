@@ -1,8 +1,9 @@
 import BlogHeroImg from "../../assets/Blog/blog-heroimg.jpg"
 import { Icon } from "@iconify/react/dist/iconify.js"
-import blogFirst from "../../assets/Homepage/Blogs/blog-first.png"
+import blogFirst from "../../assets/Homepage/Blogs/blog-first.jpg"
 import blogSecond from "../../assets/Homepage/Blogs/blog-second.png"
 import blogThird from "../../assets/Homepage/Blogs/blog-third.png"
+import { Link } from "react-router-dom"
 const Blog = () => {
     const Blogdata = [
         {
@@ -39,9 +40,11 @@ const Blog = () => {
                             <div className="py-4 flex flex-col gap-2 items-start">
                                 <p className="text-[1.5rem] leading-[1.6rem] font-medium text-textColor">{data.title}</p>
                                 <p className="text-textColor font-normal overflow-hidden whitespace-nowrap text-ellipsis w-[90%]">{data.description}</p>
-                                <button className="flex flex-row gap-0.5 items-center justify-end primary-button-second p-0 "> Read More
-                                    <Icon icon="ci:arrow-up-md" className="text-textColor rotate-45" fontSize={20} />
-                                </button>
+                                <Link to="/post">
+                                    <button className="flex flex-row gap-0.5 items-center justify-end primary-button-second p-0 "> Read More
+                                        <Icon icon="ci:arrow-up-md" className="text-textColor rotate-45" fontSize={20} />
+                                    </button>
+                                </Link>
                             </div>
 
                         </div>

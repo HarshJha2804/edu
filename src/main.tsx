@@ -12,6 +12,7 @@ import Gallery from './component/Gallery/Gallery';
 import Contact from './component/Contact/Contact';
 import Login from './component/Login/Login';
 import Blog from './component/Blog/Blog';
+import BlogPage from './component/Home/BlogPage';
 
 // ScrollToTop component defined inline
 const ScrollToTop: React.FC = () => {
@@ -41,6 +42,7 @@ const router = createBrowserRouter([
       { path: '/about', element: <About /> },
       { path: '/services', element: <Services /> },
       { path: '/blog', element: <Blog /> },
+      { path: '/post', element: <BlogPage /> },
       { path: '/event', element: <Event /> },
       { path: '/gallery', element: <Gallery /> },
       { path: '/contact-us', element: <Contact /> },

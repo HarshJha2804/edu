@@ -331,12 +331,12 @@ const Services = () => {
 
 
 
-      <div className=" w-[100vw] h-[100vh] overflow-auto body ">
+      <div className="w-[100vw] h-[110vh] overflow-auto body ">
 
         <div className="scroll-div-container overflow-y-scroll">
           {serviceData.map((data) => (
             <section>
-              <div className={`sticky top-0 h-[100vh] justify-center items-center flex`} style={{ backgroundColor: data.bgcolor, backgroundImage: `url(${data.bgimg})`, backgroundPosition: "center", backgroundSize: "contain", backgroundRepeat: 'no-repeat' }} >
+              <div className={`sticky top-0 h-[110vh] justify-center items-center flex`} style={{ backgroundColor: data.bgcolor, backgroundImage: `url(${data.bgimg})`, backgroundPosition: "center", backgroundSize: "contain", backgroundRepeat: 'no-repeat' }} >
                 <div className="container mx-auto m-16 p-8 md:p-16 ">
                   {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
 

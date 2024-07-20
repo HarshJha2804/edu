@@ -3,11 +3,12 @@ import Herosection from "./Herosection"
 import Missionstatement from "./Missionstatement"
 import Scrollanimation from "../Scrollanimation/Scrollanimation";
 import Universitysection from "./Universitylogos";
-import Services from "./Services";
+
 import ServiceSector from "./ServiceSector";
 import Numbers from "./Numbers";
 import Youtubeevideo from "./Youtubeevideo";
 import Blog from "./Blog";
+import HomeServices from "./homeServices";
 
 
 const Home = () => {
@@ -41,7 +42,7 @@ const Home = () => {
         </Scrollanimation>
 
         <Scrollanimation>
-          <Services />
+          <HomeServices />
         </Scrollanimation>
 
         <Scrollanimation>
