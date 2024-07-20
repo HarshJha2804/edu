@@ -7,11 +7,16 @@ import serviceFifth from "../../assets/Services/service-fifth.webp"
 import serviceSixth from "../../assets/Services/service-sixth.webp"
 import serviceBg from "../../assets/Services/servicebg-first.png"
 import Scrollanimation from "../Scrollanimation/Scrollanimation"
+import serviceSecondBg from "../../assets/Services/service-second-bg.png"
+import serviceThirdBg from "../../assets/Services/service-third-bg.png"
+import serviceFouthBg from "../../assets/Services/service-fourth-bg.png"
+import serviceFifthBg from "../../assets/Services/service-fifth-bg.png"
+import serviceSixthBg from "../../assets/Services/service-sixth-bg.png"
 const Services = () => {
   const serviceData = [
     {
       bgimg: serviceBg,
-      number: "1",
+      number: 1,
       bgPastelColor: "#0E265A",
       bgcolor: '#012a4a',
       img: serviceFirst,
@@ -20,7 +25,8 @@ const Services = () => {
       description: "We establish a seamless international  office on your campus, dedicated to promoting global engagement.This office serves as a central hub for coordinating various international services and academic collaborations with institutions worldwide.It facilitates the efficient management of study abroad programs, enhances cross- cultural communication, and integrates global perspectives into campus and educational initiatives.",
     },
     {
-      number: "2",
+      bgimg: serviceSecondBg,
+      number: 2,
       bgPastelColor: "#edf2fb",
       bgcolor: '#690500',
       img: serviceSecond,
@@ -29,16 +35,18 @@ const Services = () => {
       description: "We empower institutions to explore a multitude of academic and cultural opportunities through our global network. This facilitates exchange programs, international study opportunities, and enriches the educational experience. Engaging with such a diverse community of institutions allows our partners to broaden academic horizons, gain valuable international perspectives, and develop essential skills for success in today's interconnected world",
     },
     {
-      number: "3",
-      bgPastelColor: "#f8edeb",
-      bgcolor: '#EBAF26',
+      bgimg: serviceThirdBg,
+      number: 3,
+      bgPastelColor: "#BE8B05",
+      bgcolor: '#DFAF1D',
       img: serviceThird,
       alt: "Student happy to see the enrollment process is easy",
       title: "Streamlined Enrollment and Career prospects",
       description: "We strive to enhance placement/admission prospects by refining procedures from application to admission.We streamline processes and leverage technology to reduce administrative  complexities and ensure efficiency for institutions.We manage all applications through the digital partner dashboard, as well as their communications, in one spot. Our goal is to provide clear  guidance and robust support, empowering our partners to navigate requirements effectively and secure placements that align with their academic and career aspirations",
     },
     {
-      number: "4",
+      bgimg: serviceFouthBg,
+      number: 4,
       bgPastelColor: "#f4f4d5",
       bgcolor: '#0E1C36',
       img: serviceFourth,
@@ -47,7 +55,8 @@ const Services = () => {
       description: "Our team of experts combines deep industry knowledge with cutting-edge research methodologies to provide tailored solutions that meet the unique challenges of today's competitive landscape. We empower institutions to capitalize on emerging trends, anticipate market shifts, and seize growth opportunities. By leveraging our strategic guidance and forward-thinking approach, education providers can achieve sustainable growth and maintain a leadership position in their domain.",
     },
     {
-      number: "5",
+      bgimg: serviceFifthBg,
+      number: 5,
       bgPastelColor: '#F18805',
       bgcolor: '#F18805',
       img: serviceFifth,
@@ -56,7 +65,8 @@ const Services = () => {
       description: "Comprehensive support and training encompass a robust framework designed to empower institutions with the skills, knowledge, and resources they need to succeed. Our approach includes personalized guidance, hands-on training sessions, and access to a diverse range of educational materials. We prioritize continuous learning and development, ensuring that our clients are equipped to navigate challenges, optimize processes, and achieve their goals effectively. With tailored support and ongoing training initiatives, we aim to foster a culture of growth, innovation, and excellence within every facet of our engagement.",
     },
     {
-      number: "6",
+      bgimg: serviceSixthBg,
+      number: 6,
       bgPastelColor: '#ebf4f5',
       bgcolor: '#0D1F22',
       img: serviceSixth,
@@ -296,19 +306,19 @@ const Services = () => {
             <div className="container mx-auto m-16 p-8 md:p-16 ">
               {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-24  ">
-                <div className="relative overflow-hidden zoom-image-container rounded-3xl">
-                  {/* <Scrollanimation> */}
-                  {/* <img src={data.img} alt={data.alt} className="h-[60vh] object-cover zoom-image" /> */}
-                  {/* </Scrollanimation> */}
-                </div>
-                <div className="flex flex-col justify-end gap-16">
+              <div className={`flex gap-4 md:gap-24 `} style={{ flexDirection: data.number % 2 === 0 ? 'row-reverse' : 'row' }}>
+                <div className="flex flex-1"></div>
+                {/* <Scrollanimation> */}
+                {/* <img src={data.img} alt={data.alt} className="h-[60vh] object-cover zoom-image" /> */}
+                {/* </Scrollanimation> */}
+
+                <div className="flex flex-1 flex-col justify-end md:gap-16 lg:gap-20">
                   {/* <Scrollanimation> */}
                   {/* <p className="text-[1.75rem] md:text-[5rem] text-white leading-[2.4rem]">{data.number}</p> */}
                   {/* </Scrollanimation> */}
                   <div className="flex flex-col gap-2">
                     <Scrollanimation>
-                      <p className="text-[1.75rem] md:text-[2rem] text-white">{data.title}</p>
+                      <p className="text-[1.75rem]  md:text-[3rem] lg:text-[3.5rem] lg:leading-[3.5rem] text-white">{data.title}</p>
                     </Scrollanimation>
                     <Scrollanimation>
                       <p className="text-white text-[1rem] md:text-[1.25rem] font-extralight flex flex-1">{data.description}</p>
@@ -320,7 +330,7 @@ const Services = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div >
 
 
 
