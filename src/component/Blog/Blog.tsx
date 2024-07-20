@@ -33,8 +33,8 @@ const Blog = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-8 justify-center">
                     {Blogdata.map((data) => (
-                        <div className="border-[1px] border-borderColor rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm bg-white">
-                            <div className="zoom-image-container overflow-hidden rounded-xl ">
+                        <div className="border-[1px] border-borderColor rounded-md md:rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm bg-white">
+                            <div className="zoom-image-container overflow-hidden rounded-md md:rounded-xl ">
                                 <img src={data.img} alt="" className="w-[100%] object-cover zoom-image" />
                             </div>
                             <div className="py-4 flex flex-col gap-1 items-start">
