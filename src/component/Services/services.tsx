@@ -42,7 +42,7 @@ const Services = () => {
       img: serviceThird,
       alt: "Student happy to see the enrollment process is easy",
       title: "Streamlined Enrollment and Career prospects",
-      description: "We strive to enhance placement/admission prospects by refining procedures from application to admission.We streamline processes and leverage technology to reduce administrative  complexities and ensure efficiency for institutions.We manage all applications through the digital partner dashboard, as well as their communications, in one spot. Our goal is to provide clear  guidance and robust support, empowering our partners to navigate requirements effectively and secure placements that align with their academic and career aspirations",
+      description: "We strive to enhance admission prospects by refining procedures from application to admission.We streamline processes and leverage technology to reduce administrative  complexities and ensure efficiency for institutions.We manage all applications through the digital partner dashboard, as well as their communications, in one spot. Our goal is to provide clear  guidance and robust support, empowering our partners to navigate requirements effectively and secure admission that align with their academic and career aspirations",
     },
     {
       bgimg: serviceFouthBg,
@@ -299,23 +299,19 @@ const Services = () => {
 
 
 
-      <div className="">
+      {/* <div className="">
         {serviceData.map((data) => (
 
           <div className={`sticky top-0 h-[100vh] justify-center items-center flex`} style={{ backgroundColor: data.bgcolor, backgroundImage: `url(${data.bgimg})`, backgroundPosition: "center", backgroundSize: "contain", backgroundRepeat: 'no-repeat' }} >
             <div className="container mx-auto m-16 p-8 md:p-16 ">
-              {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
+  
 
               <div className={`flex gap-4 md:gap-24 `} style={{ flexDirection: data.number % 2 === 0 ? 'row-reverse' : 'row' }}>
                 <div className="flex flex-1"></div>
-                {/* <Scrollanimation> */}
-                {/* <img src={data.img} alt={data.alt} className="h-[60vh] object-cover zoom-image" /> */}
-                {/* </Scrollanimation> */}
+             
 
                 <div className="flex flex-1 flex-col justify-end md:gap-16 lg:gap-20">
-                  {/* <Scrollanimation> */}
-                  {/* <p className="text-[1.75rem] md:text-[5rem] text-white leading-[2.4rem]">{data.number}</p> */}
-                  {/* </Scrollanimation> */}
+                
                   <div className="flex flex-col gap-2">
                     <Scrollanimation>
                       <p className="text-[1.75rem]  md:text-[3rem] lg:text-[3.5rem] lg:leading-[3.5rem] text-white">{data.title}</p>
@@ -330,7 +326,67 @@ const Services = () => {
             </div>
           </div>
         ))}
+      </div > */}
+
+
+
+
+      <div className=" w-[100vw] h-[100vh] overflow-auto body ">
+
+        <div className="scroll-div-container overflow-y-scroll">
+          {serviceData.map((data) => (
+            <section>
+              <div className={`sticky top-0 h-[100vh] justify-center items-center flex`} style={{ backgroundColor: data.bgcolor, backgroundImage: `url(${data.bgimg})`, backgroundPosition: "center", backgroundSize: "contain", backgroundRepeat: 'no-repeat' }} >
+                <div className="container mx-auto m-16 p-8 md:p-16 ">
+                  {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
+
+                  <div className={`flex gap-4 md:gap-24 `} style={{ flexDirection: data.number % 2 === 0 ? 'row-reverse' : 'row' }}>
+                    <div className="flex flex-1"></div>
+                    {/* <Scrollanimation> */}
+                    {/* <img src={data.img} alt={data.alt} className="h-[60vh] object-cover zoom-image" /> */}
+                    {/* </Scrollanimation> */}
+
+                    <div className="flex flex-1 flex-col justify-end md:gap-16 lg:gap-20">
+                      {/* <Scrollanimation> */}
+                      {/* <p className="text-[1.75rem] md:text-[5rem] text-white leading-[2.4rem]">{data.number}</p> */}
+                      {/* </Scrollanimation> */}
+                      <div className="flex flex-col gap-2">
+                        <Scrollanimation>
+                          <p className="text-[1.75rem]  md:text-[3rem] lg:text-[3.5rem] lg:leading-[3.5rem] text-white">{data.title}</p>
+                        </Scrollanimation>
+                        <Scrollanimation>
+                          <p className="text-white text-[1rem] md:text-[1.25rem] font-extralight flex flex-1">{data.description}</p>
+                        </Scrollanimation>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </section>
+          ))}
+        </div>
       </div >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
