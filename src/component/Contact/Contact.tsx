@@ -27,31 +27,31 @@ const Contact = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 w-[100%] gap-8">
               <div className="grid grid-rows-2 items-start">
                 <label htmlFor="name" className="text-[1rem]">Full Name</label>
-                <input type="text" className="p-2 border-b-[2px] border-black contactus-form-input w-[100%] bg-transparent font-light text-[1.25rem]" placeholder="Enter your full name" />
+                <input type="text" className="p-2 contactus-form-input" placeholder="Enter your full name" />
               </div>
 
               <div className="grid grid-rows-2 items-start ">
                 <label htmlFor="name" className="text-[1rem]">Email
                   <span className="text-red-500 ml-1">*</span></label>
-                <input required type="email" className="p-2 border-[2px] border-black contactus-form-input w-[100%] bg-transparent font-light text-[1.25rem]" placeholder="Enter your email address" />
+                <input required type="email" className="p-2 contactus-form-input" placeholder="Enter your email address" />
               </div>
             </div>
 
             <div className="grid grid-rows-2 items-start ">
               <label htmlFor="name" className="text-[1rem]">Mobile Number
                 <span className="text-red-500 ml-1">*</span></label>
-              <input required type="tel" className="p-2 border-[2px] border-black contactus-form-input w-[100%] bg-transparent font-light text-[1.25rem]" placeholder="Enter your mobile number" />
+              <input required type="tel" className="p-2 contactus-form-input " placeholder="Enter your mobile number" />
             </div>
 
             <div className="grid grid-rows-2 items-start ">
               <label htmlFor="name" className="text-[1rem]">Message
                 <span className="text-red-500 ml-1">*</span></label>
 
-              <textarea name="" id="" className="p-2 border-[2px] border-black contactus-form-input h-[3rem] w-[100%] bg-transparent font-light text-[1.25rem]" placeholder="Enter your message"></textarea>
+              <textarea name="" id="" className="p-2 contactus-form-input h-[3rem] " placeholder="Enter your message"></textarea>
             </div>
 
             <div>
-              <button className="primary-button border-[1px] p-[2rem] text-[20px] md:mt-8"> Submit</button>
+              <button className="primary-button border-[1px] p-[2rem] text-[1rem] md:mt-8"> Submit</button>
             </div>
 
           </form>

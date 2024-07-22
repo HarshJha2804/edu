@@ -33,21 +33,23 @@ const Blog = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-8 justify-center">
                     {Blogdata.map((data) => (
-                        <div className="border-[1px] border-borderColor rounded-md md:rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm bg-white">
-                            <div className="zoom-image-container overflow-hidden rounded-md md:rounded-xl ">
-                                <img src={data.img} alt="" className="w-[100%] object-cover" />
-                            </div>
-                            <div className="py-4 flex flex-col gap-1 items-start">
-                                <p className="text-[1.25rem] leading-[1.25rem] md:text-[1.5rem] md:leading-[1.6rem] font-medium text-textColor">{data.title}</p>
-                                <p className="text-textColor font-normal overflow-hidden whitespace-nowrap text-ellipsis w-[90%]">{data.description}</p>
-                                <Link to="/post">
-                                    <button className="flex flex-row gap-0.5 items-center justify-end primary-button-second p-0 "> Read More
-                                        <Icon icon="ci:arrow-up-md" className="text-textColor rotate-45" fontSize={20} />
-                                    </button>
-                                </Link>
-                            </div>
+                        <Link to="/post">
+                            <div className="border-[1px] border-borderColor rounded-md md:rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm bg-white">
+                                <div className="zoom-image-container overflow-hidden rounded-md md:rounded-xl ">
+                                    <img src={data.img} alt="" className="w-[100%] object-cover" />
+                                </div>
+                                <div className="py-4 flex flex-col gap-1 items-start">
+                                    <p className="text-[1.25rem] leading-[1.25rem] md:text-[1.5rem] md:leading-[1.6rem] font-medium text-textColor">{data.title}</p>
+                                    <p className="text-textColor font-normal overflow-hidden whitespace-nowrap text-ellipsis w-[90%]">{data.description}</p>
+                                    <Link to="/post">
+                                        <button className="flex flex-row gap-0.5 items-center justify-end primary-button-second p-0 "> Read More
+                                            <Icon icon="ci:arrow-up-md" className="text-textColor rotate-45" fontSize={20} />
+                                        </button>
+                                    </Link>
+                                </div>
 
-                        </div>
+                            </div>
+                        </Link>
                     ))}
 
                 </div>

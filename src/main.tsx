@@ -6,13 +6,14 @@ import Home from './component/Home/Home';
 import Layout from './Layout';
 import About from './component/About/about';
 import Services from './component/Services/services';
-import Signup from './component/Signup/Signup';
+// import Signup from './component/login&signup/LoginAndSignup';
 import Event from './component/Event/Event';
 import Gallery from './component/Gallery/Gallery';
 import Contact from './component/Contact/Contact';
-import Login from './component/Login/Login';
+// import Login from './component/Login/Login';
 import Blog from './component/Blog/Blog';
 import BlogPage from './component/Home/BlogPage';
+import LoginAndSignup from './component/login&signup/LoginAndSignup';
 
 // ScrollToTop component defined inline
 const ScrollToTop: React.FC = () => {
@@ -46,8 +47,8 @@ const router = createBrowserRouter([
       { path: '/event', element: <Event /> },
       { path: '/gallery', element: <Gallery /> },
       { path: '/contact-us', element: <Contact /> },
-      { path: '/login', element: <Login /> },
-      { path: '/signup', element: <Signup /> },
+      { path: '/login', element: <LoginAndSignup /> },
+      { path: '/signup', element: <LoginAndSignup /> },
     ],
   },
 ]);

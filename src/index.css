@@ -8,8 +8,9 @@
   line-height: 1.5;
   color-scheme: light dark;
   text-rendering: optimizeLegibility;
-  --primary-color: #2563EB ;
+  --primary-color: #2563EB ;  /* #1C2354 */
   --icon-color:#5667FF;
+  --border-color:#e0e0e0;
   --secondary-color: #363F4D;
   --primary-text-color: #070707;
   --secondary-text-color:#445164;
@@ -341,11 +342,26 @@ transform: scale(1.05);
 
 .contactus-form-input{
   border-style: none none solid none;
+  border-bottom: 2px solid black;
+  width: 100%;
+  background: transparent;
+  font-weight: 300; /* This corresponds to 'font-light' in Tailwind */
+  font-size: 1.25rem;
 
 }
 
 .contactus-form-input:focus{
   outline: 0px;
   border-color: var(--primary-color);
+}
+
+.input-style{
+  font-weight: 300; 
+  font-size: 1rem;
+  background: transparent;
+  border-width: 0.75px ;
+  border-color: var(--border-color);
+  border-radius: 0.35rem;
+  padding: 0.5rem 1rem;
 }
 
