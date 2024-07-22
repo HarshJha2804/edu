@@ -10,14 +10,14 @@ const Event = () => {
         <>
             <div className="relative w-[100%] h-[100%] ">
                 <img src={eventBg} alt="" className="object-cover brightness-[40%] h-[100vh] w-[100%] " />
-                <h1 className="absolute top-[46%] left-[49%] text-[1.75rem] text-white md:text-[2rem] lg:text-[4rem]">Blog</h1>
+                <h1 className="absolute top-[46%] left-[49%] text-[1.75rem] text-white md:text-[2rem] lg:text-[4rem]">Event</h1>
             </div>
             <div className="container mx-auto px-8 md:px-16 flex flex-col my-16 md:my-32 blog-div">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-8 justify-center">
 
-                    <div className="border-[1px] border-borderColor rounded-md md:rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm bg-white flex flex-col">
-                        <div className='zoom-image-container overflow-hidden rounded-md md:rounded-xl  max-h-[14.5rem]'>
-                            <img src={eventImg} alt="" className='object-cover' />
+                    <div className="border-[1px] border-borderColor rounded-md md:rounded-xl px-4 pt-4 pb-8 bg-white flex flex-col">
+                        <div className='zoom-image-container overflow-hidden rounded-md md:rounded-xl max-h-[14.5rem] hover:cursor-pointer'>
+                            <img src={eventImg} alt="" className='object-cover zoom-image' />
                         </div>
                         <div className='flex flex-col gap-4'>
 
@@ -53,9 +53,9 @@ const Event = () => {
 
 
 
-                    <div className="border-[1px] border-borderColor rounded-md md:rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm bg-white flex flex-col">
-                        <div className='zoom-image-container overflow-hidden rounded-md md:rounded-xl max-h-[14.5rem]'>
-                            <img src={eventImgSecond} alt="" className='object-cover' />
+                    <div className="border-[1px] border-borderColor rounded-md md:rounded-xl px-4 pt-4 pb-8 bg-white flex flex-col">
+                        <div className='zoom-image-container overflow-hidden rounded-md md:rounded-xl max-h-[14.5rem] hover:cursor-pointer'>
+                            <img src={eventImgSecond} alt="" className='object-cover zoom-image' />
                         </div>
 
                         <div className='flex flex-col gap-4'>
@@ -86,9 +86,9 @@ const Event = () => {
 
                     </div>
 
-                    <div className="border-[1px] border-borderColor rounded-md md:rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm bg-white flex flex-col">
-                        <div className='zoom-image-container overflow-hidden rounded-md md:rounded-xl max-h-[14.5rem]'>
-                            <img src={eventImgThird} alt="" className='object-cover ' />
+                    <div className="border-[1px] border-borderColor rounded-md md:rounded-xl px-4 pt-4 pb-8 bg-white flex flex-col">
+                        <div className='zoom-image-container overflow-hidden rounded-md md:rounded-xl max-h-[14.5rem] hover:cursor-pointer'>
+                            <img src={eventImgThird} alt="" className='object-cover zoom-image' />
                         </div>
 
                         <div className='flex flex-col gap-4'>

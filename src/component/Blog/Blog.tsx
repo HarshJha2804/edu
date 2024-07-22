@@ -35,7 +35,7 @@ const Blog = () => {
                     {Blogdata.map((data) => (
                         <div className="border-[1px] border-borderColor rounded-md md:rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm bg-white">
                             <div className="zoom-image-container overflow-hidden rounded-md md:rounded-xl ">
-                                <img src={data.img} alt="" className="w-[100%] object-cover zoom-image" />
+                                <img src={data.img} alt="" className="w-[100%] object-cover" />
                             </div>
                             <div className="py-4 flex flex-col gap-1 items-start">
                                 <p className="text-[1.25rem] leading-[1.25rem] md:text-[1.5rem] md:leading-[1.6rem] font-medium text-textColor">{data.title}</p>
