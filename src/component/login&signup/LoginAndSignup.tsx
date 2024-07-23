@@ -1,5 +1,5 @@
 // src/SignInForm.tsx
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import bgimg from "../../assets/Homepage/Herosection/background-img.jpg";
 import { useLocation } from "react-router-dom";
 const LoginAndSignup: React.FC = () => {
@@ -8,10 +8,19 @@ const LoginAndSignup: React.FC = () => {
   const location = useLocation();
   const isLoginPath = location.pathname.includes('./login')
   const isSignupPath = location.pathname.includes('./signup')
-  const [activeTab, setActvieTab] = useState('tab1')
-  const handleClick = (tabname: any) => {
-    setActvieTab(tabname)
+  const [activeTab, setActvieTab] = useState<'tab1' | 'tab2'>('tab1');
+  useEffect(() => {
+    if (location.pathname === '/login') {
+      setActvieTab('tab1')
+    } else if (location.pathname === '/signup') {
+      setActvieTab('tab2')
+    }
+  }, [location.pathname]);
+
+  const handleClick = (tabName: 'tab1' | 'tab2') => {
+    setActvieTab(tabName)
   }
+
   return (
     <>
       {/* <div className="form-container" style={{display:'grid', gridTemplateColumns:'60vw 40vw' }}>
