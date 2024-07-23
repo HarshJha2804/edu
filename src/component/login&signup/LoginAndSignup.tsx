@@ -71,7 +71,7 @@ const LoginAndSignup: React.FC = () => {
 
 
 
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.75fr_1fr] p-8 gap-4 h-[100vh] pt-28'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.75fr_1fr] p-8 gap-4 h-[100vh] lg:pt-28'>
 
         <div className=''>
           <img src={bgimg} alt="" className='object-cover h-[100%] rounded-2xl' />
@@ -89,8 +89,7 @@ const LoginAndSignup: React.FC = () => {
                 <div className={`${activeTab === 'tab1' ? 'primary-button border-[1px] border-primary' : 'primary-button-outline rounded-3xl'} tab-link hover:cursor-pointer`} onClick={() => handleClick("tab1")}>Login </div>
                 <div className={`${activeTab === 'tab2' ? 'primary-button border-[1px] border-primary' : 'primary-button-outline rounded-3xl'} tab-link hover:cursor-pointer`} onClick={() => handleClick("tab2")}>Sign up</div>
               </div>
-
-
+              { }
 
 
               {activeTab === "tab1" &&
