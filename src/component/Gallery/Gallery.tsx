@@ -93,12 +93,12 @@ const Gallery = () => {
                 {/* Empowering, */}
                 Meet Our Team
               </h2>
-              <div className="tooltip-dark">
-                <span className="tooltiptext-dark"> Drag to right</span>
+              <span className="tooltiptext-dark"> Drag to right</span>
+              {/* <div className="tooltip-dark">
                 <div className="p-6 border-[1px] border-white w-[fit-content] rounded-full">
                   <Icon icon="ci:arrow-up-md" className="text-white rotate-90" fontSize={32} />
                 </div>
-              </div>
+              </div> */}
 
             </div>
             <img src={gallery1} alt="" draggable="false" className="draggable-img" />
