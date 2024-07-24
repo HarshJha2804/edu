@@ -6,8 +6,8 @@ const LoginAndSignup: React.FC = () => {
 
 
   const location = useLocation();
-  const isLoginPath = location.pathname.includes('./login')
-  const isSignupPath = location.pathname.includes('./signup')
+  // const isLoginPath = location.pathname.includes('./login')
+  // const isSignupPath = location.pathname.includes('./signup')
   const [activeTab, setActvieTab] = useState<'tab1' | 'tab2'>('tab1');
   useEffect(() => {
     if (location.pathname === '/login') {

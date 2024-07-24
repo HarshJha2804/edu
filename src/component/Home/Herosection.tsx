@@ -1,58 +1,58 @@
 
 
 
-import { useEffect, useState } from "react";
-import slider1 from '../../assets/Homepage/Herosection/envision1.jpg';
-import slider2 from '../../assets/Homepage/Herosection/slider2.webp';
-import slider3 from '../../assets/Homepage/Herosection/slider3.webp';
-import slider4 from '../../assets/Homepage/Herosection/slider4.webp';
-import slider5 from '../../assets/Homepage/Herosection/slider5.webp';
-import slider6 from '../../assets/Homepage/Herosection/slider6.webp';
-import slider7 from '../../assets/Homepage/Herosection/slider7.webp';
-import slider8 from '../../assets/Homepage/Herosection/slider8.webp';
-import slider9 from '../../assets/Homepage/Herosection/slider9.webp';
-import slider10 from '../../assets/Homepage/Herosection/slider10.webp';
+// import { useEffect, useState } from "react";
+// import slider1 from '../../assets/Homepage/Herosection/envision1.jpg';
+// import slider2 from '../../assets/Homepage/Herosection/slider2.webp';
+// import slider3 from '../../assets/Homepage/Herosection/slider3.webp';
+// import slider4 from '../../assets/Homepage/Herosection/slider4.webp';
+// import slider5 from '../../assets/Homepage/Herosection/slider5.webp';
+// import slider6 from '../../assets/Homepage/Herosection/slider6.webp';
+// import slider7 from '../../assets/Homepage/Herosection/slider7.webp';
+// import slider8 from '../../assets/Homepage/Herosection/slider8.webp';
+// import slider9 from '../../assets/Homepage/Herosection/slider9.webp';
+// import slider10 from '../../assets/Homepage/Herosection/slider10.webp';
 import { Carousel } from "./Carousel";
 
 
 const Herosection = () => {
-    interface SliderData {
-        image: string;
-        text: string;
-    }
+    // interface SliderData {
+    //     image: string;
+    //     text: string;
+    // }
 
-    const [scrollProgress, setScrollProgress] = useState<number>(0);
+    // const [scrollProgress, setScrollProgress] = useState<number>(0);
 
-    const updateScrollProgress = () => {
-        const scrollPosition = window.scrollY;
-        const windowHeight = window.innerHeight;
-        const documentHeight = 100;
-        const maxScroll = documentHeight - windowHeight;
-        const scrollFraction = (scrollPosition / maxScroll) * 100;
-        setScrollProgress(scrollFraction);
-    };
+    // const updateScrollProgress = () => {
+    //     const scrollPosition = window.scrollY;
+    //     const windowHeight = window.innerHeight;
+    //     const documentHeight = 100;
+    //     const maxScroll = documentHeight - windowHeight;
+    //     const scrollFraction = (scrollPosition / maxScroll) * 100;
+    //     setScrollProgress(scrollFraction);
+    // };
 
-    useEffect(() => {
-        const handleScroll = () => {
-            updateScrollProgress();
-        };
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         updateScrollProgress();
+    //     };
 
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
+    //     window.addEventListener("scroll", handleScroll);
+    //     return () => window.removeEventListener("scroll", handleScroll);
+    // }, []);
 
-    const sliderData: SliderData[] = [
-        { image: slider1, text: 'We empower you to look beyond the present moment and envision greater possibilities' },
-        { image: slider2, text: 'Streamline the enrollment process and enhance student placement opportunities' },
-        { image: slider3, text: 'Establish an international University office at your campus effortlessly' },
-        { image: slider4, text: 'Connect your students with over 300 prestigious university partners worldwide' },
-        { image: slider5, text: 'Amplify your institutions presence on the global stage' },
-        { image: slider6, text: 'Strategic marketing support tailored to boost visibility and attract diverse student demographics' },
-        { image: slider7, text: 'Access industry-leading insights to stay ahead in the competitive education sector' },
-        { image: slider8, text: 'Customized educational strategies aligned with your institution’s goals and vision' },
-        { image: slider9, text: 'Administrative and operational support to optimize efficiency and effectiveness' },
-        { image: slider10, text: 'Support and training for faculty and staff as per the market requirements' }
-    ];
+    // const sliderData: SliderData[] = [
+    //     { image: slider1, text: 'We empower you to look beyond the present moment and envision greater possibilities' },
+    //     { image: slider2, text: 'Streamline the enrollment process and enhance student placement opportunities' },
+    //     { image: slider3, text: 'Establish an international University office at your campus effortlessly' },
+    //     { image: slider4, text: 'Connect your students with over 300 prestigious university partners worldwide' },
+    //     { image: slider5, text: 'Amplify your institutions presence on the global stage' },
+    //     { image: slider6, text: 'Strategic marketing support tailored to boost visibility and attract diverse student demographics' },
+    //     { image: slider7, text: 'Access industry-leading insights to stay ahead in the competitive education sector' },
+    //     { image: slider8, text: 'Customized educational strategies aligned with your institution’s goals and vision' },
+    //     { image: slider9, text: 'Administrative and operational support to optimize efficiency and effectiveness' },
+    //     { image: slider10, text: 'Support and training for faculty and staff as per the market requirements' }
+    // ];
 
     return (
         <>

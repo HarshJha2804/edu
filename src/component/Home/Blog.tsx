@@ -2,14 +2,14 @@ import { Icon } from "@iconify/react/dist/iconify.js"
 import blogFirst from "../../assets/Homepage/Blogs/blog-first.jpg"
 import blogSecond from "../../assets/Homepage/Blogs/blog-second.png"
 import blogThird from "../../assets/Homepage/Blogs/blog-third.png"
-import BlogPage from "./BlogPage"
+// import BlogPage from "./BlogPage"
 import { Link } from "react-router-dom"
 
-interface Blogdata {
-    img: string,
-    title: string,
-    description: string
-}
+// interface Blogdata {
+//     img: string,
+//     title: string,
+//     description: string
+// }
 const Blog = () => {
     const Blogdata = [
         {

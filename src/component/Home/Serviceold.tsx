@@ -25,28 +25,28 @@
 
 // export default Service
 
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import school from "../../assets/Homepage/Services/school.webp";
 
 const Service = () => {
-    const [scale, setScale] = useState(1);
+    // const [scale, setScale] = useState(1);
 
-    useEffect(() => {
-        const handleScroll = () => {
-            const scrollPosition = window.scrollY;
-            const newScale = 1 + scrollPosition / 2600; // Adjust the divisor to control scaling speed
-            setScale(newScale);
-            // const newScale2 = 1 + scrollPosition / 9000; // Adjust the divisor to control scaling speed
-            // setScale(newScale2);
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         const scrollPosition = window.scrollY;
+    //         const newScale = 1 + scrollPosition / 2600; // Adjust the divisor to control scaling speed
+    //         setScale(newScale);
+    //         // const newScale2 = 1 + scrollPosition / 9000; // Adjust the divisor to control scaling speed
+    //         // setScale(newScale2);
 
-        };
+    //     };
 
-        window.addEventListener('scroll', handleScroll);
+    //     window.addEventListener('scroll', handleScroll);
 
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+    //     return () => {
+    //         window.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, []);
 
     return (
         <>
@@ -77,14 +77,14 @@ const Service = () => {
             </div> */}
             <div className="w-[100vw] h-[100vh]">
                 <div className="content w-[100vw] h-[110vh] overflow-hidden bg-black flex justify-center items-center">
-                    <h3 className="text-white text-[2rem]" style={{ transform: `scale(${scale})` }}>Industries Served</h3>
+                    <h3 className="text-white text-[2rem]" >Industries Served</h3>
                 </div>
                 <div className='content h-[100vh] overflow-hidden'>
                     <img
                         src={school}
                         alt="Scaling"
                         style={{
-                            transform: `scale(${scale})`,
+                            // transform: `scale(${scale})`,
                             objectFit: 'cover',
                             filter: 'brightness(70%)'
                         }}

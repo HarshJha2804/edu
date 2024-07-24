@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import school from "../../assets/Homepage/Services/school.webp";
 import schoolfirst from "../../assets/Homepage/service-sector/school-first.png"
 // import schoolSecond from "../../assets/Homepage/service-sector/school-second.webp"
@@ -15,8 +15,8 @@ import learningFirst from "../../assets/Homepage/service-sector/learningcentre-f
 // import learningThird from "../../assets/Homepage/service-sector/learning-third.webp"
 // import learningFourth from "../../assets/Homepage/service-sector/learning-fourth.webp"
 const ServiceSector = () => {
-    const [scale, setScale] = useState(1);
-    const [opacityScroll, setOpacityScroll] = useState(false);
+    // const [scale, setScale] = useState(1);
+    // const [opacityScroll, setOpacityScroll] = useState(false);
 
     const IndustryService = [
         {
@@ -51,25 +51,25 @@ const ServiceSector = () => {
         }
     ]
 
-    useEffect(() => {
-        const handleScroll = () => {
-            const scrollPosition = window.scrollY;
-            const newScale = 1 + scrollPosition / 2600; // Adjust the divisor to control scaling speed
-            setScale(newScale);
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         const scrollPosition = window.scrollY;
+    //         const newScale = 1 + scrollPosition / 2600; // Adjust the divisor to control scaling speed
+    //         setScale(newScale);
 
-            if (scrollPosition <= window.innerHeight) {
-                setOpacityScroll(true);
-            } else {
-                setOpacityScroll(false);
-            }
-        };
+    //         if (scrollPosition <= window.innerHeight) {
+    //             setOpacityScroll(true);
+    //         } else {
+    //             setOpacityScroll(false);
+    //         }
+    //     };
 
-        window.addEventListener('scroll', handleScroll);
+    //     window.addEventListener('scroll', handleScroll);
 
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+    //     return () => {
+    //         window.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, []);
     return (
         <>
             {/* <div className="w-[100vw] h-[100vh]">
@@ -101,7 +101,7 @@ const ServiceSector = () => {
 
                 <div className="flex flex-col content justify-center items-center ">
                     <h4 className="text-[1.75rem] md:text-[3rem] lg:text-[3.5rem] font-medium leading-[3rem]">Industries Served</h4>
-                    <p className={`text-[black] text-[1rem] md:text-[1.5rem] font-light leading-tight} ${opacityScroll ? 'opacity-0' : 'opacity-100'}`}> Innovating Education for a Global Future</p>
+                    <p className={`text-[black] text-[1rem] md:text-[1.5rem] font-light leading-tight} `}> Innovating Education for a Global Future</p>
                 </div>
 
 

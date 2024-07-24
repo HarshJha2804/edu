@@ -8,7 +8,7 @@ import gallery6 from "../../assets/Gallery/gallery-6.jpg"
 import gallery7 from "../../assets/Gallery/gallery-7.jpg"
 import gallery8 from "../../assets/Gallery/gallery-8.jpg"
 import { useEffect, useRef, useState } from "react"
-import { Icon } from "@iconify/react/dist/iconify.js"
+// import { Icon } from "@iconify/react/dist/iconify.js"
 
 const Gallery = () => {
   const trackRef = useRef<HTMLDivElement>(null);
