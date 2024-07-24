@@ -109,6 +109,7 @@ const Header = () => {
                    "text-black"
                        hover:text-opacity-70 p-2  text-[18px]`
                   }
+                  onClick={handleclose}
                 >
                   Home
                 </NavLink>
@@ -121,6 +122,7 @@ const Header = () => {
                     }
                      hover:text-opacity-70 p-2 text-[18px]`
                   }
+                  onClick={handleclose}
                 >
                   About
                 </NavLink>
@@ -133,6 +135,7 @@ const Header = () => {
                     }
                       hover:text-opacity-70 p-2 text-[18px]`
                   }
+                  onClick={handleclose}
                 >
                   Services
                 </NavLink>
@@ -146,6 +149,7 @@ const Header = () => {
                     ` ${isActive ? "font-normal" : ""}   "text-black"
                   } hover:text-opacity-70 p-2 text-[18px]`
                   }
+                  onClick={handleclose}
                 >
                   Blog
                 </NavLink>
@@ -158,6 +162,7 @@ const Header = () => {
                     ` ${isActive ? "font-normal" : ""}   "text-black" 
                   } hover:text-opacity-70 p-2 text-[18px]`
                   }
+                  onClick={handleclose}
                 >
                   Event
                 </NavLink>
@@ -170,6 +175,7 @@ const Header = () => {
                     ` ${isActive ? "font-normal" : ""}  "text-white"
                   } hover:text-opacity-70 p-2 text-[18px]`
                   }
+                  onClick={handleclose}
                 >
                   Gallery
                 </NavLink>
@@ -182,6 +188,7 @@ const Header = () => {
                     ` ${isActive ? "font-normal" : ""}   "text-black"
                   } hover:text-opacity-70 p-2 text-[18px]`
                   }
+                  onClick={handleclose}
                 >
                   Contact Us
                 </NavLink>
@@ -196,6 +203,7 @@ const Header = () => {
                     }
                      hover:text-opacity-70 p-2`
                   }
+                  onClick={handleclose}
                 >
                   <button aria-label="Login" className="p-0 text-[18px]">
                     Login
@@ -213,6 +221,7 @@ const Header = () => {
                     <button
                       className={`px-4 py-2 hover:text-black hover:ease-in-out border-[1px] border-black text-[18px] `}
                       aria-label="Sign up"
+                      onClick={handleclose}
                     >
                       Sign up
                     </button>
