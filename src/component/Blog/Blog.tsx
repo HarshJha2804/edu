@@ -24,14 +24,14 @@ const Blog = () => {
     ]
     return (
         <>
-            <div className="relative w-[100%] h-[100%] ">
+            <div className="relative w-[100%] h-[100%] bg-white">
                 <img src={BlogHeroImg} alt="" className="object-cover brightness-[40%] h-[100vh] w-[100%] " />
                 <h1 className="absolute top-[46%] left-[49%] text-[1.75rem] text-white md:text-[2rem] lg:text-[4rem]">Blog</h1>
             </div>
             <div className="container mx-auto px-8 md:px-16 flex flex-col my-16 md:my-32 blog-div">
 
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-8 justify-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-8 justify-center bg-white">
                     {Blogdata.map((data) => (
                         <Link to="/post">
                             <div className="border-[1px] border-borderColor rounded-md md:rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm bg-white">

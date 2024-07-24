@@ -76,7 +76,7 @@ const Gallery = () => {
   return (
     <>
 
-      <div>
+      <div className="bg-white">
         <div>
           <div className="relative w-[100vw] h-[100vh]">
             <img src={galleryBg} alt="" className="object-cover brightness-[50%] h-[100vh] w-[100%]" />

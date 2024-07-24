@@ -331,7 +331,7 @@ const Services = () => {
 
 
 
-      <div className="w-[100vw] h-[110vh] overflow-auto body ">
+      <div className="w-[100vw] h-[110vh] overflow-auto body bg-white">
 
         <div className="scroll-div-container overflow-y-scroll">
           {serviceData.map((data) => (

@@ -3,11 +3,11 @@ import founderImg from "../../assets/About/founder-img.png"
 import Scrollanimation from "../Scrollanimation/Scrollanimation"
 import Vision from "../../assets/About/vision.png"
 import Mission from "../../assets/About/mission1.png"
-import visionBg from "../../assets/About/vision-bakground.webp"
+// import visionBg from "../../assets/About/vision-bakground.webp"
 const About = () => {
   return (
     <>
-      <div className=" flex flex-col gap-8 md:gap-32">
+      <div className=" flex flex-col gap-8 md:gap-32 bg-white">
 
         <div className="relative w-[100%] h-[100%]">
           <img src={AboutHerosection} alt="" className="object-cover brightness-[50%] h-[100vh] w-[100%]" />

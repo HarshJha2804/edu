@@ -71,7 +71,7 @@ const LoginAndSignup: React.FC = () => {
 
 
 
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.75fr_1fr] p-8 gap-4 h-[100vh] lg:pt-28'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.75fr_1fr] p-8 gap-4 h-[100vh] lg:pt-28 bg-white'>
 
         <div className=''>
           <img src={bgimg} alt="" className='object-cover h-[100%] rounded-2xl' />
