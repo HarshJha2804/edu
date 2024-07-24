@@ -15,8 +15,8 @@ const Home = () => {
 
 
   useEffect(() => {
-    document.title = "Home Page - Your Website Name";
-    setMetaDescription("Welcome to the home page of Your Website Name. Discover our features and services.");
+    document.title = "Empower Edu";
+    setMetaDescription("");
   }, []);
 
   const setMetaDescription = (description: string): void => {

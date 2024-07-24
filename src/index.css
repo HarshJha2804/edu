@@ -33,6 +33,9 @@ body{
   background-color: white;
 }
 
+p{
+  color: var(--secondary-text-color);
+}
 
 .button-primary {
   color: black;
