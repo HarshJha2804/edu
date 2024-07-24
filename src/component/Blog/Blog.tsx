@@ -25,7 +25,7 @@ const Blog = () => {
     return (
         <>
             <div className="relative w-[100%] h-[100%] ">
-                <img src={BlogHeroImg} alt="" className="object-cover brightness-[40%] h-[100vh] w-[100%] hover:" />
+                <img src={BlogHeroImg} alt="" className="object-cover brightness-[40%] h-[100vh] w-[100%] " />
                 <h1 className="absolute top-[46%] left-[49%] text-[1.75rem] text-white md:text-[2rem] lg:text-[4rem]">Blog</h1>
             </div>
             <div className="container mx-auto px-8 md:px-16 flex flex-col my-16 md:my-32 blog-div">
@@ -35,8 +35,8 @@ const Blog = () => {
                     {Blogdata.map((data) => (
                         <Link to="/post">
                             <div className="border-[1px] border-borderColor rounded-md md:rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm bg-white">
-                                <div className="zoom-image-container overflow-hidden rounded-md md:rounded-xl ">
-                                    <img src={data.img} alt="" className="w-[100%] object-cover" />
+                                <div className="overflow:hidden max-h-[15.25rem]">
+                                    <img src={data.img} alt="" className="rounded-xl max-h-[15.25rem] object-cover w-[100%]" />
                                 </div>
                                 <div className="py-4 flex flex-col gap-1 items-start">
                                     <p className="text-[1.25rem] leading-[1.25rem] md:text-[1.5rem] md:leading-[1.6rem] font-medium text-textColor">{data.title}</p>

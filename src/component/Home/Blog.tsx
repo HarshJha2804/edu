@@ -35,7 +35,9 @@ const Blog = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 container mx-auto px-8 gap-8 justify-center">
                     {Blogdata.map((data) => (
                         <div className="border-[1px] border-borderColor rounded-xl px-4 pt-4 pb-8 box-hover-effect hover:shadow-sm bg-white" >
-                            <img src={data.img} alt="" className="w-[100%] rounded-xl" />
+                            <div className="overflow:hidden max-h-[15.25rem]">
+                                <img src={data.img} alt="" className="rounded-xl max-h-[15.25rem] object-cover w-[100%]" />
+                            </div>
                             <div className="py-4 flex flex-col gap-2 items-start">
                                 <p className="text-[1.5rem] leading-[1.6rem] font-medium text-textColor">{data.title}</p>
                                 <p className="text-textColor font-normal overflow-hidden whitespace-nowrap text-ellipsis w-[90%]">{data.description}</p>

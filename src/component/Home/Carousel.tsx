@@ -2,8 +2,8 @@ import { useEffect, useState } from "react"
 import slider1 from '../../assets/Homepage/Herosection/envision1.jpg';
 import slider2 from '../../assets/Homepage/Herosection/career-opportunities-1.jpg';
 import slider3 from '../../assets/Homepage/Herosection/university-office-1.jpg';
-import slider4 from '../../assets/Homepage/Herosection/envision3.jpg';
-import slider5 from '../../assets/Homepage/Herosection/slider5.webp';
+import slider4 from '../../assets/Homepage/Herosection/woman-reading-monitor.jpg';
+import slider5 from '../../assets/Homepage/Herosection/representation-user-experience-interface-design (10).jpg';
 import slider6 from '../../assets/Homepage/Herosection/slider6.webp';
 import slider7 from '../../assets/Homepage/Herosection/slider7.webp';
 import slider8 from '../../assets/Homepage/Herosection/slider8.webp';
