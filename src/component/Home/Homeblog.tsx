@@ -6,7 +6,7 @@ import blogThird from "../../assets/Homepage/Blogs/blog-third.jpg"
 import { Link } from "react-router-dom"
 
 
-const Blog = () => {
+const HomeBlog = () => {
     interface Blogdata {
         id: number,
         img: string,
@@ -67,4 +67,4 @@ const Blog = () => {
     )
 }
 
-export default Blog
+export default HomeBlog

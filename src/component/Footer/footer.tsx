@@ -67,8 +67,8 @@ const Footer = () => {
             <div className="flex flex-col w-[fit-content]">
 
               <p className="font-semibold md:text-[18px]">Company</p>
-              <Link to="/about">
-                <p className="font-normal text-textColor md:text-[18px]">About</p>
+              <Link to="/aboutus">
+                <p className="font-normal text-textColor md:text-[18px]">About Us</p>
               </Link>
               <Link to="/services">
                 <p className="font-normal text-textColor md:text-[18px]">Services</p>

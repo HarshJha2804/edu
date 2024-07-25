@@ -40,7 +40,7 @@ const router = createBrowserRouter([
     element: <AppLayout />, // Use AppLayout which includes ScrollToTop
     children: [
       { path: '/', element: <Home /> },
-      { path: '/about', element: <About /> },
+      { path: '/aboutus', element: <About /> },
       { path: '/services', element: <Services /> },
       { path: '/blog', element: <Blog /> },
       { path: '/blog/:id', element: <BlogPage /> },

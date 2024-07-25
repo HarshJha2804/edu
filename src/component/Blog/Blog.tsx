@@ -1,4 +1,4 @@
-// import BlogHeroImg from "../../assets/Blog/blog-heroimg.jpg"
+import BlogHeroImg from "../../assets/Blog/blog-heroimg.jpg"
 import { Icon } from "@iconify/react/dist/iconify.js"
 import blogFirst from "../../assets/Homepage/Blogs/blog-first.jpg"
 import blogSecond from "../../assets/Homepage/Blogs/blog-second.jpg"
@@ -35,10 +35,10 @@ const HomeBlog = () => {
     ]
     return (
         <>
-            {/* <div className="relative w-[100%] h-[100%] bg-white">
+            <div className="relative w-[100%] h-[100%] bg-white">
                 <img src={BlogHeroImg} alt="" className="object-cover brightness-[40%] h-[100vh] w-[100%] " />
                 <h1 className="absolute top-[46%] left-[49%] text-[1.75rem] text-white md:text-[2rem] lg:text-[4rem]">Blog</h1>
-            </div> */}
+            </div>
             <div className="container mx-auto px-8 md:px-16 flex flex-col my-16 md:my-32 blog-div">
 
 

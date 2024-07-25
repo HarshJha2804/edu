@@ -118,7 +118,7 @@ const Header = () => {
               </li>
               <li>
                 <NavLink
-                  to="/about"
+                  to="/aboutus"
                   className={({ isActive }: { isActive: any }) =>
                     ` ${isActive ? "font-normal" : ""}  "text-black"
                     }
@@ -126,7 +126,7 @@ const Header = () => {
                   }
                   onClick={handleclose}
                 >
-                  About
+                  About Us
                 </NavLink>
               </li>
               <li>
@@ -255,13 +255,13 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                to="/about"
+                to="/aboutus"
                 className={({ isActive }: { isActive: any }) =>
                   ` ${isActive ? "font-normal" : ""}  ${scrolled || isBlogPath || isLoginPath || isSignupPath ? "text-black" : "text-white"
                   } hover:text-opacity-70 p-2 text-[18px]`
                 }
               >
-                About
+                About Us
               </NavLink>
             </li>
             <li>

@@ -9,7 +9,8 @@ import ServiceSector from "./ServiceSector";
 import Youtubeevideo from "./Youtubeevideo";
 // import Blog from "../Blog/Blog";
 import HomeServices from "./homeServices";
-import HomeBlog from "../Blog/Blog";
+import HomeBlog from "./Homeblog";
+
 
 
 const Home = () => {

@@ -91,14 +91,14 @@ const Headerhome = () => {
               </li>
               <li>
                 <NavLink
-                  to="/about"
+                  to="/aboutus"
                   className={({ isActive }: { isActive: any }) =>
                     ` ${isActive ? "font-normal" : ""}  "text-black"
                     }
                      hover:text-opacity-70 p-2`
                   }
                 >
-                  About
+                  About Us
                 </NavLink>
               </li>
               <li>
@@ -169,13 +169,13 @@ const Headerhome = () => {
             </li>
             <li>
               <NavLink
-                to="/about"
+                to="/aboutus"
                 className={({ isActive }: { isActive: any }) =>
                   ` ${isActive ? "font-normal" : ""} "text-black"
                   } hover:text-opacity-70 p-2 text-[18px]`
                 }
               >
-                About
+                About Us
               </NavLink>
             </li>
             <li>
