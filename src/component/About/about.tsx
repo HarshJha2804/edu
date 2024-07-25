@@ -61,7 +61,7 @@ const About = () => {
           <div className="container mx-auto px-8 md:px-16">
             <div className=" flex-col gap-2 lg:grid lg:grid-cols-[1fr_1fr] px-8 md:px-16 py-8 grid-row-2 items-start overflow-hidden">
               <div className="flex flex-col justify-start items-start gap-2 pt-16 md:pt-24">
-                {/* <p className="text-[0.8rem] md:text-[1.2rem] font-medium lg:leading-[1.75rem] tracking-[0.3rem] text-black">OUR VISION</p> */}
+                <p className="text-[0.8rem] md:text-[1.2rem] font-medium lg:leading-[1.75rem] tracking-[0.3rem] text-black">OUR VISION</p>
                 <p className=" text-[1.5rem] md:text-[2.5rem] lg:text-[2.75rem] leading-[1.5rem] md:leading-[2.75rem] font-normal flex flex-2 text-black">
                   EmpowerEdu enables you to envision possibilities beyond your current perspective
                 </p>
@@ -77,7 +77,7 @@ const About = () => {
             <div className=" flex-col gap-2 lg:grid lg:grid-cols-[1fr_1fr] px-8 md:px-16 py-8 grid-row-2 items-start bg-[#ffffff] overflow-hidden">
               <img src={Mission} alt="" className="h-[100%] w-[auto] shrink-0" />
               <div className="flex flex-col justify-start items-start gap-2 pt-16 md:pt-24">
-                {/* <p className="text-[0.8rem] md:text-[1.2rem] font-medium lg:leading-[1.75rem] tracking-[0.3rem] text-black">OUR MISSION</p> */}
+                <p className="text-[0.8rem] md:text-[1.2rem] font-medium lg:leading-[1.75rem] tracking-[0.3rem] text-black">OUR MISSION</p>
                 <p className=" text-[1.5rem] md:text-[2.5rem] lg:text-[2.75rem] leading-[1.5rem] md:leading-[2.75rem] font-normal flex flex-2 text-black">
                   Building community and fostering growth
                 </p>
