@@ -331,39 +331,43 @@ const Services = () => {
 
 
 
-      <div className="w-[100vw] h-[110vh] overflow-auto body bg-white">
+      <div
+      // className="w-[100vw] h-[110vh] overflow-auto body bg-white"
+      >
 
-        <div className="scroll-div-container overflow-y-scroll">
+        <div
+        //  className="scroll-div-container overflow-y-scroll"
+        >
           {serviceData.map((data) => (
-            <section>
-              <div className={`sticky top-0 h-[110vh] justify-center items-center flex md:bg-cover lg:bg-contain bg-hidden`} style={{ backgroundColor: data.bgcolor, backgroundImage: `url(${data.bgimg})`, backgroundPosition: "center", backgroundRepeat: 'no-repeat' }} >
-                <div className="container mx-auto m-16 p-8 md:p-16 ">
-                  {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
 
-                  <div className={`flex gap-4 md:gap-24 `} style={{ flexDirection: data.number % 2 === 0 ? 'row-reverse' : 'row' }}>
-                    <div className="md:flex hidden md:flex-1"></div>
+            <div className={`sticky top-0 h-[110vh] justify-center items-center flex md:bg-cover lg:bg-contain bg-hidden`} style={{ backgroundColor: data.bgcolor, backgroundImage: `url(${data.bgimg})`, backgroundPosition: "center", backgroundRepeat: 'no-repeat' }} >
+              <div className="container mx-auto m-16 p-8 md:p-16 ">
+                {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
+
+                <div className={`flex gap-4 md:gap-24 `} style={{ flexDirection: data.number % 2 === 0 ? 'row-reverse' : 'row' }}>
+                  <div className="md:flex hidden md:flex-1"></div>
+                  {/* <Scrollanimation> */}
+                  {/* <img src={data.img} alt={data.alt} className="h-[60vh] object-cover zoom-image" /> */}
+                  {/* </Scrollanimation> */}
+
+                  <div className="flex flex-1 flex-col justify-end md:gap-16 lg:gap-20">
                     {/* <Scrollanimation> */}
-                    {/* <img src={data.img} alt={data.alt} className="h-[60vh] object-cover zoom-image" /> */}
+                    {/* <p className="text-[1.75rem] md:text-[5rem] text-white leading-[2.4rem]">{data.number}</p> */}
                     {/* </Scrollanimation> */}
-
-                    <div className="flex flex-1 flex-col justify-end md:gap-16 lg:gap-20">
-                      {/* <Scrollanimation> */}
-                      {/* <p className="text-[1.75rem] md:text-[5rem] text-white leading-[2.4rem]">{data.number}</p> */}
-                      {/* </Scrollanimation> */}
-                      <div className="flex flex-col gap-2">
-                        <Scrollanimation>
-                          <p className="text-[1.75rem] md:text-[2.5rem] lg:text-[3.5rem] md:leading-[2.5rem] lg:leading-[3.5rem] text-white">{data.title}</p>
-                        </Scrollanimation>
-                        <Scrollanimation>
-                          <p className="text-white text-[1rem] md:text-[1.25rem] font-extralight flex flex-1">{data.description}</p>
-                        </Scrollanimation>
-                      </div>
+                    <div className="flex flex-col gap-2">
+                      <Scrollanimation>
+                        <p className="text-[1.75rem] md:text-[2.5rem] lg:text-[3.5rem] md:leading-[2.5rem] lg:leading-[3.5rem] text-white">{data.title}</p>
+                      </Scrollanimation>
+                      <Scrollanimation>
+                        <p className="text-white text-[1rem] md:text-[1.25rem] font-extralight flex flex-1">{data.description}</p>
+                      </Scrollanimation>
                     </div>
                   </div>
-
                 </div>
+
               </div>
-            </section>
+            </div>
+
           ))}
         </div>
       </div >

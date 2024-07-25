@@ -4,17 +4,17 @@ import { Link } from "react-router-dom"
 
 const Footer = () => {
   const socialMediaIcons = [
-    { icon: <Icon icon="ri:twitter-x-fill" className="text-black" fontSize="18px" />, link: "#" },
-    { icon: <Icon icon="ri:facebook-fill" className="text-black" fontSize="18px" />, link: "#" },
-    { icon: <Icon icon="ri:instagram-line" className="text-black" fontSize="18px" />, link: "#" },
-    { icon: <Icon icon="ri:youtube-line" className="text-black" fontSize="18px" />, link: "#" },
+    { icon: <Icon icon="ri:twitter-x-fill" className="text-black" fontSize="24px" />, link: "#" },
+    { icon: <Icon icon="ri:facebook-fill" className="text-black" fontSize="24px" />, link: "#" },
+    { icon: <Icon icon="ri:instagram-line" className="text-black" fontSize="24px" />, link: "#" },
+    { icon: <Icon icon="ri:youtube-line" className="text-black" fontSize="24px" />, link: "#" },
 
   ]
 
   return (
     <>
-      <div className="flex flex-col  justify-between items-center px-[4rem] md:px-[8rem] lg:px-[10rem] bg-footerColor md:mt-[8rem] pb-2 md:pb-8">
-        <div className="flex flex-col gap-10 md:flex-row w-[100%] py-[8rem]">
+      <div className="flex flex-col justify-between items-center px-[4rem] md:px-[8rem] lg:px-[10rem] bg-footerColor md:mt-[8rem] pb-2 md:pb-8">
+        <div className="grid grid-rows-[auto auto] lg:grid-cols-2 gap-10 lg:flex-row w-[100%] py-[8rem]">
           <div className=" w-[100%]">
             <div className="flex flex-col gap-6">
               <Link to="/">
@@ -33,7 +33,7 @@ const Footer = () => {
 
               <div className="flex flex-row gap-2">
                 {socialMediaIcons.map((data) => (
-                  <button className="social-media-icon-box border-[1px] border-borderColor w-[fit-content] p-2 bg-white rounded-lg">
+                  <button className="social-media-icon-box border-[1px] border-borderColor w-[fit-content] p-3 bg-white rounded-2xl">
                     {data.icon}
                   </button>
                 ))}
@@ -43,41 +43,61 @@ const Footer = () => {
           </div>
 
 
-          <div className="flex flex-col md:flex-row gap-16 justify-start align-end">
+          <div className="grid grid-rows-3 md:grid-rows-1 md:grid-cols-3 md:flex-row gap-16 justify-start align-end">
             <div className="flex flex-col">
 
-              <p className="font-semibold">Company</p>
+              <p className="font-semibold md:text-[20px]">Company</p>
               <Link to="/about">
-                <p className="font-normal text-textColor">About</p>
+                <p className="font-normal text-textColor md:text-[20px]">About</p>
               </Link>
               <Link to="/services">
-                <p className="font-normal text-textColor">Services</p>
+                <p className="font-normal text-textColor md:text-[20px]">Services</p>
               </Link>
               <Link to="/blog">
-                <p className="font-normal text-textColor">Blog</p>
+                <p className="font-normal text-textColor md:text-[20px]">Blog</p>
               </Link>
               <Link to="/event">
-                <p className="font-normal text-textColor">Event</p>
+                <p className="font-normal text-textColor md:text-[20px]">Event</p>
               </Link>
-              <Link to="/event">
-                <p className="font-normal text-textColor">Gallery</p>
+              <Link to="/gallery">
+                <p className="font-normal text-textColor md:text-[20px]">Gallery</p>
               </Link>
+            </div>
+
+
+
+            <div className="flex flex-col">
+
+              <p className="font-semibold md:text-[20px]">Explore</p>
+              <Link to="#">
+                <p className="font-normal text-textColor md:text-[20px]">Explore Schools and Programs</p>
+              </Link>
+              <Link to="#">
+                <p className="font-normal text-textColor md:text-[20px]">Register as student</p>
+              </Link>
+              <Link to="#">
+                <p className="font-normal text-textColor md:text-[20px]">Register as college</p>
+              </Link>
+              <Link to="#">
+                <p className="font-normal text-textColor md:text-[20px]">Login</p>
+              </Link>
+
             </div>
 
             <div className="flex flex-col">
 
-              <p className="font-semibold">Legal</p>
+              <p className="font-semibold md:text-[20px]">Legal</p>
               <Link to="#">
-                <p className="font-normal text-textColor">Terms</p>
+                <p className="font-normal text-textColor md:text-[20px]">Terms</p>
               </Link>
               <Link to="#">
-                <p className="font-normal text-textColor">Privacy</p>
+                <p className="font-normal text-textColor md:text-[20px]">Privacy</p>
               </Link>
               <Link to="#">
-                <p className="font-normal text-textColor">Cookies</p>
+                <p className="font-normal text-textColor md:text-[20px]">Cookies</p>
               </Link>
               <Link to="#">
-                <p className="font-normal text-textColor">Licenses</p>
+                <p className="font-normal text-textColor md:text-[20px]">Licenses</p>
               </Link>
               {/* <Link to="#">
                 <p className="font-normal text-textColor">Settings</p>
