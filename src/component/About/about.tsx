@@ -48,7 +48,7 @@ const About = () => {
 
               <div className="flex flex-col justify-center gap-4">
                 <p className="font-semibold text-[1.75rem] md:text-[2rem] lg:text-[3rem]">Founder’s Message</p>
-                <p className="text-textColor text-[1rem] md:text-[1.25rem] font-light tracking-[0.05px] leading-[1.2rem] md:leading-[1.5rem]">EmpowerEdu is a part of Infinite Group, established in 2007 with a vision to become the most trusted brand for study abroad solutions, has swiftly emerged as the fastest-growing entity in the international education market. At EmpowerEdu, we empathize with the challenges faced by education providers in supporting students’ aspirations of studying abroad. Our gradual expansion across the globe underscores our commitment to delivering tangible results and empowering education partners to take control of their development</p>
+                <p className="text-textColor text-[1rem] md:text-[1.25rem] font-light tracking-[0.05px] leading-[1.2rem] md:leading-[1.5rem] pr-4">EmpowerEdu is a part of Infinite Group, established in 2007 with a vision to become the most trusted brand for study abroad solutions, has swiftly emerged as the fastest-growing entity in the international education market. At EmpowerEdu, we empathize with the challenges faced by education providers in supporting students’ aspirations of studying abroad. Our gradual expansion across the globe underscores our commitment to delivering tangible results and empowering education partners to take control of their development</p>
 
               </div>
             </div>
