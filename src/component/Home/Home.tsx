@@ -7,8 +7,9 @@ import Scrollanimation from "../Scrollanimation/Scrollanimation";
 import ServiceSector from "./ServiceSector";
 // import Numbers from "./Numbers";
 import Youtubeevideo from "./Youtubeevideo";
-import Blog from "./Blog";
+// import Blog from "../Blog/Blog";
 import HomeServices from "./homeServices";
+import HomeBlog from "../Blog/Blog";
 
 
 const Home = () => {
@@ -54,7 +55,7 @@ const Home = () => {
         </Scrollanimation>
 
         <Scrollanimation>
-          <Blog />
+          <HomeBlog />
         </Scrollanimation>
 
         {/* 

@@ -42,7 +42,7 @@ const ServiceSector = () => {
         {
             bgimg: learningCenter,
             title: "Learning Centers",
-            description: 'Learning centres are vital contributors that can greatly benefitfrom partnering with us. By referring students to study abroad programs, learning centres can diversify their services and attract a wider clientele interested in international educational opportunities. Moreover, we offer comprehensive support, including the establishment of international offices.',
+            description: 'Learning centres are vital contributors that can greatly benefit from partnering with us. By referring students to study abroad programs, learning centres can diversify their services and attract a wider clientele interested in international educational opportunities. Moreover, we offer comprehensive support, including the establishment of international offices.',
             imgFirst: learningFirst,
             // imgSecond: learningSecond,
             // imgThird: learningThird,

@@ -21,7 +21,7 @@ const Services = () => {
       bgcolor: '#012a4a',
       img: serviceFirst,
       alt: "a woman explaining the how the yours school can be expand globally",
-      title: "Establish a Global Presence",
+      title: "Establish a global presence",
       description: "We establish a seamless international  office on your campus, dedicated to promoting global engagement.This office serves as a central hub for coordinating various international services and academic collaborations with institutions worldwide.It facilitates the efficient management of study abroad programs, enhances cross- cultural communication, and integrates global perspectives into campus and educational initiatives.",
     },
     {
@@ -31,7 +31,7 @@ const Services = () => {
       bgcolor: '#690500',
       img: serviceSecond,
       alt: "School members find the best universities",
-      title: "Collaboration with Esteemed Universities",
+      title: "Collaboration with esteemed universities",
       description: "We empower institutions to explore a multitude of academic and cultural opportunities through our global network. This facilitates exchange programs, international study opportunities, and enriches the educational experience. Engaging with such a diverse community of institutions allows our partners to broaden academic horizons, gain valuable international perspectives, and develop essential skills for success in today's interconnected world",
     },
     {
@@ -41,8 +41,8 @@ const Services = () => {
       bgcolor: '#DFAF1D',
       img: serviceThird,
       alt: "Student happy to see the enrollment process is easy",
-      title: "Streamlined Enrollment and Career prospects",
-      description: "We strive to enhance admission prospects by refining procedures from application to admission.We streamline processes and leverage technology to reduce administrative  complexities and ensure efficiency for institutions.We manage all applications through the digital partner dashboard, as well as their communications, in one spot. Our goal is to provide clear  guidance and robust support, empowering our partners to navigate requirements effectively and secure admission that align with their academic and career aspirations",
+      title: "Streamlined enrollment and career prospects",
+      description: "We strive to enhance admission prospects by refining procedures from application to admission.We streamline processes and leverage technology to reduce administrative complexities and ensure efficiency for institutions.We manage all applications through the digital partner dashboard, as well as their communications, in one spot. Our goal is to provide clear  guidance and robust support, empowering our partners to navigate requirements effectively and secure admission that align with their academic and career aspirations",
     },
     {
       bgimg: serviceFouthBg,
@@ -51,7 +51,7 @@ const Services = () => {
       bgcolor: '#0E1C36',
       img: serviceFourth,
       alt: "a group of people are seeing the insight in desktop",
-      title: "Industry-Leading Insights and Strategies",
+      title: "Industry-leading insights and strategies",
       description: "Our team of experts combines deep industry knowledge with cutting-edge research methodologies to provide tailored solutions that meet the unique challenges of today's competitive landscape. We empower institutions to capitalize on emerging trends, anticipate market shifts, and seize growth opportunities. By leveraging our strategic guidance and forward-thinking approach, education providers can achieve sustainable growth and maintain a leadership position in their domain.",
     },
     {
@@ -61,7 +61,7 @@ const Services = () => {
       bgcolor: '#F18805',
       img: serviceFifth,
       alt: "Trainer explaining the process to crowd",
-      title: "Comprehensive Support and Training",
+      title: "Comprehensive support and training",
       description: "Comprehensive support and training encompass a robust framework designed to empower institutions with the skills, knowledge, and resources they need to succeed. Our approach includes personalized guidance, hands-on training sessions, and access to a diverse range of educational materials. We prioritize continuous learning and development, ensuring that our clients are equipped to navigate challenges, optimize processes, and achieve their goals effectively. With tailored support and ongoing training initiatives, we aim to foster a culture of growth, innovation, and excellence within every facet of our engagement.",
     },
     {
