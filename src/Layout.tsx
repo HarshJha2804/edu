@@ -6,9 +6,14 @@ import Header from "./component/Header/header"
 import { Icon } from "@iconify/react/dist/iconify.js"
 import { useState } from "react"
 import brochure from "./assets/Brochure/empower_edu_brochure.pdf"
+// import Eventpopover from "./component/EventPopover/Eventpopover"
 // import dhfj from ""
 const Layout = () => {
     const [hover, setdownloadhover] = useState(false);
+    // const [isPopoverVisible, setPopoverVisible] = useState(true);
+    // const handlePopoverClose = () => {
+    //     setPopoverVisible(false);
+    // };
     const handleDownload = () => {
         const link = document.createElement("a")
         link.href = brochure
@@ -21,6 +26,14 @@ const Layout = () => {
     return (
         <>
             <Header />
+
+            {/* {isPopoverVisible && (
+                <div className="w-[100vw] h-[100vh] fixed top-[64vh] left-[2vw] z-[100000] flex flex-col gap-3 transition-all">
+                    <div className="w-[500px]">
+                        <Eventpopover onClose={handlePopoverClose} />
+                    </div>
+                </div>
+            )} */}
             <div className="w-[100vw] h-[100vh] fixed top-[84vh] left-[95vw] z-[100000] flex flex-col gap-3">
                 <div className="bg-primary rounded-full w-[fit-content] p-3 hover:cursor-pointer flex"
                     onMouseEnter={() => { setdownloadhover(true) }}

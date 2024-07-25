@@ -36,7 +36,7 @@ const HomeBlog = () => {
     return (
         <>
 
-            <div className="container mx-auto px-8 md:px-16 flex flex-col my-16 md:my-32 blog-div">
+            <div className="container mx-auto px-8 md:px-16 flex flex-col my-16 md:my-32 ">
 
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-8 justify-center bg-white">

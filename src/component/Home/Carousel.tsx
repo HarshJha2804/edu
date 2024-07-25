@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react"
-import slider1 from '../../assets/Homepage/Herosection/envision1.jpg';
+import slider1 from '../../assets/Homepage/Herosection/slide1.jpg';
 import slider2 from '../../assets/Homepage/Herosection/career-opportunities-1.jpg';
 import slider3 from '../../assets/Homepage/Herosection/university-office-1.jpg';
 import slider4 from '../../assets/Homepage/Herosection/woman-reading-monitor.jpg';
 import slider5 from '../../assets/Homepage/Herosection/representation-user-experience-interface-design (10).jpg';
 import slider6 from '../../assets/Homepage/Herosection/slider6.webp';
 import slider7 from '../../assets/Homepage/Herosection/slider7.webp';
-import slider8 from '../../assets/Homepage/Herosection/slider8.webp';
-import slider9 from '../../assets/Homepage/Herosection/slider9.webp';
-import slider10 from '../../assets/Homepage/Herosection/slider10.webp';
+import slider8 from '../../assets/Homepage/Herosection/Administrative and operational support.jpg';
+import slider9 from '../../assets/Homepage/Herosection/Professional-development and training for faculty.jpg';
+import slider10 from '../../assets/Homepage/Herosection/slide10.jpg';
 import { Icon } from '@iconify-icon/react';
 
 
@@ -21,8 +21,8 @@ interface SliderData {
 export function Carousel() {
     const SliderData: SliderData[] = [
         { image: slider1, text: 'Establish a seamless international office on your campus', alt: "" },
-        { image: slider2, text: 'Enables you to engage with a network of esteemed university partners', alt: 'Three students are happy on getting degree ' },
-        { image: slider3, text: 'Optimize the enrollment process to improve admission prospects', alt: 'Mentor guiding the students about studying in foreign' },
+        { image: slider3, text: 'Enables you to engage with a network of esteemed university partners', alt: 'Three students are happy on getting degree ' },
+        { image: slider2, text: 'Optimize the enrollment process to improve admission prospects', alt: 'Mentor guiding the students about studying in foreign' },
         { image: slider4, text: 'Personalised cloud Based Platform', alt: 'four students walking in the university' },
         { image: slider5, text: 'Amplify your institutions presence on the global stage', alt: 'a mentor showing how our institution can get global presence' },
         { image: slider6, text: 'Access industry-leading insights to stay ahead in the competitive education sector', alt: 'Team brainstorming on how your institution can grow' },
