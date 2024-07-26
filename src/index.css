@@ -298,8 +298,8 @@ section{
 .video-container {
   position: relative;
   width: 100%;
-  min-height: 400px;
-  max-width: 500px; /* Increase max width */
+  min-height: 25rem;
+  max-width:32rem; /* Increase max width */
   margin: auto; /* Center the container */
   /* padding-bottom: 34%; */
   height: 0;
@@ -308,6 +308,7 @@ section{
 
 .video-container iframe {
   position: absolute;
+  border-radius: 1rem;
   top: 0;
   left: 0;
   width: 100%;
