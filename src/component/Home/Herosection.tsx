@@ -121,11 +121,11 @@ const Herosection = () => {
                                 {/* <img src={founderImg} alt="a confident founder" className='object-cover w-[584px] h-[584px]' /> */}
 
                             </div>
-                            <div>
+                            {/* <div>
                                 <button className="primary-button">
                                     Learn More
                                 </button>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="flex items-end">
                             <Youtubeevideo />
