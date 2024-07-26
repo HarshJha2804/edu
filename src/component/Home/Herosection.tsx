@@ -93,8 +93,8 @@ const Herosection = () => {
 
             {/* </div>
          </div> */}
-            <div className="w-[100vw] h-auto lg:h-[80vh] bg-primary">
-                <div className="container px-8 md:px-16 md:py-16 m-auto mt-40">
+            <div className="w-[100vw] h-auto lg:h-[80vh] bg-primary pt-[5rem]">
+                <div className="container px-8 md:px-16 mx-auto">
                     <div className="grid grid-rows-[auto_auto] gap-[3rem] lg:grid-cols-[30rem_1fr]">
                         <div className="flex flex-col gap-10">
                             <div className="flex flex-col gap-2">
