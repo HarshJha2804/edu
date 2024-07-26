@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,7 +16,7 @@
   --secondary-color: #363F4D;
   --primary-text-color: #070707;
   --secondary-text-color:#445164;
-  --seconday-color:#B40041;
+  --seconday-color:#F8AE00;
   --secondary-color-darker:#0218e0;
   --secondary-color-second:#1A2041;
   --neutral-color:#ededed;
@@ -27,8 +29,16 @@
   box-sizing: border-box;
 }
 
+.display{
+  font-family: "Playfair Display", serif !important;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
 body{
-  font-family: 'Outfit', sans-serif !important;
+  /* font-family: 'Outfit', sans-serif !important; */
+  font-family: 'Poppins', sans-serif !important;
   scroll-behavior: smooth;
   background-color: white;
 }
@@ -43,6 +53,17 @@ background-color:white;
 padding: 0.5rem 1rem;
 /* border-radius: 2rem; */
 }
+
+
+h1,h2,h3,h4,h5,h6{
+  /* letter-spacing: 0.0005rem; */
+  /* font-size: 3rem !important; */
+}
+
+/* p{
+  letter-spacing: 0.05px !important;
+  font-size: 1rem !important;
+} */
 
 
 .button-secondary {
@@ -254,7 +275,7 @@ section{
 .primary-button{
   padding: 0.5rem 1.5rem;
   border-radius: 1.5rem;
-  background-color: var(--primary-color);
+  background-color: var(--seconday-color);
   color: white;
 }
 
@@ -268,7 +289,7 @@ section{
 }
 
 .primary-button-outline:hover{
-  background-color:var(--primary-color);
+  background-color:var(--seconday-color);
   border: none;
   color: white;
 }
@@ -277,12 +298,14 @@ section{
 .video-container {
   position: relative;
   width: 100%;
-  height: auto;
-  max-width: 1160px; /* Increase max width */
+  min-height: 400px;
+  max-width: 500px; /* Increase max width */
   margin: auto; /* Center the container */
   /* padding-bottom: 34%; */
   height: 0;
 }
+
+
 .video-container iframe {
   position: absolute;
   top: 0;

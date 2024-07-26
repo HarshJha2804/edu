@@ -100,8 +100,9 @@ const ServiceSector = () => {
             <div className='flex flex-col gap-4 md:gap-[1.5rem]'>
 
                 <div className="flex flex-col content justify-center items-center ">
-                    <h4 className="text-[1.75rem] md:text-[3rem] lg:text-[3.5rem] font-medium leading-[3rem]">Industries Served</h4>
-                    <p className={`text-[black] text-[1rem] md:text-[1.5rem] font-light leading-tight} `}> Innovating Education for a Global Future</p>
+                    <h4 className="text-[1.75rem] md:text-[2rem] lg:text-[2.5rem] font-medium text-center leading-[2.5rem]">Industries Served</h4>
+
+                    <p className={`text-[black] text-[1.1rem] font-light leading-tight} `}> Innovating Education for a Global Future</p>
                 </div>
 
 

@@ -34,14 +34,14 @@ const Home = () => {
 
   return (
     <>
-      <div className="flex flex-col gap-8 md:gap-40 bg-white">
+      <div className="flex flex-col gap-8 md:gap-20 bg-white">
 
 
         <Herosection />
 
-        <Scrollanimation>
+        {/* <Scrollanimation>
           <Missionstatement />
-        </Scrollanimation>
+        </Scrollanimation> */}
 
         <Scrollanimation>
           <HomeServices />
@@ -49,10 +49,6 @@ const Home = () => {
 
         <Scrollanimation>
           <ServiceSector />
-        </Scrollanimation>
-
-        <Scrollanimation>
-          <Youtubeevideo />
         </Scrollanimation>
 
         <Scrollanimation>

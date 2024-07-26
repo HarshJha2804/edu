@@ -36,9 +36,8 @@ const HomeBlog = () => {
     return (
         <>
 
-            <div className="container mx-auto px-8 md:px-16 flex flex-col my-16 md:my-32 ">
-
-
+            <div className="container mx-auto px-8 md:px-16 flex flex-col gap-4">
+                <h3 className="text-[1.75rem] md:text-[2rem] lg:text-[2.5rem] font-medium text-center">Blogs</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-8 justify-center bg-white">
                     {Blogdata.map((data) => (
                         <Link to={`/blog/${data.id}`} key={data.id}>

@@ -15,7 +15,7 @@ export default {
         textColor: '#445164',
         borderColor:'#e0e0e0',
         footerColor:'#F8F8F8',
-        secondaryColor:'#363F4D',
+        secondaryColor:'#F8AE00',
         tertiaryColor:'#B40041',
         secondaryColorSecond:"#00791B",
         secondaryColorThird:"#1A2041",
@@ -40,6 +40,65 @@ export default {
         },
       },
 
+      fontSize: {
+        'h1': '2.5rem', 
+        'h1-md': '3rem',
+        'h1-lg': '3.5rem', 
+
+        'h2': '2.1rem', 
+        'h2-md': '2.5rem',
+        'h2-lg': '3rem',
+
+        'h3': '1.875rem', 
+        'h3-md': '2.25rem',
+        'h3-lg': '2.5rem', 
+
+        'p': '1rem', 
+        'p-md': '1rem', 
+        'p-lg': '1.1rem', 
+
+        'display': '3.25rem', 
+        'display-md': '3.5rem', 
+        'display-lg': '3.75rem', 
+      },
+
+
+      leading: {
+        'h1': '2.5rem', 
+        'h1-md': '3rem',
+        'h1-lg': '3.75rem', 
+
+        'h2': '2.25rem', 
+        'h2-md': '2.5rem',
+        'h2-lg': '3rem',
+
+        'h3': '1.875rem', 
+        'h3-md': '2.25rem',
+        'h3-lg': '2.5rem', 
+
+        'p': '1.25rem', // Desktop
+        'p-md': '1.375rem', // Large Desktop
+        'p-lg': '1.5rem', // Extra Large Desktop
+      },
+
+      tracking: {
+        'h1': '2.5rem', 
+        'h1-md': '3rem',
+        'h1-lg': '3.75rem', 
+
+        'h2': '2.25rem', 
+        'h2-md': '2.5rem',
+        'h2-lg': '3rem',
+
+        'h3': '1.875rem', 
+        'h3-md': '2.25rem',
+        'h3-lg': '2.5rem', 
+
+        'p': '1rem', // Desktop
+        'p-md': '1rem', // Large Desktop
+        'p-lg': '1rem', // Extra Large Desktop
+      },
+
     },
 
 
@@ -62,5 +121,38 @@ export default {
     //   },
     // }
   },
-  plugins: [],
+  plugins: [
+    function({addUtilities}){
+      const newUtilities={
+        '.h1':{
+          '@apply text-h1 md:text-h1-md lg:text-h1-lg leading-[2.75rem] md:leading-[3rem] lg:leading-[4rem] lg:tracking-[-0.05rem]':{},
+        },
+        'h2':{
+          '@apply text-h2 md:text-h2-md lg:text-h2-lg leading-[2.5rem] md:leading-[2.75rem] lg:leading-[3.5rem] lg:tracking-[-0.05rem]':{}
+        },
+        'h3':{
+          '@apply text-h3 md:text-h3-md lg:text-h3-lg leading-[2.2rem] md:leading-[2.25rem] lg:leading-[3rem] lg:tracking-[-0.05rem]':{}
+        },
+        'p':{
+          '@apply text-p font-extralight md:text-p-md lg:text-p-lg leading-[1.5rem] tracking-[0.025rem]':{}
+        },
+        '.display':{
+          '@apply text-display md:text-display-md lg:text-display-lg leading-[2.75rem] md:leading-[3rem] lg:leading-[4rem] lg:tracking-[-0.05rem]':{},
+        },
+
+        // 'h4':{
+        //   '@apply sm:text-h4 md:text-h4-md lg:text-h4-lg lg:leading-[3.75rem] lg:tracking-[-0.05rem]':{}
+        // },
+        // 'h5':{
+        //   '@apply sm:text-h5 md:text-h5-md lg:text-h5-lg lg:leading-[3.75rem] lg:tracking-[-0.05rem]':{}
+        // }, 
+        // 'h6':{
+        //   '@apply sm:text-h6 md:text-h6-md lg:text-h6-lg lg:leading-[3.75rem] lg:tracking-[-0.05rem]':{}
+        // },
+        
+      };
+      addUtilities(newUtilities,['responsive','hover']);
+
+    },
+  ],
 }
