@@ -100,9 +100,9 @@ const ServiceSector = () => {
             <div className='flex flex-col gap-4 md:gap-[1.5rem]'>
 
                 <div className="flex flex-col content justify-center items-center ">
-                    <h4 className="text-[1.75rem] md:text-[2rem] lg:text-[2.5rem] font-medium text-center leading-[2.5rem]">Industries Served</h4>
+                    <h2 className="h2">Industries Served</h2>
 
-                    <p className={`text-[black] text-[1.1rem] font-light leading-tight} `}> Innovating Education for a Global Future</p>
+                    <p className='p'> Innovating Education for a Global Future</p>
                 </div>
 
 
@@ -141,9 +141,9 @@ const ServiceSector = () => {
                                     <div className='relative flex flex-1 md:flex-[1.5] shrink-0 rounded-[1rem]'>
 
                                         <img src={data.bgimg} alt="" className='object-cover w-[100%] brightness-[40%] rounded-[1rem]' />
-                                        <div className='absolute px-4 top-8 md:top-10 md:px-10 flex flex-col gap-2 md:gap-4'>
-                                            <p className='text-[1.75rem] md:text-[2.5rem] text-white'>{data.title}</p>
-                                            <p className='text-[1rem] leading-[1.25rem] md:leading-[1.75rem] font-extralight sm:text-[0.9rem] md:text-[1.5rem] text-white'>{data.description}
+                                        <div className='absolute px-4 top-8 md:top-10 md:px-10 flex flex-col gap-2 md:gap-1'>
+                                            <h3 className=' text-white'>{data.title}</h3>
+                                            <p className='p2 text-white'>{data.description}
                                             </p>
                                         </div>
                                     </div>

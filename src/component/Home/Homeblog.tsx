@@ -37,7 +37,7 @@ const HomeBlog = () => {
         <>
 
             <div className="container mx-auto px-8 md:px-16 flex flex-col gap-4">
-                <h3 className="text-[1.75rem] md:text-[2rem] lg:text-[2.5rem] font-medium text-center">Blogs</h3>
+                <h2 className="text-center">Blogs</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-8 justify-center bg-white">
                     {Blogdata.map((data) => (
                         <Link to={`/blog/${data.id}`} key={data.id}>
@@ -45,12 +45,18 @@ const HomeBlog = () => {
                                 <div className="overflow:hidden max-h-[15.25rem]">
                                     <img src={data.img} alt="" className="rounded-xl max-h-[15.25rem] object-cover w-[100%]" />
                                 </div>
-                                <div className="py-4 flex flex-col gap-1 items-start">
-                                    <p className="text-[1.25rem] leading-[1.25rem] md:text-[1.5rem] md:leading-[1.6rem] font-medium text-textColor">{data.title}</p>
-                                    <p className="text-textColor font-normal overflow-hidden whitespace-nowrap text-ellipsis w-[90%]">{data.description}</p>
+                                <div className="py-4 flex flex-col gap-4 items-start">
+                                    <div className="flex justify-between  w-[100%]">
+                                        <p className="text-[0.9rem] text-textColor">24 July 2024</p>
+                                        <p className="text-[0.9rem] text-textColor">10 min read</p>
+                                    </div>
+                                    <div className="flex flex-col gap-1">
+                                        <p className="title text-black ">{data.title}</p>
+                                        <p className="text-textColor text-[1rem]">{data.description.substring(0, 100)}...</p>
+                                    </div>
                                     <Link to={`/blog/${data.id}`}>
-                                        <button className="flex flex-row gap-0.5 items-center justify-end primary-button-second p-0 "> Read More
-                                            <Icon icon="ci:arrow-up-md" className="text-textColor rotate-45" fontSize={20} />
+                                        <button className="flex flex-row gap-0.5 primary-button-outline"> Read More
+                                            {/* <Icon icon="ci:arrow-up-md" className="rotate-45" fontSize={20} /> */}
                                         </button>
                                     </Link>
                                 </div>

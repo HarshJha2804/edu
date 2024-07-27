@@ -99,7 +99,7 @@ const Header = () => {
                 {/* <NavLink
                   to="/"
                   className={({ isActive }: { isActive: any }) =>
-                    ` ${isActive ? "font-normal" : ""} 
+                    ` ${isActive ? "font-medium" : ""} 
                     ${scrolled ? "text-black" : "text-white"}
                     hover:text-opacity-70 p-2`
                   }
@@ -111,35 +111,35 @@ const Header = () => {
                 <NavLink
                   to="/"
                   className={({ isActive }: { isActive: any }) =>
-                    ` ${isActive ? "font-normal" : ""}
+                    ` ${isActive ? "font-medium" : ""}
                    "text-black"
-                       hover:text-opacity-70 p-2  text-[18px]`
+                       hover:text-opacity-70 p-2  text-[16px]`
                   }
                   onClick={handleclose}
                 >
                   Home
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/aboutus"
                   className={({ isActive }: { isActive: any }) =>
-                    ` ${isActive ? "font-normal" : ""}  "text-black"
+                    ` ${isActive ? "font-medium" : ""}  "text-black"
                     }
-                     hover:text-opacity-70 p-2 text-[18px]`
+                     hover:text-opacity-70 p-2 text-[16px]`
                   }
                   onClick={handleclose}
                 >
                   About Us
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   to="/services"
                   className={({ isActive }: { isActive: any }) =>
-                    ` ${isActive ? "font-normal" : ""}  "text-black"
+                    ` ${isActive ? "font-medium" : ""}  "text-black"
                     }
-                      hover:text-opacity-70 p-2 text-[18px]`
+                      hover:text-opacity-70 p-2 text-[16px]`
                   }
                   onClick={handleclose}
                 >
@@ -152,8 +152,8 @@ const Header = () => {
                 <NavLink
                   to="/blog"
                   className={({ isActive }: { isActive: any }) =>
-                    ` ${isActive ? "font-normal" : ""}   "text-black"
-                  } hover:text-opacity-70 p-2 text-[18px]`
+                    ` ${isActive ? "font-medium" : ""}   "text-black"
+                  } hover:text-opacity-70 p-2 text-[16px]`
                   }
                   onClick={handleclose}
                 >
@@ -165,8 +165,8 @@ const Header = () => {
                 <NavLink
                   to="/event"
                   className={({ isActive }: { isActive: any }) =>
-                    ` ${isActive ? "font-normal" : ""}   "text-black" 
-                  } hover:text-opacity-70 p-2 text-[18px]`
+                    ` ${isActive ? "font-medium" : ""}   "text-black" 
+                  } hover:text-opacity-70 p-2 text-[16px]`
                   }
                   onClick={handleclose}
                 >
@@ -174,25 +174,25 @@ const Header = () => {
                 </NavLink>
               </li>
 
-              <li>
+              {/* <li>
                 <NavLink
                   to="/gallery"
                   className={({ isActive }: { isActive: any }) =>
-                    ` ${isActive ? "font-normal" : ""}  "text-white"
-                  } hover:text-opacity-70 p-2 text-[18px]`
+                    ` ${isActive ? "font-medium" : ""}  "text-white"
+                  } hover:text-opacity-70 p-2 text-[16px]`
                   }
                   onClick={handleclose}
                 >
                   Gallery
                 </NavLink>
-              </li>
+              </li> */}
 
               <li>
                 <NavLink
                   to="/contact-us"
                   className={({ isActive }: { isActive: any }) =>
-                    ` ${isActive ? "font-normal" : ""}   "text-black"
-                  } hover:text-opacity-70 p-2 text-[18px]`
+                    ` ${isActive ? "font-medium" : ""}   "text-black"
+                  } hover:text-opacity-70 p-2 text-[16px]`
                   }
                   onClick={handleclose}
                 >
@@ -201,17 +201,17 @@ const Header = () => {
               </li>
 
 
-              <li>
+              {/* <li>
                 <NavLink
                   to="/login"
                   className={({ isActive }: { isActive: any }) =>
-                    ` ${isActive ? "font-normal" : ""}  "text-black" 
+                    ` ${isActive ? "font-medium" : ""}  "text-black" 
                     }
                      hover:text-opacity-70 p-2`
                   }
                   onClick={handleclose}
                 >
-                  <button aria-label="Login" className="p-0 text-[18px]">
+                  <button aria-label="Login" className="p-0 text-[16px]">
                     Login
                   </button>
                 </NavLink>
@@ -220,12 +220,12 @@ const Header = () => {
                 <NavLink
                   to="/signup"
                   className={({ isActive }: { isActive: any }) =>
-                    ` ${isActive ? "font-normal" : ""}   `
+                    ` ${isActive ? "font-medium" : ""}   `
                   }
                 >
                   <Link to="/signup">
                     <button
-                      className={`px-4 py-2 hover:text-black hover:ease-in-out border-[1px] border-black text-[18px] `}
+                      className={`px-4 py-2 hover:text-black hover:ease-in-out border-[1px] border-black text-[16px] `}
                       aria-label="Sign up"
                       onClick={handleclose}
                     >
@@ -233,7 +233,7 @@ const Header = () => {
                     </button>
                   </Link>
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
             <Icon
               icon="ion:close"
@@ -250,29 +250,29 @@ const Header = () => {
                 to="/"
                 // ${scrolled || isBlogPath || isLoginPath || isSignupPath ? "text-black" : "text-white"}
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-normal" : ""}  
-                "text-black"
-                   hover:text-opacity-70 p-2 text-[18px]`
+                  ` ${isActive ? "font-medium" : ""}  
+                "text-[primary] tracking-tight "
+                   hover:text-opacity-70 p-2 text-[16px]`
                 }
               >
                 Home
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 to="/aboutus"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-normal" : ""} text-black hover:text-opacity-70 p-2 text-[18px]`
+                  ` ${isActive ? "font-medium" : ""} text-black hover:text-opacity-70 p-2 text-[16px]`
                 }
               >
                 About Us
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink
                 to="/services"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-normal" : ""} text-black hover:text-opacity-70 p-2 text-[18px]`
+                  ` ${isActive ? "font-medium" : ""} text-black hover:text-opacity-70 p-2 text-[16px]`
                 }
               >
                 Services
@@ -282,7 +282,7 @@ const Header = () => {
               <NavLink
                 to="/blog"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-normal" : ""}  text-black hover:text-opacity-70 p-2 text-[18px]`
+                  ` ${isActive ? "font-medium" : ""}  text-black hover:text-opacity-70 p-2 text-[16px]`
                 }
               >
                 Blog
@@ -293,29 +293,29 @@ const Header = () => {
               <NavLink
                 to="/event"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-normal" : ""} text-black hover:text-opacity-70 p-2 text-[18px]`
+                  ` ${isActive ? "font-medium" : ""} text-black hover:text-opacity-70 p-2 text-[16px]`
                 }
               >
                 Event
               </NavLink>
             </li>
 
-            <li>
+            {/* <li>
               <NavLink
                 to="/gallery"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-normal" : ""} text-black hover:text-opacity-70 p-2 text-[18px]`
+                  ` ${isActive ? "font-medium" : ""} text-black hover:text-opacity-70 p-2 text-[16px]`
                 }
               >
                 Gallery
               </NavLink>
-            </li>
+            </li> */}
 
             <li>
               <NavLink
                 to="/contact-us"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-normal" : ""} text-black hover:text-opacity-70 p-2 text-[18px]`
+                  ` ${isActive ? "font-medium" : ""} text-black hover:text-opacity-70 p-2 text-[16px]`
                 }
               >
                 Contact Us
@@ -323,11 +323,11 @@ const Header = () => {
             </li>
 
 
-            <li>
+            {/* <li>
               <NavLink
                 to="/login"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-normal" : ""}  text-black  hover:text-opacity-70 text-[18px]`
+                  ` ${isActive ? "font-medium" : ""}  text-black  hover:text-opacity-70 text-[16px]`
                 }
               >
                 <button aria-label="Login">Login</button>
@@ -337,7 +337,7 @@ const Header = () => {
               <NavLink
                 to="/signup"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-normal" : ""}   text-black text-[18px]`
+                  ` ${isActive ? "font-medium" : ""}   text-black text-[16px]`
                 }
               >
                 <Link to="/signup">
@@ -349,7 +349,7 @@ const Header = () => {
                   </button>
                 </Link>
               </NavLink>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </header>

@@ -38,7 +38,7 @@ const HomeServices = () => {
     return (
         <>
             <div className="container mx-auto px-8 md:px-16 flex flex-col justify-center items-center gap-4 md:gap-[1rem]">
-                <h2 className="h1">Our Services</h2>
+                <h2 className="h2">Our Services</h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-4 lg:gap-8 xl:mr-auto xl:ml-auto ">
                     {/* <div className="bg-white hover:shadow-md border-[1px] border-borderColor rounded-2xl px-8 py-16 flex flex-col gap-4">
@@ -49,11 +49,13 @@ const HomeServices = () => {
 
                     </div> */}
                     {Servicedata.map((data) => (
-                        <div className=" custom-hover-effect bg-white border-[1px] border-borderColor rounded-2xl px-8 py-12 md:px-8 md:py-16 flex flex-col gap-4 hover:shadow-md">
-                            {data.icon}
-                            <div className="flex flex-col gap-1.5">
-                                <p className="text-[1.5rem] md:text-[1.75rem] font-medium leading-[1.5rem] md:leading-[2rem] ">{data.title}</p>
-                                <p className="text-[1.2rem] text-textColor font-light leading-tight">{data.description}</p>
+                        <div className=" custom-hover-effect bg-white border-[1px] border-borderColor rounded-[1rem] px-8 py-12 md:px-8 md:py-16 flex justify-end gap-4 hover:shadow-md">
+                            <div className="flex flex-col gap-4">
+                                {data.icon}
+                                <div className="flex flex-col gap-1.5">
+                                    <p className="title text-black">{data.title}</p>
+                                    <p className="text-textColor">{data.description}</p>
+                                </div>
                             </div>
 
                         </div>

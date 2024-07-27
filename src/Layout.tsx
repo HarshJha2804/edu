@@ -34,7 +34,7 @@ const Layout = () => {
                     </div>
                 </div>
             )} */}
-            <div className="w-[100vw] h-[100vh] fixed top-[84vh] left-[95vw] z-[100000] flex flex-col gap-3">
+            {/* <div className="w-[100vw] h-[100vh] fixed top-[84vh] left-[95vw] z-[100000] flex flex-col gap-3">
                 <div className="bg-primary rounded-full w-[fit-content] p-3 hover:cursor-pointer flex"
                     onMouseEnter={() => { setdownloadhover(true) }}
                     onMouseLeave={() => { setdownloadhover(false) }}
@@ -61,7 +61,7 @@ const Layout = () => {
 
                     </Link>
                 </div>
-            </div >
+            </div > */}
             <Outlet />
 
             <Footer />

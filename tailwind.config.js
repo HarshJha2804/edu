@@ -41,63 +41,37 @@ export default {
       },
 
       fontSize: {
-        'h1': '2.5rem', 
-        'h1-md': '3rem',
-        'h1-lg': '3.5rem', 
+        'h1': '3rem', 
+        'h1-md': '3.5rem',
+        'h1-lg': '4rem', 
 
         'h2': '2.1rem', 
-        'h2-md': '2.5rem',
-        'h2-lg': '3rem',
+        'h2-md': '2.25rem',
+        'h2-lg': '2.65rem',
 
         'h3': '1.875rem', 
         'h3-md': '2.25rem',
-        'h3-lg': '2.5rem', 
+        'h3-lg': '2.25rem', 
 
         'p': '1rem', 
         'p-md': '1rem', 
         'p-lg': '1.1rem', 
 
+        'p2': '1rem', 
+        'p2-md': '1.25rem', 
+        'p2-lg': '1.35rem', 
+
         'display': '3.25rem', 
         'display-md': '3.5rem', 
         'display-lg': '3.75rem', 
+
+        'title': '1.5rem', 
+        'title-md': '1.5rem', 
+        'title-lg': '1.5rem', 
+        
       },
 
 
-      leading: {
-        'h1': '2.5rem', 
-        'h1-md': '3rem',
-        'h1-lg': '3.75rem', 
-
-        'h2': '2.25rem', 
-        'h2-md': '2.5rem',
-        'h2-lg': '3rem',
-
-        'h3': '1.875rem', 
-        'h3-md': '2.25rem',
-        'h3-lg': '2.5rem', 
-
-        'p': '1.25rem', // Desktop
-        'p-md': '1.375rem', // Large Desktop
-        'p-lg': '1.5rem', // Extra Large Desktop
-      },
-
-      tracking: {
-        'h1': '2.5rem', 
-        'h1-md': '3rem',
-        'h1-lg': '3.75rem', 
-
-        'h2': '2.25rem', 
-        'h2-md': '2.5rem',
-        'h2-lg': '3rem',
-
-        'h3': '1.875rem', 
-        'h3-md': '2.25rem',
-        'h3-lg': '2.5rem', 
-
-        'p': '1rem', // Desktop
-        'p-md': '1rem', // Large Desktop
-        'p-lg': '1rem', // Extra Large Desktop
-      },
 
     },
 
@@ -124,20 +98,27 @@ export default {
   plugins: [
     function({addUtilities}){
       const newUtilities={
-        '.h1':{
-          '@apply text-h1 md:text-h1-md lg:text-h1-lg leading-[2.75rem] md:leading-[3rem] lg:leading-[4rem] lg:tracking-[-0.05rem]':{},
+        'h1':{
+          '@apply text-h1 font-medium md:text-h1-md lg:text-h1-lg leading-[2.5rem] md:leading-[3rem] lg:leading-[4rem] lg:tracking-[-0.05rem]':{},
         },
         'h2':{
-          '@apply text-h2 md:text-h2-md lg:text-h2-lg leading-[2.5rem] md:leading-[2.75rem] lg:leading-[3.5rem] lg:tracking-[-0.05rem]':{}
+          '@apply text-h2 font-[600] md:text-h2-md lg:text-h2-lg leading-[2.5rem] md:leading-[2.75rem] lg:leading-[3.5rem] lg:tracking-[-0.05rem]':{}
         },
         'h3':{
           '@apply text-h3 md:text-h3-md lg:text-h3-lg leading-[2.2rem] md:leading-[2.25rem] lg:leading-[3rem] lg:tracking-[-0.05rem]':{}
         },
         'p':{
-          '@apply text-p font-extralight md:text-p-md lg:text-p-lg leading-[1.5rem] tracking-[0.025rem]':{}
+          '@apply text-p md:text-p-md lg:text-p-lg leading-tight':{}
+        },
+        '.p2':{
+          '@apply text-p2 font-light md:text-p2-md lg:text-p2-lg leading-tight md:leading-[1.65rem] lg:leading-[1.75rem]':{},
         },
         '.display':{
           '@apply text-display md:text-display-md lg:text-display-lg leading-[2.75rem] md:leading-[3rem] lg:leading-[4rem] lg:tracking-[-0.05rem]':{},
+        },
+
+        '.title':{
+          '@apply text-title font-medium md:text-title-md lg:text-title-lg leading-[1.5rem] md:leading-[1.65rem] lg:leading-[1.65rem] lg:tracking-[-0.05rem]':{},
         },
 
         // 'h4':{

@@ -93,9 +93,9 @@ const Herosection = () => {
 
             {/* </div>
          </div> */}
-            <div className="w-[100vw] h-auto lg:h-[80vh] bg-primary pt-[5rem]">
-                <div className="container px-8 md:px-16 mx-auto">
-                    <div className="grid grid-rows-[auto_auto] gap-[3rem] lg:grid-cols-[30rem_1fr]">
+            <div className="w-[100vw] h-auto lg:h-[80vh] bg-primary">
+                <div className="container px-8 md:px-16 mx-auto pt-[6rem]">
+                    <div className="grid grid-rows-[auto_auto] gap-[3rem] lg:grid-cols-[34rem_1fr]">
                         <div className="flex flex-col gap-10">
                             <div className="flex flex-col gap-2">
 
@@ -121,6 +121,20 @@ const Herosection = () => {
                                 {/* <img src={founderImg} alt="a confident founder" className='object-cover w-[584px] h-[584px]' /> */}
 
                             </div>
+
+                            <div className="flex flex-col gap-2">
+                                <h1 className="h1 h2 text-white">Expansion to your existing business</h1>
+                                <p className="p h2 font-[100] text-white">
+                                    At EmpowerEdu, we work hand in hand with educational institutions to offer specialised administrative and operational assistance, paired
+                                    with tailored training for team members. We optimise efficiency, empowering the team to deliver
+                                    exceptional educational experiences. Let's embark on a journey to transform education
+                                    together
+                                </p>
+                                {/* <img src={founderImg} alt="a confident founder" className='object-cover w-[584px] h-[584px]' /> */}
+
+                            </div>
+
+
                             {/* <div>
                                 <button className="primary-button">
                                     Learn More
