@@ -94,11 +94,11 @@ const Herosection = () => {
 
             {/* </div>
          </div> */}
-            <div className="w-[100vw] h-[max-content] md:h-[100vh] bg-primary">
+            <div className="w-[100vw] h-[100vh] md:h-[100vh] bg-primary">
                 <div className="container px-8 md:px-16 mx-auto flex justify-center items-center h-[100%]">
                     <Scrollanimation>
                         <div className="flex flex-row justify-center items-center h-[100%]">
-                            <div className="grid grid-cols-1 grid-rows-[1fr_1fr] gap-[3rem] md:grid-rows-1 md:grid-cols-[1fr_1fr]">
+                            <div className="grid grid-cols-1 grid-rows-1 gap-[3rem] md:grid-rows-1 md:grid-cols-[1fr_1fr]">
                                 <div className="flex flex-col justify-between">
                                     <div className="flex flex-col gap-6 p-4">
 
@@ -134,7 +134,7 @@ const Herosection = () => {
                                 </button>
                             </div> */}
                                 </div>
-                                <div className="w-[80%]">
+                                <div className="w-[80%] hidden md:grid">
                                     <Youtubeevideo />
                                 </div>
 
