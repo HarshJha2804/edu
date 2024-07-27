@@ -93,10 +93,11 @@ const Herosection = () => {
 
             {/* </div>
          </div> */}
-            <div className="w-[100vw] h-auto lg:h-[80vh] bg-primary">
-                <div className="container px-8 md:px-16 mx-auto pt-[6rem]">
+            <div className="w-[100vw] lg:h-[100vh] bg-primary">
+                {/* <div className="container px-8 md:px-16 mx-auto"> */}
+                <div className="flex flex-row justify-center items-center h-[100%]">
                     <div className="grid grid-rows-[auto_auto] gap-[3rem] lg:grid-cols-[34rem_1fr]">
-                        <div className="flex flex-col gap-10">
+                        <div className="flex flex-col justify-between">
                             <div className="flex flex-col gap-2">
 
                                 {/* <p className="md:tracking-[0.25rem] tracking-[0.1rem] font-medium text-white text-[0.75rem] md:text-[1rem]">OUR MISSION</p> */}
@@ -131,12 +132,14 @@ const Herosection = () => {
                                 </button>
                             </div> */}
                         </div>
-                        <div className="flex items-end">
-                            <Youtubeevideo />
+                        <div className="flex items-end w-[60vh] border-[1px]">
+                            {/* <Youtubeevideo /> */}
                         </div>
 
                     </div>
                 </div>
+
+                {/* </div> */}
 
             </div>
             {/* <Carousel /> */}

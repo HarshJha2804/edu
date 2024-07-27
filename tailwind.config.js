@@ -105,7 +105,7 @@ export default {
           '@apply text-h2 font-[600] md:text-h2-md lg:text-h2-lg leading-[2rem] md:leading-[2rem] lg:leading-[2.7rem] lg:tracking-[-0.05rem]':{}
         },
         'h3':{
-          '@apply text-h3 md:text-h3-md lg:text-h3-lg leading-[2.2rem] md:leading-[2.25rem] lg:leading-[3rem] lg:tracking-[-0.05rem]':{}
+          '@apply text-h3 md:text-h3-md lg:text-h3-lg leading-[2.2rem] md:leading-[2.25rem] lg:leading-[2.5rem] lg:tracking-[-0.05rem]':{}
         },
         'p':{
           '@apply text-p md:text-p-md lg:text-p-lg leading-tight':{}
