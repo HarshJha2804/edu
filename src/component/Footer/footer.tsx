@@ -63,7 +63,7 @@ const Footer = () => {
 
 
 
-
+            {/* 
             <div className="flex flex-col w-[fit-content]">
 
               <p className="font-semibold md:text-[18px]">Company</p>
@@ -82,7 +82,7 @@ const Footer = () => {
               <Link to="/gallery">
                 <p className="font-normal text-textColor md:text-[18px]">Gallery</p>
               </Link>
-            </div>
+            </div> */}
 
 
 

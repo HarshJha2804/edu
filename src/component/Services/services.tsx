@@ -80,10 +80,10 @@ const Services = () => {
   return (
 
     <>
-      <div className="relative w-[100%] h-[100%]">
+      {/* <div className="relative w-[100%] h-[100%]">
         <img src={serviceHeroImg} alt="" className="object-cover brightness-[50%] h-[100vh] w-[100%]" />
         <h1 className="absolute top-[46%] left-[46%] text-[1.75rem] text-white md:text-[2rem] lg:text-[4rem]">Services</h1>
-      </div>
+      </div> */}
 
 
       {/* <div className="mt-40 ">
@@ -354,12 +354,12 @@ const Services = () => {
                     {/* <Scrollanimation> */}
                     {/* <p className="text-[1.75rem] md:text-[5rem] text-white leading-[2.4rem]">{data.number}</p> */}
                     {/* </Scrollanimation> */}
-                    <div className="flex flex-col gap-2">
+                    <div className="flex flex-col gap-4">
                       <Scrollanimation>
-                        <p className="text-[1.75rem] md:text-[2.5rem] lg:text-[3.5rem] md:leading-[2.5rem] lg:leading-[3.5rem] text-white">{data.title}</p>
+                        <h1 className=" text-white">{data.title}</h1>
                       </Scrollanimation>
                       <Scrollanimation>
-                        <p className="text-white text-[1rem] md:text-[1.25rem] font-extralight flex flex-1">{data.description}</p>
+                        <p className="text-white font-extralight">{data.description}</p>
                       </Scrollanimation>
                     </div>
                   </div>

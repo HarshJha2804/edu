@@ -49,8 +49,8 @@ export default {
         'h2-md': '2.25rem',
         'h2-lg': '2.65rem',
 
-        'h3': '1.875rem', 
-        'h3-md': '2.25rem',
+        'h3': '1.5rem', 
+        'h3-md': '2rem',
         'h3-lg': '2.25rem', 
 
         'p': '1rem', 
@@ -102,10 +102,10 @@ export default {
           '@apply text-h1 font-medium md:text-h1-md lg:text-h1-lg leading-[2.5rem] md:leading-[3rem] lg:leading-[4rem] lg:tracking-[-0.05rem]':{},
         },
         'h2':{
-          '@apply text-h2 font-[600] md:text-h2-md lg:text-h2-lg leading-[2rem] md:leading-[2rem] lg:leading-[2.7rem] lg:tracking-[-0.05rem]':{}
+          '@apply text-h2 font-[600] md:text-h2-md lg:text-h2-lg leading-[2rem] md:leading-[1.75rem] lg:leading-[2.7rem] lg:tracking-[-0.05rem]':{}
         },
         'h3':{
-          '@apply text-h3 md:text-h3-md lg:text-h3-lg leading-[2.2rem] md:leading-[2.25rem] lg:leading-[2.5rem] lg:tracking-[-0.05rem]':{}
+          '@apply text-h3 md:text-h3-md lg:text-h3-lg leading-[1.75rem] md:leading-[2.35rem] lg:leading-[2.5rem] lg:tracking-[-0.05rem]':{}
         },
         'p':{
           '@apply text-p md:text-p-md lg:text-p-lg leading-tight':{}

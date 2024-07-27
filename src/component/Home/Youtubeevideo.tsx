@@ -1,7 +1,7 @@
 // import { Link } from "react-router-dom"
 
 // import { useState } from "react"
-
+import thumbnail from "../../assets/Homepage/Youtubevideo/thumbnail.png"
 
 const Youtubeevideo = () => {
   const handleClick = () => {
@@ -16,8 +16,8 @@ const Youtubeevideo = () => {
   };
   return (
     <>
-      <div className="w-[100%]">
-        <div className=" video-container h-[500px]" >
+      <div className="w-[100%], h-[100%] rounded-lg" style={{ backgroundImage: `url(${thumbnail})`, objectFit: 'cover', }}>
+        <div className=" video-container"  >
           <button onClick={handleClick}>
             Open YouTube Video
           </button>

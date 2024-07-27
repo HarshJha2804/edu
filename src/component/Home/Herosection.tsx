@@ -93,19 +93,19 @@ const Herosection = () => {
 
             {/* </div>
          </div> */}
-            <div className="w-[100vw] lg:h-[100vh] bg-primary">
-                {/* <div className="container px-8 md:px-16 mx-auto"> */}
-                <div className="flex flex-row justify-center items-center h-[100%]">
-                    <div className="grid grid-rows-[auto_auto] gap-[3rem] lg:grid-cols-[34rem_1fr]">
-                        <div className="flex flex-col justify-between">
-                            <div className="flex flex-col gap-2">
+            <div className="w-[100vw] h-[max-content] md:h-[100vh] bg-primary">
+                <div className="container px-8 md:px-16 mx-auto flex justify-center items-center h-[100%]">
+                    <div className="flex flex-row justify-center items-center h-[100%]">
+                        <div className="grid grid-cols-1 grid-rows-[1fr_1fr] gap-[3rem] md:grid-rows-1 md:grid-cols-[1fr_1fr]">
+                            <div className="flex flex-col justify-between">
+                                <div className="flex flex-col gap-6 p-4">
 
-                                {/* <p className="md:tracking-[0.25rem] tracking-[0.1rem] font-medium text-white text-[0.75rem] md:text-[1rem]">OUR MISSION</p> */}
-                                {/* <h1 className="display text-white">Expansion to your existing business</h1> */}
-                                <h1 className="h1 text-white">Expansion to Your Existing Business</h1>
-                                {/* <h2 className="h2 text-white">Expansion to your existing business</h2>
+                                    {/* <p className="md:tracking-[0.25rem] tracking-[0.1rem] font-medium text-white text-[0.75rem] md:text-[1rem]">OUR MISSION</p> */}
+                                    {/* <h1 className="display text-white">Expansion to your existing business</h1> */}
+                                    <h1 className="h1 text-white">Expansion to Your Existing Business</h1>
+                                    {/* <h2 className="h2 text-white">Expansion to your existing business</h2>
                             <h3 className="h3 text-white">Expansion to your existing business</h3> */}
-                                {/* <h4 className="h4">Expansion to your existing business</h4>
+                                    {/* <h4 className="h4">Expansion to your existing business</h4>
                             <h5 className="h5">Expansion to your existing business</h5>
                             <h6 className="h6">Expansion to your existing business</h6> */}
 
@@ -113,33 +113,33 @@ const Herosection = () => {
 
 
 
-                                <p className="p text-white">
-                                    At EmpowerEdu, we work hand in hand with educational institutions to offer specialised administrative and operational assistance, paired
-                                    with tailored training for team members. We optimise efficiency, empowering the team to deliver
-                                    exceptional educational experiences. Let's embark on a journey to transform education
-                                    together
-                                </p>
-                                {/* <img src={founderImg} alt="a confident founder" className='object-cover w-[584px] h-[584px]' /> */}
+                                    <p className="p text-white">
+                                        At EmpowerEdu, we work hand in hand with educational institutions to offer specialised administrative and operational assistance, paired
+                                        with tailored training for team members. We optimise efficiency, empowering the team to deliver
+                                        exceptional educational experiences. Let's embark on a journey to transform education
+                                        together
+                                    </p>
+                                    {/* <img src={founderImg} alt="a confident founder" className='object-cover w-[584px] h-[584px]' /> */}
 
-                            </div>
-
-
+                                </div>
 
 
-                            {/* <div>
+
+
+                                {/* <div>
                                 <button className="primary-button">
                                     Learn More
                                 </button>
                             </div> */}
-                        </div>
-                        <div className="flex items-end w-[60vh] border-[1px]">
-                            {/* <Youtubeevideo /> */}
-                        </div>
+                            </div>
+                            <div className="w-[80%]">
+                                <Youtubeevideo />
+                            </div>
 
+                        </div>
                     </div>
-                </div>
 
-                {/* </div> */}
+                </div>
 
             </div>
             {/* <Carousel /> */}
