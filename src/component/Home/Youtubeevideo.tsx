@@ -1,19 +1,28 @@
 // import { Link } from "react-router-dom"
 
+// import { useState } from "react"
+
 
 const Youtubeevideo = () => {
+  const handleClick = () => {
+    const url = "https://www.youtube.com/embed/MuEl9ZrwbOY?si=k-NVrC6GYBtF0pT5";
+    const width = 'auto';
+    const height = 500;
+
+    window.open(
+      url,
+      `toolbar=0,location=0,menubar=0,width=${width},height=${height},top=0,left=0`
+    );
+  };
   return (
     <>
-      <div className="container mx-auto px-8 md:px-16">
-        <div className=" video-container pb-[64%] md:pb-[34%]">
-          <iframe
-            src="https://www.youtube.com/embed/MuEl9ZrwbOY?si=o4Hri1iVC4-aX931"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen>
-          </iframe>
+      <div className="w-[100%]">
+        <div className=" video-container bg-red-500 h-[500px]" >
+          <button onClick={handleClick}>
+            Open YouTube Video
+          </button>
         </div>
-      </div>
+      </div >
 
 
     </>

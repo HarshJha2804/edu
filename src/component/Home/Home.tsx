@@ -10,6 +10,7 @@ import Youtubeevideo from "./Youtubeevideo";
 // import Blog from "../Blog/Blog";
 import HomeServices from "./homeServices";
 import HomeBlog from "./Homeblog";
+import Statements from "./Statements";
 
 
 
@@ -39,9 +40,9 @@ const Home = () => {
 
         <Herosection />
 
-        {/* <Scrollanimation>
-          <Missionstatement />
-        </Scrollanimation> */}
+        <Scrollanimation>
+          <Statements />
+        </Scrollanimation>
 
         <Scrollanimation>
           <HomeServices />

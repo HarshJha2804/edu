@@ -122,17 +122,7 @@ const Herosection = () => {
 
                             </div>
 
-                            <div className="flex flex-col gap-2">
-                                <h1 className="h1 h2 text-white">Expansion to your existing business</h1>
-                                <p className="p h2 font-[100] text-white">
-                                    At EmpowerEdu, we work hand in hand with educational institutions to offer specialised administrative and operational assistance, paired
-                                    with tailored training for team members. We optimise efficiency, empowering the team to deliver
-                                    exceptional educational experiences. Let's embark on a journey to transform education
-                                    together
-                                </p>
-                                {/* <img src={founderImg} alt="a confident founder" className='object-cover w-[584px] h-[584px]' /> */}
 
-                            </div>
 
 
                             {/* <div>
