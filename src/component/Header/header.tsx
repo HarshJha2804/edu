@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 import { Icon } from "@iconify/react";
 // import empowerLight from "../../assets/empower-light.png"
 // import { useNavigate } from 'react-router-dom';
@@ -113,7 +113,7 @@ const Header = () => {
                   className={({ isActive }: { isActive: any }) =>
                     ` ${isActive ? "font-medium" : ""}
                    "text-black"
-                       hover:text-opacity-70 p-2  text-[16px]`
+                       hover:text-opacity-70 p-2  text-[18px]`
                   }
                   onClick={handleclose}
                 >
@@ -126,7 +126,7 @@ const Header = () => {
                   className={({ isActive }: { isActive: any }) =>
                     ` ${isActive ? "font-medium" : ""}  "text-black"
                     }
-                     hover:text-opacity-70 p-2 text-[16px]`
+                     hover:text-opacity-70 p-2 text-[18px]`
                   }
                   onClick={handleclose}
                 >
@@ -139,7 +139,7 @@ const Header = () => {
                   className={({ isActive }: { isActive: any }) =>
                     ` ${isActive ? "font-medium" : ""}  "text-black"
                     }
-                      hover:text-opacity-70 p-2 text-[16px]`
+                      hover:text-opacity-70 p-2 text-[18px]`
                   }
                   onClick={handleclose}
                 >
@@ -153,7 +153,7 @@ const Header = () => {
                   to="/blog"
                   className={({ isActive }: { isActive: any }) =>
                     ` ${isActive ? "font-medium" : ""}   "text-black"
-                  } hover:text-opacity-70 p-2 text-[16px]`
+                  } hover:text-opacity-70 p-2 text-[18px]`
                   }
                   onClick={handleclose}
                 >
@@ -166,7 +166,7 @@ const Header = () => {
                   to="/event"
                   className={({ isActive }: { isActive: any }) =>
                     ` ${isActive ? "font-medium" : ""}   "text-black" 
-                  } hover:text-opacity-70 p-2 text-[16px]`
+                  } hover:text-opacity-70 p-2 text-[18px]`
                   }
                   onClick={handleclose}
                 >
@@ -179,7 +179,7 @@ const Header = () => {
                   to="/gallery"
                   className={({ isActive }: { isActive: any }) =>
                     ` ${isActive ? "font-medium" : ""}  "text-white"
-                  } hover:text-opacity-70 p-2 text-[16px]`
+                  } hover:text-opacity-70 p-2 text-[18px]`
                   }
                   onClick={handleclose}
                 >
@@ -192,7 +192,7 @@ const Header = () => {
                   to="/contact-us"
                   className={({ isActive }: { isActive: any }) =>
                     ` ${isActive ? "font-medium" : ""}   "text-black"
-                  } hover:text-opacity-70 p-2 text-[16px]`
+                  } hover:text-opacity-70 p-2 text-[18px]`
                   }
                   onClick={handleclose}
                 >
@@ -211,7 +211,7 @@ const Header = () => {
                   }
                   onClick={handleclose}
                 >
-                  <button aria-label="Login" className="p-0 text-[16px]">
+                  <button aria-label="Login" className="p-0 text-[18px]">
                     Login
                   </button>
                 </NavLink>
@@ -225,7 +225,7 @@ const Header = () => {
                 >
                   <Link to="/signup">
                     <button
-                      className={`px-4 py-2 hover:text-black hover:ease-in-out border-[1px] border-black text-[16px] `}
+                      className={`px-4 py-2 hover:text-black hover:ease-in-out border-[1px] border-black text-[18px] `}
                       aria-label="Sign up"
                       onClick={handleclose}
                     >
@@ -252,7 +252,7 @@ const Header = () => {
                 className={({ isActive }: { isActive: any }) =>
                   ` ${isActive ? "font-medium" : ""}  
                 "text-[primary] tracking-tight "
-                   hover:text-opacity-70 p-2 text-[16px]`
+                   hover:text-opacity-70 p-2 text-[18px]`
                 }
               >
                 Home
@@ -262,7 +262,7 @@ const Header = () => {
               <NavLink
                 to="/aboutus"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-medium" : ""} text-black hover:text-opacity-70 p-2 text-[16px]`
+                  ` ${isActive ? "font-medium" : ""} text-black hover:text-opacity-70 p-2 text-[18px]`
                 }
               >
                 About Us
@@ -272,7 +272,7 @@ const Header = () => {
               <NavLink
                 to="/services"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-medium" : ""} text-black hover:text-opacity-70 p-2 text-[16px]`
+                  ` ${isActive ? "font-medium" : ""} text-black hover:text-opacity-70 p-2 text-[18px]`
                 }
               >
                 Services
@@ -282,7 +282,7 @@ const Header = () => {
               <NavLink
                 to="/blog"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-medium" : ""}  text-black hover:text-opacity-70 p-2 text-[16px]`
+                  ` ${isActive ? "font-medium" : ""}  text-black hover:text-opacity-70 p-2 text-[18px]`
                 }
               >
                 Blog
@@ -293,7 +293,7 @@ const Header = () => {
               <NavLink
                 to="/event"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-medium" : ""} text-black hover:text-opacity-70 p-2 text-[16px]`
+                  ` ${isActive ? "font-medium" : ""} text-black hover:text-opacity-70 p-2 text-[18px]`
                 }
               >
                 Event
@@ -304,7 +304,7 @@ const Header = () => {
               <NavLink
                 to="/gallery"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-medium" : ""} text-black hover:text-opacity-70 p-2 text-[16px]`
+                  ` ${isActive ? "font-medium" : ""} text-black hover:text-opacity-70 p-2 text-[18px]`
                 }
               >
                 Gallery
@@ -315,7 +315,7 @@ const Header = () => {
               <NavLink
                 to="/contact-us"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-medium" : ""} text-black hover:text-opacity-70 p-2 text-[16px]`
+                  ` ${isActive ? "font-medium" : ""} text-black hover:text-opacity-70 p-2 text-[18px]`
                 }
               >
                 Contact Us
@@ -327,7 +327,7 @@ const Header = () => {
               <NavLink
                 to="/login"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-medium" : ""}  text-black  hover:text-opacity-70 text-[16px]`
+                  ` ${isActive ? "font-medium" : ""}  text-black  hover:text-opacity-70 text-[18px]`
                 }
               >
                 <button aria-label="Login">Login</button>
@@ -337,7 +337,7 @@ const Header = () => {
               <NavLink
                 to="/signup"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-medium" : ""}   text-black text-[16px]`
+                  ` ${isActive ? "font-medium" : ""}   text-black text-[18px]`
                 }
               >
                 <Link to="/signup">
