@@ -101,7 +101,7 @@ const Herosection = () => {
 
                                 {/* <p className="md:tracking-[0.25rem] tracking-[0.1rem] font-medium text-white text-[0.75rem] md:text-[1rem]">OUR MISSION</p> */}
                                 {/* <h1 className="display text-white">Expansion to your existing business</h1> */}
-                                <h1 className="h1 text-white">Expansion to your existing business</h1>
+                                <h1 className="h1 text-white">Expansion to Your Existing Business</h1>
                                 {/* <h2 className="h2 text-white">Expansion to your existing business</h2>
                             <h3 className="h3 text-white">Expansion to your existing business</h3> */}
                                 {/* <h4 className="h4">Expansion to your existing business</h4>
