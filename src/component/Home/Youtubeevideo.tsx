@@ -17,7 +17,7 @@ const Youtubeevideo = () => {
   return (
     <>
       <div className="w-[100%]">
-        <div className=" video-container bg-red-500 h-[500px]" >
+        <div className=" video-container h-[500px]" >
           <button onClick={handleClick}>
             Open YouTube Video
           </button>
