@@ -1,28 +1,47 @@
 // import { Link } from "react-router-dom"
 
 // import { useState } from "react"
+import { useState } from "react";
 import thumbnail from "../../assets/Homepage/Youtubevideo/thumbnail.png"
+import { Icon } from "@iconify/react/dist/iconify.js";
 
 const Youtubeevideo = () => {
-  const handleClick = () => {
-    const url = "https://www.youtube.com/embed/MuEl9ZrwbOY?si=k-NVrC6GYBtF0pT5";
-    const width = 'auto';
-    const height = 500;
+  const [isModalOpen, setModalOpen] = useState(false);
+  const openModal = () => setModalOpen(true)
+  const closeModal = () => setModalOpen(false)
 
-    window.open(
-      url,
-      `toolbar=0,location=0,menubar=0,width=${width},height=${height},top=0,left=0`
-    );
-  };
   return (
     <>
-      <div className="w-[100%], h-[100%] rounded-lg" style={{ backgroundImage: `url(${thumbnail})`, objectFit: 'cover', }}>
+      <div className="w-[100%], h-[100%] rounded-lg hover:cursor-pointer" style={{ backgroundImage: `url(${thumbnail})`, objectFit: 'cover', }} onClick={openModal} >
         <div className=" video-container"  >
-          <button onClick={handleClick}>
-            Open YouTube Video
-          </button>
+
         </div>
       </div >
+
+      {isModalOpen &&
+        <>
+          <div className="w-[100vw] h-[100vh] bg-black fixed z-1000000 top-0 right-0 left-0 flex justify-center items-center">
+
+            <div className="relative w-[100vh]">
+              <button className="absolute close-btn text-white right-[-2rem] top-[-2rem]" onClick={closeModal} >
+                <Icon icon="mingcute:close-line" fontSize={20} />
+              </button>
+
+              <div className="w-[100%] flex justify-center items-center">
+                <iframe
+                  width="1060"
+                  height="415"
+                  src="https://www.youtube.com/embed/MuEl9ZrwbOY?si=k-NVrC6GYBtF0pT5"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </>
+      }
 
 
     </>
