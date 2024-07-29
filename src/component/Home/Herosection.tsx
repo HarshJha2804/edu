@@ -13,7 +13,7 @@
 // import slider9 from '../../assets/Homepage/Herosection/slider9.webp';
 // import slider10 from '../../assets/Homepage/Herosection/slider10.webp';
 import Scrollanimation from "../Scrollanimation/Scrollanimation";
-import { Carousel } from "./Carousel";
+// import { Carousel } from "./Carousel";
 import Youtubeevideo from "./Youtubeevideo";
 
 

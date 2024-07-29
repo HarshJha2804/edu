@@ -1,12 +1,12 @@
 import { useEffect } from "react";
 import Herosection from "./Herosection"
-import Missionstatement from "./Missionstatement"
+// import Missionstatement from "./Missionstatement"
 import Scrollanimation from "../Scrollanimation/Scrollanimation";
 // import Universitysection from "./Universitylogos";
 
 import ServiceSector from "./ServiceSector";
 // import Numbers from "./Numbers";
-import Youtubeevideo from "./Youtubeevideo";
+// import Youtubeevideo from "./Youtubeevideo";
 // import Blog from "../Blog/Blog";
 import HomeServices from "./homeServices";
 import HomeBlog from "./Homeblog";

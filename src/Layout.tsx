@@ -1,27 +1,28 @@
 import Footer from "./component/Footer/footer"
 
 // import Headerhome from "./component/Header/Header"
-import { Link, Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
+// import Header from "./component/Header/header"
+// import { Icon } from "@iconify/react/dist/iconify.js"
+// import { useState } from "react"
+// import brochure from "./assets/Brochure/empower_edu_brochure.pdf"
 import Header from "./component/Header/header"
-import { Icon } from "@iconify/react/dist/iconify.js"
-import { useState } from "react"
-import brochure from "./assets/Brochure/empower_edu_brochure.pdf"
 // import Eventpopover from "./component/EventPopover/Eventpopover"
 // import dhfj from ""
 const Layout = () => {
-    const [hover, setdownloadhover] = useState(false);
+    // const [hover, setdownloadhover] = useState(false);
     // const [isPopoverVisible, setPopoverVisible] = useState(true);
     // const handlePopoverClose = () => {
     //     setPopoverVisible(false);
     // };
-    const handleDownload = () => {
-        const link = document.createElement("a")
-        link.href = brochure
-        link.download = "empower_edu_brochure.pdf"
-        document.body.appendChild(link)
-        link.click();
-        document.body.removeChild(link)
-    }
+    // const handleDownload = () => {
+    //     const link = document.createElement("a")
+    //     link.href = brochure
+    //     link.download = "empower_edu_brochure.pdf"
+    //     document.body.appendChild(link)
+    //     link.click();
+    //     document.body.removeChild(link)
+    // }
     // const location = useLocation()
     return (
         <>
