@@ -1,5 +1,5 @@
 // import BlogHeroImg from "../../assets/Blog/blog-heroimg.jpg"
-import { Icon } from "@iconify/react/dist/iconify.js"
+// import { Icon } from "@iconify/react/dist/iconify.js"
 import blogFirst from "../../assets/Homepage/Blogs/blog-first.jpg"
 import blogSecond from "../../assets/Homepage/Blogs/blog-second.jpg"
 import blogThird from "../../assets/Homepage/Blogs/blog-third.jpg"
