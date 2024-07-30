@@ -47,10 +47,6 @@ const Event = () => {
 
                         </div>
                     </div>
-
-
-
-
                     <div className="grid grid-cols-1 md:grid-cols-[1fr_1.75fr] rounded-md md:rounded-xl px-4 py-4 bg-white gap-4 h-[100%] md:h-[40vh]">
                         <div className='zoom-image-container relative overflow-hidden rounded-md md:rounded-xl hover:cursor-pointer h-[20vh] md:h-[36vh]'>
                             <img src={eventImgSecond} alt="" className='object-cover zoom-image h-[100%] w-[100%] ' />
@@ -83,11 +79,6 @@ const Event = () => {
 
                         </div>
                     </div>
-
-
-
-
-
                     <div className="grid grid-cols-1 md:grid-cols-[1fr_1.75fr] rounded-md md:rounded-xl px-4 py-4 bg-white gap-4 h-[100%] md:h-[40vh]">
                         <div className='zoom-image-container relative overflow-hidden rounded-md md:rounded-xl hover:cursor-pointer h-[20vh] md:h-[36vh]'>
                             <img src={eventImgThird} alt="" className='object-cover zoom-image  h-[100%] w-[100%]' />
@@ -120,15 +111,6 @@ const Event = () => {
 
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
                 </div>
             </div>
         </>
