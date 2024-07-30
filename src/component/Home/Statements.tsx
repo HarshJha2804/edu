@@ -95,7 +95,7 @@ const Statements = () => {
 
                     <div className="container mx-auto h-[100%]">
                         <div className="grid md:grid-cols-2 grid-cols-1">
-                            <div className=" px-8 py-8 lg:px-16 lg:py-16 bg-primary">
+                            <div className=" px-8 py-8 lg:px-16 lg:py-16 bg-[#0D1F22]">
                                 <div className="flex flex-col gap-4 justify-center items-center">
                                     <p className="md:text-[2.75rem] text-white text-center text-[1.5rem]">Our Mission</p>
                                     <p className="text-white p2 text-center">Building community and fostering growth</p>
