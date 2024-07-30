@@ -41,13 +41,6 @@ const HomeServices = () => {
                 <h2 className="h2">Our Services</h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-4 lg:gap-8 xl:mr-auto xl:ml-auto ">
-                    {/* <div className="bg-white hover:shadow-md border-[1px] border-borderColor rounded-2xl px-8 py-16 flex flex-col gap-4">
-                        <Icon icon="streamline:global-learning" />
-                        <p className="text-[2rem] font-medium leading-[2rem] ">Establish a Global Presence</p>
-
-                        <p className="text-[1.25rem]">Effortlessly establish an international university office on your campus, enhancing global partnerships and educational opportunities.</p>
-
-                    </div> */}
                     {Servicedata.map((data) => (
                         <div className=" custom-hover-effect bg-white border-[1px] border-borderColor rounded-[1rem] px-8 py-12 md:px-8 md:py-16 flex justify-end gap-4 hover:shadow-md">
                             <div className="flex flex-col gap-4">
@@ -60,10 +53,6 @@ const HomeServices = () => {
 
                         </div>
                     ))}
-
-
-
-
                 </div>
             </div>
 

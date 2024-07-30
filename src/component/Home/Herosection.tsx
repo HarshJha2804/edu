@@ -65,14 +65,8 @@ const Herosection = () => {
                 <div className="scroll-div-container overflow-y-scroll">    
                     {sliderData.map((data, index) => (
                         <section key={index} style={{ objectFit: 'cover', height: '100%' }}>
-                            <img
-                                className="w-[100%] h-[100vh] object-cover sticky image"
-                                src={data.image}
-                                alt="Three children looking at their dreams over screen"
-                            />
-                            <div
-                                style={{ position: 'relative', left: '60px', bottom: '16rem' }}
-                            >
+                            <img className="w-[100%] h-[100vh] object-cover sticky image" src={data.image} alt="Three children looking at their dreams over screen"/>
+                            <div style={{ position: 'relative', left: '60px', bottom: '16rem' }}>
                                 <h1 className="text-white text-[48px] w-[50%] leading-[3.25rem]">
                                     {data.text}
                                 </h1>
@@ -81,8 +75,6 @@ const Herosection = () => {
                     ))}
                 </div>
             </div>
-
-
             <div className="fixed right-[50px] top-[40%] w-[20px] h-[6%] flex justify-between transition-all duration-300 ease-out bg-transparent">
                 <div className="relative w-[8px] bg-[#333333] rounded-[60px]">
                     <div
@@ -101,7 +93,6 @@ const Herosection = () => {
                             <div className="grid grid-cols-1 grid-rows-1 gap-[3rem] md:grid-rows-1 md:grid-cols-[1fr_1fr]">
                                 <div className="flex flex-col justify-between">
                                     <div className="flex flex-col gap-6 p-4">
-
                                         {/* <p className="md:tracking-[0.25rem] tracking-[0.1rem] font-medium text-white text-[0.75rem] md:text-[1rem]">OUR MISSION</p> */}
                                         {/* <h1 className="display text-white">Expansion to your existing business</h1> */}
                                         <h1 className="h1 text-white">Expansion to Your Existing Business</h1>
@@ -110,11 +101,6 @@ const Herosection = () => {
                                         {/* <h4 className="h4">Expansion to your existing business</h4>
                             <h5 className="h5">Expansion to your existing business</h5>
                             <h6 className="h6">Expansion to your existing business</h6> */}
-
-
-
-
-
                                         <p className="p text-white">
                                             At EmpowerEdu, we work hand in hand with educational institutions to offer specialised administrative and operational assistance, paired
                                             with tailored training for team members. We optimise efficiency, empowering the team to deliver
@@ -122,12 +108,7 @@ const Herosection = () => {
                                             together
                                         </p>
                                         {/* <img src={founderImg} alt="a confident founder" className='object-cover w-[584px] h-[584px]' /> */}
-
                                     </div>
-
-
-
-
                                     {/* <div>
                                 <button className="primary-button">
                                     Learn More
@@ -137,17 +118,13 @@ const Herosection = () => {
                                 <div className="w-[80%] hidden md:grid">
                                     <Youtubeevideo />
                                 </div>
-
                             </div>
                         </div>
-
                     </Scrollanimation>
                 </div>
-
             </div>
             {/* <Carousel /> */}
         </>
     );
 };
-
 export default Herosection;

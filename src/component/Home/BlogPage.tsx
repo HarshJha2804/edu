@@ -58,8 +58,6 @@ const BlogPage = () => {
                         </p>
                         <hr />
                     </div>
-
-
                     <div className="h-[80vh] overflow-hidden rounded-lg">
                         <img src={blog.img} alt="" className="object-cover w-[100%]" />
                     </div>
