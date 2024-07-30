@@ -15,7 +15,7 @@ const Event = () => {
             <div className="px-2 md:px-16 flex flex-col my-16 md:my-32 blog-div bg-white">
                 <div className="container mx-auto px-4 grid grid-cols-1 grid-flow-row gap-8 justify-center">
 
-                    <div className="grid grid-cols-1 md:grid-cols-[1fr_1.75fr] border-[1px] border-borderColor rounded-md md:rounded-xl px-4 py-4 bg-white gap-4 h-[100%] md:h-[40vh]">
+                    <div className="grid grid-cols-1 md:grid-cols-[1fr_1.75fr] rounded-md md:rounded-xl px-4 py-4 bg-white gap-4 h-[100%] md:h-[40vh]">
                         <div className='zoom-image-container relative overflow-hidden rounded-md md:rounded-xl hover:cursor-pointer h-[20vh] md:h-[36vh]'>
                             <img src={eventImg} alt="" className='object-cover zoom-image h-[100%] w-[100%]' />
                         </div>
@@ -51,7 +51,7 @@ const Event = () => {
 
 
 
-                    <div className="grid grid-cols-1 md:grid-cols-[1fr_1.75fr] border-[1px] border-borderColor rounded-md md:rounded-xl px-4 py-4 bg-white gap-4 h-[100%] md:h-[40vh]">
+                    <div className="grid grid-cols-1 md:grid-cols-[1fr_1.75fr] rounded-md md:rounded-xl px-4 py-4 bg-white gap-4 h-[100%] md:h-[40vh]">
                         <div className='zoom-image-container relative overflow-hidden rounded-md md:rounded-xl hover:cursor-pointer h-[20vh] md:h-[36vh]'>
                             <img src={eventImgSecond} alt="" className='object-cover zoom-image h-[100%] w-[100%] ' />
                         </div>
@@ -88,7 +88,7 @@ const Event = () => {
 
 
 
-                    <div className="grid grid-cols-1 md:grid-cols-[1fr_1.75fr] border-[1px] border-borderColor rounded-md md:rounded-xl px-4 py-4 bg-white gap-4 h-[100%] md:h-[40vh]">
+                    <div className="grid grid-cols-1 md:grid-cols-[1fr_1.75fr] rounded-md md:rounded-xl px-4 py-4 bg-white gap-4 h-[100%] md:h-[40vh]">
                         <div className='zoom-image-container relative overflow-hidden rounded-md md:rounded-xl hover:cursor-pointer h-[20vh] md:h-[36vh]'>
                             <img src={eventImgThird} alt="" className='object-cover zoom-image  h-[100%] w-[100%]' />
                         </div>
