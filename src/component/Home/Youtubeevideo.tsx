@@ -2,7 +2,7 @@
 
 // import { useState } from "react"
 import { useState } from "react";
-import thumbnail from "../../assets/Homepage/Youtubevideo/thumbnail.png"
+import thumbnail from "../../assets/Homepage/Herosection/herosection.png"
 import { Icon } from "@iconify/react/dist/iconify.js";
 
 const Youtubeevideo = () => {
@@ -12,7 +12,7 @@ const Youtubeevideo = () => {
 
   return (
     <>
-      <div className="w-[100%], h-[100%] rounded-lg hover:cursor-pointer" style={{ backgroundImage: `url(${thumbnail})`, objectFit: 'cover', }} onClick={openModal} >
+      <div className=" rounded-2xl hover:cursor-pointer" style={{ backgroundImage: `url(${thumbnail})`, backgroundSize: 'cover' }} onClick={openModal} >
         <div className=" video-container"  >
 
         </div>
@@ -22,7 +22,7 @@ const Youtubeevideo = () => {
         <>
           <div className="w-[100vw] h-[100vh] bg-black fixed z-1000000 top-0 right-0 left-0 flex justify-center items-center">
 
-            <div className="relative w-[100vh]">
+            <div className="relative w-[80vh]">
               <button className="absolute close-btn text-white right-[-2rem] top-[-2rem]" onClick={closeModal} >
                 <Icon icon="mingcute:close-line" fontSize={20} />
               </button>
