@@ -111,7 +111,7 @@ const Header = () => {
                 <NavLink
                   to="/"
                   className={({ isActive }: { isActive: any }) =>
-                    ` ${isActive ? "font-medium text-primary" : "text-[#4a4a4a] font-normal"}
+                    ` ${isActive ? "font-medium text-blue-800" : "text-[#4a4a4a] font-normal"}
                   
                        hover:text-opacity-70 p-2  text-[18px]`
                   }
@@ -137,7 +137,7 @@ const Header = () => {
                 <NavLink
                   to="/services"
                   className={({ isActive }: { isActive: any }) =>
-                    ` ${isActive ? "font-medium  text-primary" : "text-[#4a4a4a] font-normal"}  
+                    ` ${isActive ? "font-medium  text-blue-800" : "text-[#4a4a4a] font-normal"}  
                     }
                       hover:text-opacity-70 p-2 text-[18px]`
                   }
@@ -152,7 +152,7 @@ const Header = () => {
                 <NavLink
                   to="/blog"
                   className={({ isActive }: { isActive: any }) =>
-                    ` ${isActive ? "font-medium  text-primary" : "text-[#4a4a4a] font-normal"}  
+                    ` ${isActive ? "font-medium  text-blue-800" : "text-[#4a4a4a] font-normal"}  
                   } hover:text-opacity-70 p-2 text-[18px]`
                   }
                   onClick={handleclose}
@@ -165,7 +165,7 @@ const Header = () => {
                 <NavLink
                   to="/event"
                   className={({ isActive }: { isActive: any }) =>
-                    ` ${isActive ? "font-medium text-primary" : "text-[#4a4a4a] font-normal"} 
+                    ` ${isActive ? "font-medium text-blue-800" : "text-[#4a4a4a] font-normal"} 
                   } hover:text-opacity-70 p-2 text-[18px]`
                   }
                   onClick={handleclose}
@@ -191,7 +191,7 @@ const Header = () => {
                 <NavLink
                   to="/contact-us"
                   className={({ isActive }: { isActive: any }) =>
-                    ` ${isActive ? "font-medium text-primary" : "text-[#4a4a4a] font-normal"} 
+                    ` ${isActive ? "font-medium text-blue-800" : "text-[#4a4a4a] font-normal"} 
                   } hover:text-opacity-70 p-2 text-[18px]`
                   }
                   onClick={handleclose}
@@ -250,7 +250,7 @@ const Header = () => {
                 to="/"
                 // ${scrolled || isBlogPath || isLoginPath || isSignupPath ? "text-black" : "text-white"}
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-medium text-primary" : "text-[#4a4a4a] font-normal"}  
+                  ` ${isActive ? "font-medium text-blue-800" : "text-[#4a4a4a] font-normal"}  
                 "text-[primary] tracking-tight "
                    hover:text-opacity-70 p-2 text-[18px]`
                 }
@@ -272,7 +272,7 @@ const Header = () => {
               <NavLink
                 to="/services"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-medium text-primary" : "text-[#4a4a4a] font-normal"} hover:text-opacity-70 p-2 text-[18px]`
+                  ` ${isActive ? "font-medium text-blue-800" : "text-[#4a4a4a] font-normal"} hover:text-opacity-70 p-2 text-[18px]`
                 }
               >
                 Services
@@ -282,7 +282,7 @@ const Header = () => {
               <NavLink
                 to="/blog"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-medium text-primary" : "text-[#4a4a4a] font-normal"}  hover:text-opacity-70 p-2 text-[18px]`
+                  ` ${isActive ? "font-medium text-blue-800" : "text-[#4a4a4a] font-normal"}  hover:text-opacity-70 p-2 text-[18px]`
                 }
               >
                 Blog
@@ -293,7 +293,7 @@ const Header = () => {
               <NavLink
                 to="/event"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-medium text-primary" : "text-[#4a4a4a] font-normal"} hover:text-opacity-70 p-2 text-[18px]`
+                  ` ${isActive ? "font-medium text-blue-800" : "text-[#4a4a4a] font-normal"} hover:text-opacity-70 p-2 text-[18px]`
                 }
               >
                 Event
@@ -315,7 +315,7 @@ const Header = () => {
               <NavLink
                 to="/contact-us"
                 className={({ isActive }: { isActive: any }) =>
-                  ` ${isActive ? "font-medium text-primary" : "text-[#4a4a4a] font-normal"} hover:text-opacity-70 p-2 text-[18px]`
+                  ` ${isActive ? "font-medium text-blue-800" : "text-[#4a4a4a] font-normal"} hover:text-opacity-70 p-2 text-[18px]`
                 }
               >
                 Contact Us
