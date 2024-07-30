@@ -1,4 +1,5 @@
-import { Icon } from "@iconify/react/dist/iconify.js"
+// import { Icon } from "@iconify/react/dist/iconify.js"
+
 import Scrollanimation from "../Scrollanimation/Scrollanimation"
 
 const Statements = () => {
@@ -35,9 +36,9 @@ const Statements = () => {
                 </div>
 
             </div> */}
-            <div className="flex flex-col gap-16">
+            <div className="px-8 md:px-16 flex flex-col blog-div bg-white">
 
-                <div className="container mx-auto h-[100%]">
+                {/* <div className="container mx-auto h-[100%]">
                     <div className="mx-8 px-8 py-8 md:px-8 md:py-16 ">
                         <div className="grid grid-cols-1 lg:grid-cols-[40%_auto] gap-16 md:justify-between lg:gap-0">
 
@@ -89,31 +90,32 @@ const Statements = () => {
 
                     </div>
 
-                </div>
+                </div> */}
+                <Scrollanimation>
 
-                <div className="container mx-auto h-[100%]">
-                    <div className="grid grid-cols-2">
-                        <div className=" px-8 py-8 md:px-16 md:py-16 bg-primary">
-                            <div className="flex flex-col gap-4 justify-center items-center">
-                                <p className="display text-white">Our Mission</p>
-                                <h3 className="text-white h1 text-center">Building community and fostering growth</h3>
+                    <div className="container mx-auto h-[100%]">
+                        <div className="grid md:grid-cols-2 grid-cols-1">
+                            <div className=" px-8 py-8 lg:px-16 lg:py-16 bg-primary">
+                                <div className="flex flex-col gap-4 justify-center items-center">
+                                    <p className="md:text-[2.75rem] text-white text-center text-[1.5rem]">Our Mission</p>
+                                    <h3 className="text-white h1 text-center">Building community and fostering growth</h3>
+                                </div>
                             </div>
-                        </div>
 
 
-                        <div className="px-8 py-8 md:px-16 md:py-16 bg-[#F18805]">
-                            <div className="flex flex-col gap-4 justify-center items-center">
-                                <p className="display text-white text-center">Our Vision</p>
-                                <h3 className="text-white h1 text-center">EmpowerEdu enables you to envision possibilities beyond your current perspective</h3>
+                            <div className="px-8 py-8 lg:px-16 lg:py-16 bg-[#F18805]">
+                                <div className="flex flex-col gap-4 justify-center items-center">
+                                    <p className="md:text-[2.75rem] text-white text-center text-[1.5rem]">Our Vision</p>
+                                    <h3 className="text-white h1 text-center">EmpowerEdu enables you to envision possibilities beyond your current perspective</h3>
+                                </div>
                             </div>
-                        </div>
 
+
+                        </div>
 
                     </div>
-
-                </div>
-
-
+                </Scrollanimation>
+                {/* 
                 <div className="container mx-auto h-[100%]">
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 md:justify-between lg:gap-0 ">
@@ -173,7 +175,7 @@ const Statements = () => {
 
                     </div>
 
-                </div>
+                </div> */}
 
             </div>
         </>
