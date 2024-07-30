@@ -98,7 +98,7 @@ const Statements = () => {
                             <div className=" px-8 py-8 lg:px-16 lg:py-16 bg-primary">
                                 <div className="flex flex-col gap-4 justify-center items-center">
                                     <p className="md:text-[2.75rem] text-white text-center text-[1.5rem]">Our Mission</p>
-                                    <h3 className="text-white h1 text-center">Building community and fostering growth</h3>
+                                    <p className="text-white p2 text-center">Building community and fostering growth</p>
                                 </div>
                             </div>
 
@@ -106,7 +106,7 @@ const Statements = () => {
                             <div className="px-8 py-8 lg:px-16 lg:py-16 bg-[#F18805]">
                                 <div className="flex flex-col gap-4 justify-center items-center">
                                     <p className="md:text-[2.75rem] text-white text-center text-[1.5rem]">Our Vision</p>
-                                    <h3 className="text-white h1 text-center">EmpowerEdu enables you to envision possibilities beyond your current perspective</h3>
+                                    <p className="text-white p2 text-center">EmpowerEdu enables you to envision possibilities beyond your current perspective</p>
                                 </div>
                             </div>
 
