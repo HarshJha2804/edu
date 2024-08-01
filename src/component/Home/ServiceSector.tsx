@@ -1,16 +1,16 @@
 // import { useEffect, useState } from 'react';
-import school from "../../assets/Homepage/Services/school.webp";
-import schoolfirst from "../../assets/Homepage/service-sector/girl-is-smiling-sitting-desk-with-other-girls.jpg"
+import school from "../../assets/Homepage/service-sector/school_bg.png";
+import schoolfirst from "../../assets/Homepage/service-sector/school.png"
 // import schoolSecond from "../../assets/Homepage/service-sector/school-second.webp"
 // import schoolThird from "../../assets/Homepage/service-sector/school-third.webp"
 // import schoolFourth from "../../assets/Homepage/service-sector/school-fourth.webp"
-import college from "../../assets/Homepage/service-sector/college.webp"
-import collegeFirst from "../../assets/Homepage/service-sector/portrait-happy-indian-university-students-wearing-graduation-gown-mortarboard.jpg"
+import college from "../../assets/Homepage/service-sector/college_bg.png"
+import collegeFirst from "../../assets/Homepage/service-sector/college.png"
 // import collegeSecond from "../../assets/Homepage/service-sector/college-second.webp"
 // import collegeThird from "../../assets/Homepage/service-sector/college-third.webp"
 // import collegeFourth from "../../assets/Homepage/service-sector/college-fourth.webp"
-import learningCenter from "../../assets/Homepage/service-sector/learningCenter.png"
-import learningFirst from "../../assets/Homepage/service-sector/learningcentre-first.jpg"
+import learningCenter from "../../assets/Homepage/service-sector/coaching_center_bg.png"
+import learningFirst from "../../assets/Homepage/service-sector/learning_center.png"
 // import learningSecond from "../../assets/Homepage/service-sector/learning-second.webp"
 // import learningThird from "../../assets/Homepage/service-sector/learning-third.webp"
 // import learningFourth from "../../assets/Homepage/service-sector/learning-fourth.webp"
@@ -140,7 +140,7 @@ const ServiceSector = () => {
                                 <div className='flex flex-col md:flex-row justify-between gap-4 h-[100%]'>
                                     <div className='relative flex flex-1 md:flex-[1.5] shrink-0 rounded-[1rem]'>
 
-                                        <img src={data.bgimg} alt="" className='object-cover w-[100%] brightness-[40%] rounded-[1rem]' />
+                                        <img src={data.bgimg} alt="" className='object-cover w-[100%] brightness-[24%] rounded-[1rem]' />
                                         <div className='absolute px-4 top-8 md:top-10 md:px-10 flex flex-col gap-2 md:gap-1'>
                                             <h3 className=' text-white'>{data.title}</h3>
                                             <p className='p2 text-white'>{data.description}
