@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 const Footer = () => {
   const socialMediaIcons = [
-    { icon: <Icon icon="ri:twitter-x-fill" className="text-black" fontSize="24px" />, link: "#" },
+    { icon: <Icon icon="ri:linkedin-fill" className="text-black" fontSize="24px" />, link: "#" },
     { icon: <Icon icon="ri:facebook-fill" className="text-black" fontSize="24px" />, link: "#" },
     { icon: <Icon icon="ri:instagram-line" className="text-black" fontSize="24px" />, link: "#" },
     { icon: <Icon icon="ri:youtube-line" className="text-black" fontSize="24px" />, link: "#" },
