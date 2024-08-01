@@ -4,9 +4,9 @@ import { Link } from "react-router-dom"
 
 const Footer = () => {
   const socialMediaIcons = [
-    { icon: <Icon icon="ri:linkedin-fill" className="text-black" fontSize="24px" />, link: "#" },
-    { icon: <Icon icon="ri:facebook-fill" className="text-black" fontSize="24px" />, link: "#" },
-    { icon: <Icon icon="ri:instagram-line" className="text-black" fontSize="24px" />, link: "#" },
+    { icon: <Icon icon="ri:linkedin-fill" className="text-black" fontSize="24px" />, link: "" },
+    { icon: <Icon icon="ri:facebook-fill" className="text-black" fontSize="24px" />, link: "https://www.facebook.com/share/rZHWCMjD6JGYJuXW/?mibextid=qi2Omg" },
+    { icon: <Icon icon="ri:instagram-line" className="text-black" fontSize="24px" />, link: "https://www.instagram.com/empower._edu/?utm_source=ig_web_button_share_sheet" },
     { icon: <Icon icon="ri:youtube-line" className="text-black" fontSize="24px" />, link: "#" },
 
   ]
@@ -161,9 +161,12 @@ const Footer = () => {
 
               <div className="flex flex-row gap-2 ">
                 {socialMediaIcons.map((data) => (
-                  <button className="social-media-icon-box w-[fit-content] border-[1px]  border-borderColor p-3 rounded-2xl">
-                    {data.icon}
-                  </button>
+                  <Link to={data.link}>
+
+                    <button className="social-media-icon-box w-[fit-content] border-[1px]  border-borderColor p-3 rounded-2xl">
+                      {data.icon}
+                    </button>
+                  </Link>
                 ))}
               </div>
 
