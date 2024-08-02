@@ -102,10 +102,7 @@ const Herosection = () => {
                             <h5 className="h5">Expansion to your existing business</h5>
                             <h6 className="h6">Expansion to your existing business</h6> */}
                                         <p className="p text-white">
-                                            At EmpowerEdu, we work hand in hand with educational institutions to offer specialised administrative and operational assistance, paired
-                                            with tailored training for team members. We optimise efficiency, empowering the team to deliver
-                                            exceptional educational experiences. Let's embark on a journey to transform education
-                                            together
+                                            At EmpowerEdu, we are committed to empowering educational institutions making  international education accessible thereby driving growth and innovation. We specailized in providing administrative and operational support with tailor made training solutions ensuring to meet educational goals for your esteemed organization. Let’s work together to create exceptional learning environments.
                                         </p>
                                         {/* <img src={founderImg} alt="a confident founder" className='object-cover w-[584px] h-[584px]' /> */}
                                     </div>

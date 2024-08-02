@@ -1,10 +1,10 @@
 // import { useEffect, useState } from 'react';
-import school from "../../assets/Homepage/service-sector/school_bg.png";
+import school from "../../assets/Homepage/service-sector/school-building-img.png";
 import schoolfirst from "../../assets/Homepage/service-sector/school.png"
 // import schoolSecond from "../../assets/Homepage/service-sector/school-second.webp"
 // import schoolThird from "../../assets/Homepage/service-sector/school-third.webp"
 // import schoolFourth from "../../assets/Homepage/service-sector/school-fourth.webp"
-import college from "../../assets/Homepage/service-sector/college_bg.png"
+import college from "../../assets/Homepage/service-sector/college-classroom.png"
 import collegeFirst from "../../assets/Homepage/service-sector/college.png"
 // import collegeSecond from "../../assets/Homepage/service-sector/college-second.webp"
 // import collegeThird from "../../assets/Homepage/service-sector/college-third.webp"
