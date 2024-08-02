@@ -2,7 +2,7 @@
 
 // import { useState } from "react"
 import { useState } from "react";
-import thumbnail from "../../assets/Homepage/Youtubevideo/newThumbnail.png"
+import thumbnail from "../../assets/Homepage/Youtubevideo/new-thumbnail-edited.png"
 import { Icon } from "@iconify/react/dist/iconify.js";
 
 const Youtubeevideo = () => {

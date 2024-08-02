@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 const Footer = () => {
   const socialMediaIcons = [
-    { icon: <Icon icon="ri:linkedin-fill" className="text-black" fontSize="24px" />, link: "" },
+    { icon: <Icon icon="ri:linkedin-fill" className="text-black" fontSize="24px" />, link: "#" },
     { icon: <Icon icon="ri:facebook-fill" className="text-black" fontSize="24px" />, link: "https://www.facebook.com/share/rZHWCMjD6JGYJuXW/?mibextid=qi2Omg" },
     { icon: <Icon icon="ri:instagram-line" className="text-black" fontSize="24px" />, link: "https://www.instagram.com/empower._edu/?utm_source=ig_web_button_share_sheet" },
     { icon: <Icon icon="ri:youtube-line" className="text-black" fontSize="24px" />, link: "#" },
@@ -161,9 +161,9 @@ const Footer = () => {
 
               <div className="flex flex-row gap-2 ">
                 {socialMediaIcons.map((data) => (
-                  <Link to={data.link}>
+                  <Link to={data.link} target="_blank">
 
-                    <button className="social-media-icon-box w-[fit-content] border-[1px]  border-borderColor p-3 rounded-2xl">
+                    <button className="social-media-icon-box w-[fit-content] border-[1px]  border-borderColor p-3 rounded-2xl" >
                       {data.icon}
                     </button>
                   </Link>
@@ -180,6 +180,24 @@ const Footer = () => {
           </div>
           <div className="grid grid-rows-1 md:grid-rows-1 md:grid-cols-1 md:flex-row gap-16 justify-start align-end">
 
+            <div className="flex flex-col w-[fit-content] gap-1">
+
+              <div className="w-[100%] text-nowrap">
+                <p className="font-semibold md:text-[18px] w-[100%]">Quick Links</p>
+              </div>
+              <Link to="/aboutus">
+                <p className="font-normal text-textColor md:text-[18px]">About Us</p>
+              </Link>
+              <Link to="/services">
+                <p className="font-normal text-textColor md:text-[18px]">Services</p>
+              </Link>
+              <Link to="/blog">
+                <p className="font-normal text-textColor md:text-[18px]">Blog</p>
+              </Link>
+              <Link to="/event">
+                <p className="font-normal text-textColor md:text-[18px]">Event</p>
+              </Link>
+            </div>
 
           </div>
         </div>
