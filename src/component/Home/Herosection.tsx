@@ -103,6 +103,7 @@ const Herosection = () => {
                         </Scrollanimation>
                     </div>
                 </div>
+                
                 <div className="w-[80%] container mx-auto" >
                     <div className="bg-blue-500 mt-[-3.5rem] p-8 md:px-12 md:py-6 m-16">
                         <p className="p1 text-black text-center leading-normal text-white">
