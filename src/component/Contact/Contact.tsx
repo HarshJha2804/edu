@@ -13,7 +13,7 @@ const Contact = () => {
       <div className="container mx-auto py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 p-8 md:p-16 mx-auto mt-[2rem] gap-8 bg-white">
           <div className="flex flex-col justify-between">
-            <h1 className="h1"> Let's talk</h1>
+            <h1 className="display text-primary"> Partner With Us</h1>
 
             {/* 
           <p>I-59/60, Lajpat Nagar-1 <br />
