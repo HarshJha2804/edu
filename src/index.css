@@ -273,6 +273,7 @@ section{
 }
 .custom-hover-effect:hover *{
   color: white !important;
+  fill: white !important;
 }
 
 /* .custom-hover-effect::after{
