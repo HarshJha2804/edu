@@ -49,13 +49,14 @@ background-color:white;
 padding: 0.5rem 1rem;
 /* border-radius: 2rem; */
 }
-@font-face {
+/* @font-face {
   font-family: 'Geomanist';
   src: url('./assets/font/Geomanist-Bold.woff2') format('woff2'), 
        url('./assets/font/Geomanist-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
+
 
 @font-face {
   font-family: 'Geomanist';
@@ -78,16 +79,12 @@ padding: 0.5rem 1rem;
   src: url('./assets/font/Geomanist-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Geomanist', sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Geomanist', sans-serif !important;
-
-}
 
 /* p{
   letter-spacing: 0.05px !important;

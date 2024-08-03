@@ -43,7 +43,7 @@ export default {
       fontSize: {
         'h1': '3rem', 
         'h1-md': '3.5rem',
-        'h1-lg': '3.5rem', 
+        'h1-lg': '4rem', 
 
         'h2': '2.1rem', 
         'h2-md': '2.25rem',
