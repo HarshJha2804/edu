@@ -99,7 +99,7 @@ export default {
     function({addUtilities}){
       const newUtilities={
         'h1':{
-          '@apply text-h1 font-medium md:text-h1-md lg:text-h1-lg leading-[2.5rem] md:leading-[3rem] lg:leading-[4rem] lg:tracking-[-0.05rem]':{},
+          '@apply text-h1 font-medium md:text-h1-md lg:text-h1-lg leading-[2.5rem] md:leading-[3.5rem] lg:leading-[4.5rem] lg:tracking-[-0.05rem]':{},
         },
         'h2':{
           '@apply text-h2 font-[600] md:text-h2-md lg:text-h2-lg leading-[2rem] md:leading-[1.75rem] lg:leading-[2.7rem] lg:tracking-[-0.05rem]':{}
@@ -116,7 +116,7 @@ export default {
         '.display':{
           '@apply text-display md:text-display-md lg:text-display-lg leading-[2.75rem] md:leading-[3rem] lg:leading-[4rem] lg:tracking-[-0.05rem]':{},
         },
-
+ 
         '.title':{
           '@apply text-title font-medium md:text-title-md lg:text-title-lg leading-[1.5rem] md:leading-[1.65rem] lg:leading-[1.65rem] lg:tracking-[-0.05rem]':{},
         },
