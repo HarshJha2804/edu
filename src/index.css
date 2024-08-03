@@ -33,7 +33,7 @@
 
 body{
   /* font-family: 'Outfit', sans-serif !important; */
-  font-family: "Gabarito", sans-serif !important;
+  /* font-family: "Gabarito", sans-serif !important; */
   scroll-behavior: smooth;
   background-color: white;
 }
@@ -49,10 +49,44 @@ background-color:white;
 padding: 0.5rem 1rem;
 /* border-radius: 2rem; */
 }
+@font-face {
+  font-family: 'Geomanist';
+  src: url('./assets/font/Geomanist-Bold.woff2') format('woff2'), 
+       url('./assets/font/Geomanist-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Geomanist';
+  src: url('./assets/font/Geomanist-Regular.woff2') format('woff2'),
+       url('./assets/font/Geomanist-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
-h1,h2,h3,h4,h5,h6{
-  font-family: "Gabarito", sans-serif !important;
+@font-face {
+  font-family: 'Geomanist';
+  src: url('./assets/font/Geomanist-Medium.woff2') format('woff2'),
+       url('./assets/font/Geomanist-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geomanist';
+  src: url('./assets/font/Geomanist-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Geomanist', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Geomanist', sans-serif !important;
+
 }
 
 /* p{

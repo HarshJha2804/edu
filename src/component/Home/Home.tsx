@@ -35,7 +35,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="flex flex-col gap-8 md:gap-20 bg-white">
+      <div className="flex flex-col gap-8 md:gap-12 bg-white">
 
 
         <Herosection />

@@ -36,7 +36,7 @@ const Statements = () => {
                 </div>
 
             </div> */}
-            <div className="px-8 md:px-16 flex flex-col blog-div bg-white">
+            <div className="px-8 md:px-16 flex flex-col  bg-white">
 
                 {/* <div className="container mx-auto h-[100%]">
                     <div className="mx-8 px-8 py-8 md:px-8 md:py-16 ">
