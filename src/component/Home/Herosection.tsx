@@ -103,9 +103,9 @@ const Herosection = () => {
                         </Scrollanimation>
                     </div>
                 </div>
-                <div className="w-[100%]">
-                    <div className="bg-[white] mt-[-1rem] p-8 md:px-12 md:py-12">
-                        <p className="p1 text-black text-center leading-normal ">
+                <div className="w-[80%] container mx-auto" >
+                    <div className="bg-blue-500 mt-[-3.5rem] p-8 md:px-12 md:py-6 m-16">
+                        <p className="p1 text-black text-center leading-normal text-white">
                             At EmpowerEdu, we are committed to empowering educational institutions making  international education accessible thereby driving growth and innovation. We specailized in providing administrative and operational support with tailor made training solutions ensuring to meet educational goals for your esteemed organization. Let’s work together to create exceptional learning environments.
                         </p>
                     </div>
