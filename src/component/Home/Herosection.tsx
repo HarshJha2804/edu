@@ -87,7 +87,7 @@ const Herosection = () => {
             {/* </div>
          </div> */}
             <div>
-                <div className="w-[100vw] h-[80vh] md:h-[68vh] bg-primary">
+                <div className="w-[100vw] h-[80vh] md:h-[72vh] bg-primary">
                     <div className="container px-8 md:px-16 mx-auto flex justify-center items-center h-[100%]">
                         <Scrollanimation>
                             <div className="flex flex-row justify-center items-center h-[100%]">
@@ -119,8 +119,8 @@ const Herosection = () => {
                         </Scrollanimation>
                     </div>
                 </div>
-                <div className="container mx-auto ">
-                    <div className="bg-[#475FEB] mt-[-3rem] p-8 md:px-16 md:py-24">
+                <div className="container mx-auto w-[80%]">
+                    <div className="bg-[#475FEB] mt-[-3rem] p-8 md:px-8 md:py-12 m-8">
                         <p className="p1 text-white text-center leading-normal ">
                             At EmpowerEdu, we are committed to empowering educational institutions making  international education accessible thereby driving growth and innovation. We specailized in providing administrative and operational support with tailor made training solutions ensuring to meet educational goals for your esteemed organization. Let’s work together to create exceptional learning environments.
                         </p>
