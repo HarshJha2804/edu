@@ -10,7 +10,7 @@ import ServiceSector from "./ServiceSector";
 // import Blog from "../Blog/Blog";
 import HomeServices from "./homeServices";
 import HomeBlog from "./Homeblog";
-import Statements from "./Statements";
+import Statements from "./mission&vision";
 
 
 
@@ -39,6 +39,8 @@ const Home = () => {
 
 
         <Herosection />
+
+
 
         <Scrollanimation>
           <Statements />

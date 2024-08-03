@@ -4,10 +4,10 @@ import { Link } from "react-router-dom"
 
 const Footer = () => {
   const socialMediaIcons = [
-    { icon: <Icon icon="ri:linkedin-fill" className="text-black" fontSize="24px" />, link: "#" },
+    { icon: <Icon icon="ri:linkedin-fill" className="text-black" fontSize="24px" />, link: "" },
     { icon: <Icon icon="ri:facebook-fill" className="text-black" fontSize="24px" />, link: "https://www.facebook.com/share/rZHWCMjD6JGYJuXW/?mibextid=qi2Omg" },
     { icon: <Icon icon="ri:instagram-line" className="text-black" fontSize="24px" />, link: "https://www.instagram.com/empower._edu/?utm_source=ig_web_button_share_sheet" },
-    { icon: <Icon icon="ri:youtube-line" className="text-black" fontSize="24px" />, link: "#" },
+    { icon: <Icon icon="ri:youtube-line" className="text-black" fontSize="24px" />, link: "" },
 
   ]
   return (
@@ -185,9 +185,6 @@ const Footer = () => {
               <div className="w-[100%] text-nowrap">
                 <p className="font-semibold md:text-[18px] w-[100%]">Quick Links</p>
               </div>
-              <Link to="/aboutus">
-                <p className="font-normal text-textColor md:text-[18px]">About Us</p>
-              </Link>
               <Link to="/services">
                 <p className="font-normal text-textColor md:text-[18px]">Services</p>
               </Link>
@@ -196,6 +193,9 @@ const Footer = () => {
               </Link>
               <Link to="/event">
                 <p className="font-normal text-textColor md:text-[18px]">Event</p>
+              </Link>
+              <Link to="/contact-us">
+                <p className="font-normal text-textColor md:text-[18px]">Contact Us</p>
               </Link>
             </div>
 

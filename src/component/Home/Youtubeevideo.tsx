@@ -12,7 +12,7 @@ const Youtubeevideo = () => {
 
   return (
     <>
-      <div className=" rounded-2xl hover:cursor-pointer flex justify-center items-center" style={{ backgroundImage: `url(${thumbnail})`, backgroundSize: 'cover', }} >
+      <div className=" rounded-2xl hover:cursor-pointer flex justify-center items-center" style={{ backgroundImage: `url(${thumbnail})`, backgroundSize: 'cover', height: '30vh' }} >
         <button onClick={openModal} className="p-6 bg-[#FF0000] rounded-[100%]" >
           <Icon icon="ph:play-fill" fontSize={24} style={{ color: 'white' }} />
         </button>
