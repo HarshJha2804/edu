@@ -105,7 +105,7 @@ const Herosection = () => {
                 </div>
 
                 <div className="w-[80%] container mx-auto" >
-                    <div className=" mt-[-3.5rem] p-8 md:px-12 md:py-6 m-16 rounded-lg" style={{ background: "linear-gradient(58deg, #71C1F4, #000C6E)" }}>
+                    <div className=" mt-[-3.5rem] p-8 md:px-12 md:py-6 m-16 rounded-xl" style={{ background: "linear-gradient(58deg, #71C1F4, #000C6E)" }}>
                         <p className="p1 text-center leading-normal text-white">
                             At EmpowerEdu, we are committed to empowering educational institutions making  international education accessible thereby driving growth and innovation. We specailized in providing administrative and operational support with tailor made training solutions ensuring to meet educational goals for your esteemed organization. Let’s work together to create exceptional learning environments.
                         </p>
