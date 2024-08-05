@@ -95,9 +95,12 @@ const Statements = () => {
 
                     <div className="container mx-auto h-[100%]">
                         <div className="grid md:grid-cols-2 grid-cols-1">
-                            <div className=" px-8 py-8 lg:px-16 lg:py-16 bg-[#f3f5fc]">
+                            <div className=" px-8 py-8 lg:px-16 lg:py-16 bg-[#f9fbff]">
                                 <div className="flex flex-col gap-4 justify-center items-center">
-                                    <p className="md:text-[2.75rem]  text-center text-[1.5rem]">Our Mission</p>
+                                    <div className="flex flex-col justify-center items-center">
+                                        <p className="md:text-[2.75rem]  text-center text-[1.5rem]">Our Mission</p>
+                                        <p className="h-[4px] w-[60%] bg-secondary"></p>
+                                    </div>
                                     <p className="p2 text-center">Building community and fostering growth</p>
                                 </div>
                             </div>
@@ -105,7 +108,10 @@ const Statements = () => {
 
                             <div className="px-8 py-8 lg:px-16 lg:py-16 bg-[#f9fbff]">
                                 <div className="flex flex-col gap-4 justify-center items-center">
-                                    <p className="md:text-[2.75rem] text-center text-[1.5rem]">Our Vision</p>
+                                    <div className="flex flex-col justify-center items-center">
+                                        <p className="md:text-[2.75rem] text-center text-[1.5rem]">Our Vision</p>
+                                        <p className="h-[4px] w-[60%] bg-secondary"></p>
+                                    </div>
                                     <p className=" p2 text-center">EmpowerEdu enables you to envision possibilities beyond your current perspective</p>
                                 </div>
                             </div>

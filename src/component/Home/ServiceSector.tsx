@@ -11,6 +11,7 @@ import collegeFirst from "../../assets/Homepage/service-sector/college.png"
 // import collegeFourth from "../../assets/Homepage/service-sector/college-fourth.webp"
 import learningCenter from "../../assets/Homepage/service-sector/coaching_center_bg.png"
 import learningFirst from "../../assets/Homepage/service-sector/learning_center.png"
+import Scrollanimation from "../Scrollanimation/Scrollanimation";
 // import learningSecond from "../../assets/Homepage/service-sector/learning-second.webp"
 // import learningThird from "../../assets/Homepage/service-sector/learning-third.webp"
 // import learningFourth from "../../assets/Homepage/service-sector/learning-fourth.webp"
@@ -99,8 +100,11 @@ const ServiceSector = () => {
             </div> */}
             <div className='flex flex-col gap-4 md:gap-[1.5rem]'>
 
-                <div className="flex flex-col content justify-center items-center ">
-                    <h2 className="h2">Industries Served</h2>
+                <div className="flex flex-col content justify-center items-center gap-3 ">
+                    <div className="flex flex-col justify-center items-center gap-1">
+                        <h2 className="h2">Industries Serviced</h2>
+                        <p className="h-[4px] w-[60%] bg-secondary"></p>
+                    </div>
 
                     <p className='p'> Innovating Education for a Global Future</p>
                 </div>
@@ -131,12 +135,12 @@ const ServiceSector = () => {
                 {/* Schools */}
 
 
-                <div className="">
+                {/* <div className="">
 
                     {IndustryService.map((data) => (
 
                         <div className={`sticky top-0 h-[60vh] md:h-[100vh]`}>
-                            <div className='flex flex-col px-6 py-6 md:px-10 md:py-10 w-[100%] h-[60vh] md:w-[100vw] md:h-[100vh] gap-4 bg-black'>
+                            <div className='flex flex-col px-6 py-6 md:px-10 md:py-10 w-[100%] h-[60vh] md:w-[100vw] md:h-[100vh] gap-4 bg-primary'>
                                 <div className='flex flex-col md:flex-row justify-between gap-4 h-[100%]'>
                                     <div className='relative flex flex-1 md:flex-[1.5] shrink-0 rounded-[1rem]'>
 
@@ -151,24 +155,46 @@ const ServiceSector = () => {
                                         <img src={data.imgFirst} alt="" className='object-cover rounded-[1rem] w-[100%]' />
                                     </div>
                                 </div>
-                                {/* <div className='md:flex hidden flex-col md:flex-row md:h-[35vh] justify-between gap-4'>
-                                    <div className='flex md:flex-1 '>
-                                        <img src={data.imgSecond} alt="" className='object-cover w-[100%]' />
-                                    </div>
-                                    <div className='md:flex hidden md:flex-1'>
-                                        <img src={data.imgSecond} alt="" className='object-cover w-[100%]' />
-                                    </div>
-                                    <div className='md:flex hidden md:flex-0.5'>
-                                        <img src={data.imgThird} alt="" className='object-cover w-[100%]' />
-                                    </div>
-                                </div> */}
-
                             </div>
                         </div>
 
                     ))}
 
+                </div> */}
+
+
+
+                <div className="container m-auto p-8 flex flex-col gap-10">
+                    {IndustryService.map((data, index) => (
+                        <Scrollanimation>
+                            <div className="grid grid-rows-1 grid-cols-1 md:grid-cols-2 gap-16 ">
+                                {index % 2 === 0 ? (
+                                    <>
+                                        <div className='md:flex  flex-1'>
+                                            <img src={data.imgFirst} alt="" className='object-cover rounded-[1rem] w-[100%]' />
+                                        </div>
+                                        <div className='top-8 md:top-10 flex flex-col gap-2 md:gap-1 py-8  bg-[#E0E3F6] p-8  rounded-[1rem]'>
+                                            <h3>{data.title}</h3>
+                                            <p className='p2'>{data.description}</p>
+                                        </div>
+                                    </>
+                                ) : (
+                                    <>
+                                        <div className='top-8 md:top-10 flex flex-col gap-2 md:gap-1 py-8 bg-[#D0D5F1] p-8  rounded-[1rem]'>
+                                            <h3>{data.title}</h3>
+                                            <p className='p2'>{data.description}</p>
+                                        </div>
+                                        <div className='md:flex flex-1'>
+                                            <img src={data.imgFirst} alt="" className='object-cover rounded-[1rem] w-[100%] ' />
+                                        </div>
+                                    </>
+                                )}
+                            </div>
+                        </Scrollanimation >
+
+                    ))}
                 </div>
+
 
 
                 {/* <div className="mt-16 w-[100vw] h-[120vh] overflow-auto body ">

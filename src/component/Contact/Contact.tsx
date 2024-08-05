@@ -12,8 +12,14 @@ const Contact = () => {
       </div> */}
       <div className="container mx-auto py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 p-8 md:p-16 mx-auto mt-[2rem] gap-8 bg-white">
-          <div className="flex flex-col justify-between">
-            <h1 className="display text-primary"> Partner With Us</h1>
+          <div className="flex flex-col gap-3">
+            <div className="w-[fit-content]">
+              <div className="flex flex-col justify-center items-center gap-1">
+                <h2 className="h2 text-primary"> Partner With Us</h2>
+                <p className="h-[4px] w-[60%] bg-secondary"></p>
+              </div>
+            </div>
+            <p>Phone Number: +91 8588897029</p>
 
             {/* 
           <p>I-59/60, Lajpat Nagar-1 <br />

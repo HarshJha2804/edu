@@ -77,7 +77,7 @@ const Service = () => {
             </div> */}
             <div className="w-[100vw] h-[100vh]">
                 <div className="content w-[100vw] h-[110vh] overflow-hidden bg-black flex justify-center items-center">
-                    <h3 className="text-white text-[2rem]" >Industries Served</h3>
+                    <h3 className="text-white text-[2rem]" >Industries Serviced</h3>
                 </div>
                 <div className='content h-[100vh] overflow-hidden'>
                     <img

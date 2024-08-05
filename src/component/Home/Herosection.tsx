@@ -87,7 +87,7 @@ const Herosection = () => {
             {/* </div>
          </div> */}
             <div>
-                <div className="w-[100vw] py-[8rem] bg-primary">
+                <div className="w-[100vw] py-[6rem] bg-primary">
                     <div className=" px-8 md:px-16 flex justify-center items-center h-[100%]">
                         <Scrollanimation>
                             <div className="flex flex-row justify-center items-center h-[100%]">
@@ -104,8 +104,8 @@ const Herosection = () => {
                     </div>
                 </div>
 
-                <div className="w-[80%] container mx-auto" >
-                    <div className=" mt-[-3.5rem] p-8 md:px-12 md:py-6 m-16 rounded-xl bg-[#035489]"
+                <div className="w-[100%]" >
+                    <div className=" mt-[-0.5rem] p-8 md:px-12 md:py-6  bg-[#7983B6]"
                     // style={{ background: "linear-gradient(58deg, #71C1F4, #000C6E)" }}
                     >
                         <p className="p1 text-center leading-normal text-white">

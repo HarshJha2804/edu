@@ -5,7 +5,7 @@ import serviceThird from "../../assets/Services/service-third.webp"
 import serviceFourth from "../../assets/Services/service-fourth.webp"
 import serviceFifth from "../../assets/Services/service-fifth.webp"
 import serviceSixth from "../../assets/Services/service-sixth.webp"
-import serviceBg from "../../assets/Services/servicebg-first.png"
+import serviceBg from "../../assets/Services/service-bg-first.png"
 import Scrollanimation from "../Scrollanimation/Scrollanimation"
 import serviceSecondBg from "../../assets/Services/service-second-bg.png"
 import serviceThirdBg from "../../assets/Services/service-third-bg.png"
@@ -18,7 +18,7 @@ const Services = () => {
       bgimg: serviceBg,
       number: 1,
       bgPastelColor: "#0E265A",
-      bgcolor: '#012a4a',
+      bgcolor: '#1C265E',
       img: serviceFirst,
       alt: "a woman explaining the how the yours school can be expand globally",
       title: "Establish a global presence",
@@ -28,7 +28,7 @@ const Services = () => {
       bgimg: serviceSecondBg,
       number: 2,
       bgPastelColor: "#edf2fb",
-      bgcolor: '#690500',
+      bgcolor: '#7983B6',
       img: serviceSecond,
       alt: "School members find the best universities",
       title: "Collaboration with esteemed universities",
@@ -37,8 +37,8 @@ const Services = () => {
     {
       bgimg: serviceThirdBg,
       number: 3,
-      bgPastelColor: "#BE8B05",
-      bgcolor: '#DFAF1D',
+      bgPastelColor: "#cfa31d",
+      bgcolor: '#d8a928',
       img: serviceThird,
       alt: "Student happy to see the enrollment process is easy",
       title: "Streamlined enrollment and career prospects",
@@ -48,7 +48,7 @@ const Services = () => {
       bgimg: serviceFouthBg,
       number: 4,
       bgPastelColor: "#f4f4d5",
-      bgcolor: '#0E1C36',
+      bgcolor: '#1C265E',
       img: serviceFourth,
       alt: "a group of people are seeing the insight in desktop",
       title: "Industry-leading insights and strategies",
@@ -58,7 +58,7 @@ const Services = () => {
       bgimg: serviceFifthBg,
       number: 5,
       bgPastelColor: '#F18805',
-      bgcolor: '#F18805',
+      bgcolor: '#7983B6',
       img: serviceFifth,
       alt: "Trainer explaining the process to crowd",
       title: "Comprehensive support and training",
@@ -68,7 +68,7 @@ const Services = () => {
       bgimg: serviceSixthBg,
       number: 6,
       bgPastelColor: '#ebf4f5',
-      bgcolor: '#0D1F22',
+      bgcolor: '#d8a928',
       img: serviceSixth,
       alt: "a image showing data privacy",
       title: "Ensure data privacy integrity",
@@ -340,7 +340,7 @@ const Services = () => {
         >
           {serviceData.map((data) => (
 
-            <div className={`sticky top-0 h-[110vh] justify-center items-center flex md:bg-cover lg:bg-contain bg-hidden`} style={{ backgroundColor: data.bgcolor, backgroundImage: `url(${data.bgimg})`, backgroundPosition: "center", backgroundRepeat: 'no-repeat' }} >
+            <div className={`sticky top-0 h-[100%] md:h-[110vh] justify-center items-center flex md:bg-cover lg:bg-contain bg-hidden`} style={{ backgroundColor: data.bgcolor, backgroundImage: `url(${data.bgimg})`, backgroundPosition: "center", backgroundRepeat: 'no-repeat' }} >
               <div className="container mx-auto m-16 p-8 md:p-16 ">
                 {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
 
@@ -356,7 +356,7 @@ const Services = () => {
                     {/* </Scrollanimation> */}
                     <div className="flex flex-col gap-4">
                       <Scrollanimation>
-                        <h1 className=" text-white">{data.title}</h1>
+                        <h1 className=" text-white h1 lg:leading-[3.5rem]">{data.title}</h1>
                       </Scrollanimation>
                       <Scrollanimation>
                         <p className="text-white font-extralight">{data.description}</p>

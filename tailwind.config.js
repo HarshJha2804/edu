@@ -7,9 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#161E4A !important',
+        primary: '#1c265E !important',
         iconColor:'#5667FF',
-        secondary: '#2C224C',
+        secondary: '#d8a928',
         primaryNeutal: '#FAFAFF',
         textColorHeading: '#303A45',
         textColor: '#445164',
@@ -45,9 +45,9 @@ export default {
         'h1-md': '3rem',
         'h1-lg': '3.5rem', 
 
-        'h2': '2.1rem', 
-        'h2-md': '2.25rem',
-        'h2-lg': '2.65rem',
+        'h2': '1.5rem', 
+        'h2-md': '2.75rem',
+        'h2-lg': '2.75rem',
 
         'h3': '1.5rem', 
         'h3-md': '2rem',
@@ -59,7 +59,7 @@ export default {
 
         'p2': '1rem', 
         'p2-md': '1.25rem', 
-        'p2-lg': '1.35rem', 
+        'p2-lg': '1.25rem', 
 
         'display': '3.25rem', 
         'display-md': '3.5rem', 
@@ -102,7 +102,7 @@ export default {
           '@apply text-h1 font-[600] md:text-h1-md lg:text-h1-lg leading-[3rem] md:leading-[3.5rem] lg:leading-[4.5rem] lg:tracking-[-0.05rem]':{},
         },
         'h2':{
-          '@apply text-h2 font-[600] md:text-h2-md lg:text-h2-lg leading-[2rem] md:leading-[1.75rem] lg:leading-[2.7rem] lg:tracking-[-0.05rem]':{}
+          '@apply text-h2 md:text-h2-md lg:text-h2-lg leading-[2rem] md:leading-[1.75rem] lg:leading-[2.7rem] lg:tracking-[-0.05rem]':{}
         },
         'h3':{
           '@apply text-h3 md:text-h3-md lg:text-h3-lg leading-[1.75rem] md:leading-[2.35rem] lg:leading-[2.5rem] lg:tracking-[-0.05rem]':{}
