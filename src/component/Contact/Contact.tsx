@@ -1,3 +1,5 @@
+import { Icon } from "@iconify/react/dist/iconify.js"
+
 // import contactBg from "../../assets/Contact/contact-bg.jpg"
 const Contact = () => {
   return (
@@ -11,15 +13,25 @@ const Contact = () => {
         </div>
       </div> */}
       <div className="container mx-auto py-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 p-8 md:p-16 mx-auto mt-[2rem] gap-8 bg-white">
-          <div className="flex flex-col gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 p-8 md:p-16 mx-auto mt-[2rem]  bg-white">
+          <div className="flex flex-col justify-between">
             <div className="w-[fit-content]">
               <div className="flex flex-col justify-center items-center gap-1">
                 <h2 className="h2 text-primary"> Partner With Us</h2>
                 <p className="h-[4px] w-[60%] bg-secondary"></p>
               </div>
             </div>
-            <p>Phone Number: +91 8588897029</p>
+            <div className="flex flex-col gap-2">
+              <p className="font-medium">Contact Details:</p>
+              <div className="flex flex-row gap-1">
+                <Icon icon="ph:phone-bold" fontSize={20} className="text-primary" />
+                <p> +91 8588897029</p>
+              </div>
+              <div className="flex flex-row gap-1">
+                <Icon icon="material-symbols:mail-outline" fontSize={20} className="text-primary" />
+                <p> contact@empoweredu.global</p>
+              </div>
+            </div>
 
             {/* 
           <p>I-59/60, Lajpat Nagar-1 <br />
@@ -32,7 +44,7 @@ const Contact = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 w-[100%] gap-8">
                 <div className="grid grid-rows-2 items-start">
-                  <label htmlFor="name" className="text-[1rem]">Full Name</label>
+                  <label htmlFor="name" className="text-[1rem]">Full Name</label> 
                   <input type="text" className="p-2 contactus-form-input" placeholder="Enter your full name" />
                 </div>
 
