@@ -108,10 +108,10 @@ export default {
           '@apply text-h3 md:text-h3-md lg:text-h3-lg leading-[1.75rem] md:leading-[2.35rem] lg:leading-[2.5rem] lg:tracking-[-0.05rem]':{}
         },
         'p':{
-          '@apply text-p md:text-p-md lg:text-p-lg leading-tight':{}
+          '@apply text-p md:text-p-md lg:text-p-lg leading-normal':{}
         },
         '.p2':{
-          '@apply text-p2 font-light md:text-p2-md lg:text-p2-lg leading-tight md:leading-[1.65rem] lg:leading-[1.75rem]':{},
+          '@apply text-p2 font-normal md:text-p2-md lg:text-p2-lg leading-tight':{},
         },
         '.display':{
           '@apply text-display md:text-display-md lg:text-display-lg leading-[2.75rem] md:leading-[3rem] lg:leading-[4rem] lg:tracking-[-0.05rem]':{},

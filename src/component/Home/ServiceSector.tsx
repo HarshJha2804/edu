@@ -1,6 +1,6 @@
 // import { useEffect, useState } from 'react';
 import school from "../../assets/Homepage/service-sector/school-building-img.png";
-import schoolfirst from "../../assets/Homepage/service-sector/school.png"
+import schoolfirst from "../../assets/Homepage/service-sector/smart-classrooms-04.jpg"
 // import schoolSecond from "../../assets/Homepage/service-sector/school-second.webp"
 // import schoolThird from "../../assets/Homepage/service-sector/school-third.webp"
 // import schoolFourth from "../../assets/Homepage/service-sector/school-fourth.webp"
