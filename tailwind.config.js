@@ -58,8 +58,8 @@ export default {
         'p-lg': '1.1rem', 
 
         'p2': '1rem', 
-        'p2-md': '1.25rem', 
-        'p2-lg': '1.25rem', 
+        'p2-md': '1.15rem', 
+        'p2-lg': '1.15rem', 
 
         'display': '3.25rem', 
         'display-md': '3.5rem', 
