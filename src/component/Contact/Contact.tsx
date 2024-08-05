@@ -44,7 +44,7 @@ const Contact = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 w-[100%] gap-8">
                 <div className="grid grid-rows-2 items-start">
-                  <label htmlFor="name" className="text-[1rem]">Full Name</label> 
+                  <label htmlFor="name" className="text-[1rem]">Full Name</label>
                   <input type="text" className="p-2 contactus-form-input" placeholder="Enter your full name" />
                 </div>
 
