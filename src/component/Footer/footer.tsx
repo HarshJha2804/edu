@@ -160,13 +160,15 @@ const Footer = () => {
               </div>
 
               <div className="flex flex-row gap-2 ">
-                {socialMediaIcons.map((data) => (
-                  <Link to={data.link} target="_blank">
+                {socialMediaIcons.map((data, index) => (
+
+                  <Link to={data.link} target="_blank" key={index}>
 
                     <button className="social-media-icon-box w-[fit-content] border-[1px]  border-borderColor p-3 rounded-2xl" >
                       {data.icon}
                     </button>
                   </Link>
+
                 ))}
               </div>
 

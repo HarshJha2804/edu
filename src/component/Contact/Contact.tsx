@@ -27,10 +27,11 @@ const Contact = () => {
     const { fullName, email, mobileNumber, message } = formData;
 
     try {
-      const response = await fetch("https://infinitesgroup-empower-edu-default-rtdb.firebaseio.com/userRecords.json", {
+      const response = await fetch("https://infinite-groups.com/users/api/empower-edu/query/", {
         method: 'POST',
         headers: {
-          'Content-Type': "application/json",
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer 672b111e353bcaf8105cfc85f8fab6666b5cf99b'
         },
         body: JSON.stringify({ fullName, email, mobileNumber, message })
       });
@@ -42,6 +43,12 @@ const Contact = () => {
       }
 
       console.log('Data submitted successfully');
+      setFormData({
+        fullName: "",
+        email: "",
+        mobileNumber: "",
+        message: ""
+      });
     } catch (error) {
       console.error('Failed to submit data:', error);
     }
@@ -60,11 +67,11 @@ const Contact = () => {
           <div>
             <div className="flex flex-col gap-2">
               <p className="font-medium">Contact Details:</p>
-              <div className="flex flex-row gap-1">
+              {/* <div className="flex flex-row gap-1">
                 <Icon icon="ph:phone-bold" fontSize={20} className="text-primary" />
                 <p> +91 8588897029</p>
-              </div>
-              <div className="flex flex-row gap-1">
+              </div> */}
+              <div className="flex flex-row gap-1 items-center">
                 <Icon icon="material-symbols:mail-outline" fontSize={20} className="text-primary" />
                 <p> contact@empoweredu.global</p>
               </div>
@@ -132,7 +139,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <div>
-              <button type="submit" className="primary-button border-[1px] p-[2rem] text-[1rem] md:mt-8" onClick={handleSubmit}> Submit</button>
+              <button type="submit" className="primary-button border-[1px] p-[2rem] text-[1rem] md:mt-8" > Submit</button>
             </div>
           </form>
         </div>

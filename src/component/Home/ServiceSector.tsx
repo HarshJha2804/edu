@@ -167,7 +167,7 @@ const ServiceSector = () => {
                 <div className="container m-auto p-8 flex flex-col gap-10 pt-0">
                     {IndustryService.map((data, index) => (
                         <Scrollanimation>
-                            <div className="grid grid-rows-1 grid-cols-1 md:grid-cols-2 gap-16 ">
+                            <div key={index} className="grid grid-rows-1 grid-cols-1 md:grid-cols-2 gap-16 ">
                                 {index % 2 === 0 ? (
                                     <>
                                         <div className='md:flex  flex-1'>
