@@ -188,11 +188,11 @@ const Footer = () => {
               <Link to="/services">
                 <p className="font-normal text-textColor md:text-[18px]">Services</p>
               </Link>
-              <Link to="/blog">
+              {/* <Link to="/blog">
                 <p className="font-normal text-textColor md:text-[18px]">Blog</p>
-              </Link>
-              <Link to="/event">
-                <p className="font-normal text-textColor md:text-[18px]">Event</p>
+              </Link> */}
+              <Link to="/insights">
+                <p className="font-normal text-textColor md:text-[18px]">Insights</p>
               </Link>
               <Link to="/contact-us">
                 <p className="font-normal text-textColor md:text-[18px]">Contact Us</p>

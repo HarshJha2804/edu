@@ -9,7 +9,7 @@ import ServiceSector from "./ServiceSector";
 // import Youtubeevideo from "./Youtubeevideo";
 // import Blog from "../Blog/Blog";
 import HomeServices from "./homeServices";
-import HomeBlog from "./Homeblog";
+// import HomeBlog from "./Homeblog";
 import Statements from "./mission&vision";
 
 
@@ -54,9 +54,9 @@ const Home = () => {
           <ServiceSector />
         </Scrollanimation>
 
-        <Scrollanimation>
+        {/* <Scrollanimation>
           <HomeBlog />
-        </Scrollanimation>
+        </Scrollanimation> */}
 
         {/* 
         <Scrollanimation>
