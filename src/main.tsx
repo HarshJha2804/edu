@@ -7,7 +7,7 @@ import Layout from './Layout';
 import About from './component/About/about';
 import Services from './component/Services/services';
 // import Signup from './component/login&signup/LoginAndSignup';
-import Event from './component/Event/Event';
+import Insights from './component/Insights/Insights';
 import Gallery from './component/Gallery/Gallery';
 import Contact from './component/Contact/Contact';
 // import Login from './component/Login/Login';
@@ -44,7 +44,7 @@ const router = createBrowserRouter([
       { path: '/services', element: <Services /> },
       { path: '/blog', element: <Blog /> },
       { path: '/blog/:id', element: <BlogPage /> },
-      { path: '/event', element: <Event /> },
+      { path: '/insights', element: <Insights /> },
       { path: '/gallery', element: <Gallery /> },
       { path: '/contact-us', element: <Contact /> },
       { path: '/login', element: <LoginAndSignup /> },

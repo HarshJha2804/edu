@@ -164,14 +164,14 @@ const Header = () => {
 
               <li>
                 <NavLink
-                  to="/event"
+                  to="/insights"
                   className={({ isActive }: { isActive: any }) =>
                     ` ${isActive ? "font-medium text-primary" : "text-[#4a4a4a] font-normal"} 
                   } hover:text-opacity-70 p-2 text-[18px]`
                   }
                   onClick={handleclose}
                 >
-                  Event
+                  Insights
                 </NavLink>
               </li>
 
@@ -292,12 +292,12 @@ const Header = () => {
 
             <li>
               <NavLink
-                to="/event"
+                to="/insights"
                 className={({ isActive }: { isActive: any }) =>
                   ` ${isActive ? "font-medium text-primary" : "text-[#4a4a4a] font-normal"} hover:text-opacity-70 p-2 text-[18px]`
                 }
               >
-                Event
+                Insights
               </NavLink>
             </li>
 
