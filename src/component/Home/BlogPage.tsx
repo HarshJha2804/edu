@@ -24,14 +24,14 @@ const BlogPage = () => {
             intro: "A statement of purpose is a written essay that showcases your academic background, research interests and career goals to the admissions committee. Its main objective is to demonstrate how your skills, experience and aspirations align with the specific program you're applying to, and how the program will help you achieve",
             description: `
     <div class="">
-        <h2 class="p2" >What is a statement of purpose?</h2>
+        <h2 class="p3" >What is a statement of purpose?</h2>
         <p>
             A statement of purpose is a written essay that showcases your academic background, research interests and career goals to the admissions committee. Its main objective is to demonstrate how your skills, experience and aspirations align with the specific program you're applying to, and how the program will help you achieve your academic and professional objectives. Essentially, it's your opportunity to tell the admissions committee why you're the right fit for their program and why their program is the right fit for you.
         </p>
     </div>
 
     <div class="section">
-        <h2 class="p2">How to write a statement of purpose?</h2>
+        <h2 class="p3">How to write a statement of purpose?</h2>
         <p>
             Before writing your statement of purpose, thoroughly research your desired programs and schools to:
         </p>
@@ -48,7 +48,7 @@ const BlogPage = () => {
     </div>
 
     <div class="section">
-        <h2 class="p2">How to structure a statement of purpose?</h2>
+        <h2 class="p3">How to structure a statement of purpose?</h2>
         <p>
             Before writing your statement of purpose, researching your desired programs and schools to understand their mission statements is essential. Your statement should cover:
         </p>
@@ -76,7 +76,7 @@ const BlogPage = () => {
     </div>
 
     <div class="section">
-        <h2 class="p2">Essential elements of a strong statement of purpose</h2>
+        <h2 class="p3">Essential elements of a strong statement of purpose</h2>
         <ul>
             <li><strong>Clear Articulation of Goals and Interests:</strong> Specifically outline your objectives and what drives your passion for the field. Be precise and use examples to demonstrate your enthusiasm.</li>
             <li><strong>Evidence of Past Experience and Success:</strong> Showcase your qualifications by highlighting relevant undergraduate studies, professional experience and achievements. Use concrete examples to demonstrate your ability to succeed in graduate study.</li>
@@ -86,7 +86,7 @@ const BlogPage = () => {
     </div>
 
     <div class="section">
-        <h2 class="p2">Strategies to Write a Powerful Statement of Purpose</h2>
+        <h2 class="p3">Strategies to Write a Powerful Statement of Purpose</h2>
         <div style="padding-left:2rem; padding-top:0.5rem">
         <ol style="list-style:number">
             <li>Write stories. Not statements</li>
@@ -105,7 +105,7 @@ const BlogPage = () => {
     </div>
 
     <div class="section">
-        <h2  class="p2">How Can Your Statement Of Purpose Stand Out From The Crowd?</h2>
+        <h2  class="p3">How Can Your Statement Of Purpose Stand Out From The Crowd?</h2>
         <p>
             Consider the key questions that admissions committees typically want answered. You should clearly explain what you want to study and why, demonstrating a strong motivation for pursuing a graduate degree in your chosen field. Show how your academic and professional background has prepared you for this program and highlight any relevant experience or skills you possess.
         </p>
@@ -118,7 +118,7 @@ const BlogPage = () => {
     </div>
 
     <div class="section">
-        <h2  class="p2">Conclusion</h2>
+        <h2  class="p3">Conclusion</h2>
         <p>
             In conclusion, a statement of purpose is a crucial component of a graduate school application, serving as an opportunity to showcase your academic background, research interests and career goals to the admissions committee. To write a strong statement, research your desired programs and schools, understand their mission statements and identify faculty members whose research interests align with yours. Clearly articulate your goals and interests, provide evidence of past experience and success, demonstrate your fit with the program, and showcase strong writing skills.
         </p>

@@ -501,7 +501,7 @@ display: block;
   transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.p2{
+.p3{
   font-size: 2rem;
   color: var(--secondary-text-color);
 }
