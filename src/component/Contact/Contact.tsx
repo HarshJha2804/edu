@@ -37,7 +37,7 @@ const Contact = () => {
       });
 
       if (!response.ok) {
-        const errorData = await response.json();
+        const errorData = await response.json(); 
         console.error(`Error ${response.status}: ${response.statusText}`, errorData);
         throw new Error(`Error ${response.status}: ${response.statusText}`);
       }

@@ -149,7 +149,7 @@ const Header = () => {
               </li>
 
 
-              {/* <li>
+              <li>
                 <NavLink
                   to="/blog"
                   className={({ isActive }: { isActive: any }) =>
@@ -160,7 +160,7 @@ const Header = () => {
                 >
                   Blog
                 </NavLink>
-              </li> */}
+              </li>
 
               <li>
                 <NavLink
@@ -279,7 +279,7 @@ const Header = () => {
                 Services
               </NavLink>
             </li>
-            {/* <li>
+            <li>
               <NavLink
                 to="/blog"
                 className={({ isActive }: { isActive: any }) =>
@@ -288,7 +288,7 @@ const Header = () => {
               >
                 Blog
               </NavLink>
-            </li> */}
+            </li>
 
             <li>
               <NavLink

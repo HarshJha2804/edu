@@ -500,3 +500,8 @@ display: block;
 .icon-transition {
   transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out;
 }
+
+.p2{
+  font-size: 2rem;
+  color: var(--secondary-text-color);
+}
