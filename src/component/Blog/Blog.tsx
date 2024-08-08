@@ -169,7 +169,7 @@ const HomeBlog = () => {
                                         <p className="text-[0.9rem] text-textColor">{data.time}</p>
                                     </div>
                                     <div className="flex flex-col gap-1">
-                                        <p className="title text-black ">{data.title}</p>
+                                        <p className="p2 text-black " style={{ fontWeight: '600' }}>{data.title}</p>
                                         {/* <div dangerouslySetInnerHTML={{ __html: data.description }} /> */}
                                         <p className="text-textColor text-[1rem]">{data.intro.substring(0, 100)}...</p>
                                     </div>

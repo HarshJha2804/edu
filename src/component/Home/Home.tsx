@@ -11,6 +11,7 @@ import ServiceSector from "./ServiceSector";
 import HomeServices from "./homeServices";
 // import HomeBlog from "./Homeblog";
 import Statements from "./mission&vision";
+import HomeBlog from "./Homeblog";
 
 
 
@@ -54,9 +55,9 @@ const Home = () => {
           <ServiceSector />
         </Scrollanimation>
 
-        {/* <Scrollanimation>
+        <Scrollanimation>
           <HomeBlog />
-        </Scrollanimation> */}
+        </Scrollanimation>
 
         {/* 
         <Scrollanimation>
