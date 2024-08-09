@@ -1,6 +1,6 @@
 // import { useParams } from "react-router-dom"
 // import { Icon } from "@iconify/react/dist/iconify.js"
-import blogFirst from "../../assets/Homepage/Blogs/blog-first.jpg"
+import blogFirst from "../../assets/Homepage/Blogs/blog-first-thumbnail.png"
 import { useParams } from "react-router-dom"
 import blogSecond from "../../assets/Homepage/Blogs/blog-second.jpg"
 import blogThird from "../../assets/Homepage/Blogs/blog-third.jpg"
@@ -18,7 +18,7 @@ const BlogPage = () => {
         {
             id: 1,
             img: blogFirst,
-            date: '20 July 2024',
+            date: '8 August 2024',
             time: '10 min read',
             title: 'Successful SOP for Application',
             intro: "A statement of purpose is a written essay that showcases your academic background, research interests and career goals to the admissions committee. Its main objective is to demonstrate how your skills, experience and aspirations align with the specific program you're applying to, and how the program will help you achieve",
