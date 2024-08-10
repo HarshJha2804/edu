@@ -139,7 +139,7 @@ const Footer = () => {
 
 
       <div className="flex flex-col justify-between items-start px-[4rem] md:px-[8rem] lg:px-[10rem] bg-white md:mt-[8rem] pb-2 md:pb-8 border-t-[1px] border-[borderColor]">
-        <div className="flex flex-col md:flex-row justify-between py-[4rem] md:py-[8rem] w-[100%]">
+        <div className="flex flex-col md:flex-row justify-between py-[4rem] md:py-[8rem] w-[100%] gap-8">
           <div className=" w-[100%]">
             <div className="flex flex-col gap-6">
               <div className="flex flex-col gap-4">

@@ -164,13 +164,13 @@ const ServiceSector = () => {
 
 
 
-                <div className="container m-auto p-8 flex flex-col gap-10 pt-0">
+                <div className="container m-auto p-8 flex flex-col gap-8 pt-0 md:gap-8">
                     {IndustryService.map((data, index) => (
                         <Scrollanimation>
-                            <div key={index} className="grid grid-rows-1 grid-cols-1 md:grid-cols-2 gap-16 ">
+                            <div key={index} className="grid grid-rows-1 grid-cols-1 md:grid-cols-2 gap-5 md:gap-8">
                                 {index % 2 === 0 ? (
                                     <>
-                                        <div className='md:flex  flex-1'>
+                                        <div className='md:flex flex-1'>
                                             <img src={data.imgFirst} alt="" className='object-cover rounded-[1rem] w-[100%]' />
                                         </div>
                                         <div className='top-8 md:top-10 flex flex-col gap-2 md:gap-1 py-8  bg-[#E0E3F6] p-8  rounded-[1rem]'>
@@ -180,7 +180,7 @@ const ServiceSector = () => {
                                     </>
                                 ) : (
                                     <>
-                                        <div className='top-8 md:top-10 flex flex-col gap-2 md:gap-1 py-8 bg-[#D0D5F1] p-8  rounded-[1rem]'>
+                                        <div className='top-8 md:top-10 flex flex-col gap-2 md:gap-1 py-8 bg-[#D0D5F1] p-8  rounded-[1rem] order-last md:order-first'>
                                             <h3>{data.title}</h3>
                                             <p className='p2'>{data.description}</p>
                                         </div>

@@ -155,7 +155,7 @@ const HomeBlog = () => {
                 <img src={BlogHeroImg} alt="" className="object-cover brightness-[40%] h-[100vh] w-[100%] " />
                 <h1 className="absolute top-[46%] left-[49%] text-[1.75rem] text-white md:text-[2rem] lg:text-[4rem]">Blog</h1>
             </div> */}
-            <div className="container mx-auto px-8 md:px-16 flex flex-col my-16 md:my-32 blog-div">
+            <div className="container mx-auto px-8 md:px-16 flex flex-col my-16 md:my-32 blog-div gap-4">
                 <div className="flex flex-col justify-center items-center">
                     <div className="flex flex-col justify-center items-center gap-1 w-[fit-content] w">
                         <h2 className="text-center">Blog

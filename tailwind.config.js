@@ -41,7 +41,7 @@ export default {
       },
 
       fontSize: {
-        'h1': '2.5rem', 
+        'h1': '2rem', 
         'h1-md': '3rem',
         'h1-lg': '3.5rem', 
 
@@ -99,7 +99,7 @@ export default {
     function({addUtilities}){
       const newUtilities={
         'h1':{
-          '@apply text-h1 font-[600] md:text-h1-md lg:text-h1-lg leading-[3rem] md:leading-[3.5rem] lg:leading-[4.5rem] lg:tracking-[-0.05rem]':{},
+          '@apply text-h1 font-[600] md:text-h1-md lg:text-h1-lg leading-[2.5rem] md:leading-[3.5rem] lg:leading-[4.5rem] lg:tracking-[-0.05rem]':{},
         },
         'h2':{
           '@apply text-h2 text-textColor md:text-h2-md lg:text-h2-lg leading-[2rem] md:leading-[1.75rem] lg:leading-[2.7rem] lg:tracking-[-0.05rem]':{}
