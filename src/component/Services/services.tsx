@@ -340,7 +340,7 @@ const Services = () => {
         >
           {serviceData.map((data, index) => (
 
-            <div key={index} className={`sticky top-0 h-[100%] md:h-[110vh] justify-center items-center flex md:bg-cover bg-contain `} style={{ backgroundColor: data.bgcolor, backgroundImage: `url(${data.bgimg})`, backgroundPosition: "center", backgroundRepeat: 'no-repeat' }} >
+            <div key={index} className={`sticky top-0 h-[100%] md:h-[110vh] justify-center items-center flex bg-hidden md:bg-cover  `} style={{ backgroundColor: data.bgcolor, backgroundImage: `url(${data.bgimg})`, backgroundPosition: "center", backgroundRepeat: 'no-repeat' }} >
               <div className="container mx-auto m-16 p-8 md:p-16 ">
                 {/* <p className=" text-[1.75rem] text-white md:text-[2rem] lg:text-[3rem] ">Our Services</p> */}
 
