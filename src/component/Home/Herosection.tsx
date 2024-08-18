@@ -91,7 +91,7 @@ const Herosection = () => {
                     <div className=" px-8 md:px-16 flex justify-center items-center h-[100%]">
                         <Scrollanimation>
                             <div className="flex flex-row justify-center items-center h-[100%]">
-                                <div className="grid grid-cols-1 grid-rows-1 gap-5 md:gap-[4rem] lg:gap-[10rem] md:grid-rows-1 md:grid-cols-[1fr_1fr] items-center justify-center">
+                                <div className="grid grid-cols-1 grid-rows-1 gap-8 md:gap-[4rem] lg:gap-[10rem] md:grid-rows-1 md:grid-cols-[1fr_1fr] items-center justify-center">
                                     <div className="flex flex-col justify-between md:hidden">
                                         <h1 className="h1 text-white">Expansion to Your Existing Business</h1>
                                     </div>

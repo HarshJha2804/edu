@@ -162,16 +162,18 @@ const BlogPage = () => {
                 {/* {Blogdata.map((data) => ( */}
                 <div className="flex flex-col gap-16 container p-8 mx-auto">
                     <div className="flex flex-col gap-8">
-                        <p className="text-[1.5rem] md:text-[3rem] font-medium leading-[1.5rem] md:leading-[2rem] text-black">{blog.title}</p>
+                        <p className="text-[1.5rem] md:text-[2.5rem] font-medium leading-[1.5rem] md:leading-normal text-black">{blog.title}</p>
                         <p className="text-[1.2rem]  text-textColor">
                             {blog.intro.substring(0, 300)}...
                             {/* {data.description.length > maxLength ? `${data.description.substring(0, maxLength)}` :} */}
                         </p>
                         <hr />
                     </div>
-                    <div className="h-[80vh] overflow-hidden rounded-lg">
-                        <img src={blog.img} alt="" className="object-cover w-[100%]" />
-                    </div>
+                    {/* <div className="h-[80vh] rounded-xl overflow-hidden"
+                    // style={{backgroundImage: `url(${blog.img})`, backgroundSize: 'cover',backgroundPosition: 'center',}}
+                    > */}
+                    <img src={blog.img} alt="" className="rounded-xl" />
+                    {/* </div> */}
                     <div className="">
                         <div className="flex flex-col gap-[2rem]" dangerouslySetInnerHTML={{ __html: blog.description }} />
                         {/* <p className="text-[1.2rem] text-textColor font-light">{blog.description}</p> */}

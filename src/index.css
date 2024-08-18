@@ -505,3 +505,16 @@ display: block;
   font-size: 2rem;
   color: var(--secondary-text-color);
 }
+
+
+.thumbnail-div {
+  background-image: url('./assets/Homepage/Youtubevideo/thumbnail_new.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 640px) {
+  .thumbnail-div {
+    background-image: url('./assets/Homepage/Youtubevideo/Screenshot 2024-08-08 190553.png');
+  }
+}

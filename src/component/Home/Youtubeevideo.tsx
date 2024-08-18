@@ -3,7 +3,7 @@
 // import { useState } from "react"
 import { useState } from "react";
 
-import ReduceWidth from "../../assets/Homepage/Youtubevideo/lessWidth.jpeg"
+// import ReduceWidth from "../../assets/Homepage/Youtubevideo/thumbnail_new.jpeg"
 import { Icon } from "@iconify/react/dist/iconify.js";
 // import VideoModal from "./videomodal";
 
@@ -42,9 +42,8 @@ const Youtubeevideo = () => {
   return (
     <>
       <div
-        className="rounded-2xl hover:cursor-pointer flex justify-center items-center"
+        className="rounded-2xl hover:cursor-pointer flex justify-center items-center thumbnail-div"
         style={{
-          backgroundImage: `url(${ReduceWidth})`,
           backgroundSize: 'cover',
           height: '40vh',
           backgroundPosition: 'center',
